@@ -2,67 +2,29 @@
 VULKAN INFO
 ===========
 
-Vulkan API Version: 1.0.57
+Vulkan Instance Version: 1.1.70
 
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_api_dump.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_core_validation.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_device_simulation.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_monitor.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_object_tracker.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_parameter_validation.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_screenshot.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_standard_validation.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_threading.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_unique_objects.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\VulkanSDK\1.0.57.0\Bin\VkLayer_vktrace_layer.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ExplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\WINDOWS\system32\nv-vk64.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ImplicitLayers"
-INFO: [loader] Code 0 : Located json file "C:\Program Files\RenderDoc\renderdoc.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\ImplicitLayers"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_api_dump.json, version "1.0.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_core_validation.json, version "1.1.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_device_simulation.json, version "1.1.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_monitor.json, version "1.0.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_object_tracker.json, version "1.1.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_parameter_validation.json, version "1.1.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_screenshot.json, version "1.0.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_standard_validation.json, version "1.1.1"
-INFO: [loader] Code 0 : Encountered meta-layer VK_LAYER_LUNARG_standard_validation
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_threading.json, version "1.1.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_unique_objects.json, version "1.1.0"
-INFO: [loader] Code 0 : Found manifest file C:\VulkanSDK\1.0.57.0\Bin\VkLayer_vktrace_layer.json, version "1.0.0"
-INFO: [loader] Code 0 : Found manifest file C:\WINDOWS\system32\nv-vk64.json, version "1.0.0"
-INFO: [loader] Code 0 : Found manifest file C:\Program Files\RenderDoc\renderdoc.json, version "1.0.0"
-INFO: [loader] Code 0 : Meta-layer VK_LAYER_LUNARG_standard_validation all 5 component layers appear to be valid.
-INFO: [loader] Code 0 : loaderGetRegistryFiles: opening device PCI\VEN_8086&DEV_191B&SUBSYS_06E41028&REV_06\3&11583659&1&10
-INFO: [loader] Code 0 : loaderGetDeviceRegistryEntry: DeviceID(1) Failed to obtain VulkanDriverName size
-INFO: [loader] Code 0 : loaderGetRegistryFiles: Opening child device 2 - DISPLAY\SHP1453\4&8879B2D&0&UID265988
-INFO: [loader] Code 0 : loaderGetRegistryFiles: Opening child device 3 - DISPLAY\DELD067\4&8879B2D&0&UID200195
-INFO: [loader] Code 0 : loaderGetRegistryFiles: opening device PCI\VEN_10DE&DEV_139B&SUBSYS_06E41028&REV_A2\4&feb9a0a&0&0008
-INFO: [loader] Code 0 : loaderGetDeviceRegistryEntry: DeviceID(4) Failed to obtain VulkanDriverName size
-INFO: [loader] Code 0 : loaderGetRegistryFiles: unable to open child-device error:13
-INFO: [loader] Code 0 : Located json file "C:\WINDOWS\system32\nv-vk64.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers"
-INFO: [loader] Code 0 : Located json file "C:\WINDOWS\System32\DriverStore\FileRepository\ki122461.inf_amd64_ac02a4363c345cef\igvk64.json" from registry "HKEY_LOCAL_MACHINE\SOFTWARE\Khronos\Vulkan\Drivers"
-INFO: [loader] Code 0 : Found ICD manifest file C:\WINDOWS\system32\nv-vk64.json, version "1.0.0"
-INFO: [loader] Code 0 : Found ICD manifest file C:\WINDOWS\System32\DriverStore\FileRepository\ki122461.inf_amd64_ac02a4363c345cef\igvk64.json, version "1.0.0"
-INFO: [loader] Code 0 : Insert instance layer VK_LAYER_NV_optimus (C:\WINDOWS\system32\.\nvoglv64.dll)
+
+
+
 
 Instance Extensions:
 ====================
-Instance Extensions	count = 8
-	VK_EXT_debug_report                 : extension revision  6
-	VK_EXT_display_surface_counter      : extension revision  1
+Instance Extensions	count = 11
+	VK_KHR_surface                      : extension revision 25
+	VK_KHR_win32_surface                : extension revision  6
+	VK_KHR_external_memory_capabilities : extension revision  1
+	VK_KHR_external_semaphore_capabilities: extension revision  1
+	VK_KHR_external_fence_capabilities  : extension revision  1
 	VK_KHR_get_physical_device_properties2: extension revision  1
 	VK_KHR_get_surface_capabilities2    : extension revision  1
-	VK_KHR_surface                      : extension revision 25
-	VK_KHR_win32_surface                : extension revision  5
-	VK_KHX_device_group_creation        : extension revision  1
+	VK_EXT_debug_report                 : extension revision  9
+	VK_EXT_display_surface_counter      : extension revision  1
 	VK_NV_external_memory_capabilities  : extension revision  1
-
-
-
-
-Layers: count = 13
+	VK_EXT_debug_utils                  : extension revision  1
+Layers: count = 14
 =======
-VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.0.57, layer version 2
+VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.70, layer version 2
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -70,7 +32,7 @@ VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.0.57, layer versi
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_assistant_layer (LunarG Validation Factory Layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
@@ -81,7 +43,20 @@ VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.0.57,
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.70, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 2
+			VK_EXT_debug_marker                 : extension revision  4
+			VK_EXT_validation_cache             : extension revision  1
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 2
+			VK_EXT_debug_marker                 : extension revision  4
+			VK_EXT_validation_cache             : extension revision  1
+
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -89,7 +64,7 @@ VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan versio
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -97,7 +72,7 @@ VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.0.57, laye
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
@@ -108,7 +83,7 @@ VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.0.57, 
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
@@ -119,7 +94,7 @@ VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -127,18 +102,20 @@ VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.0.57, l
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 1
+		Layer-Device Extensions	count = 2
 			VK_EXT_debug_marker                 : extension revision  4
+			VK_EXT_validation_cache             : extension revision  1
 		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 1
+		Layer-Device Extensions	count = 2
 			VK_EXT_debug_marker                 : extension revision  4
+			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
@@ -147,7 +124,7 @@ VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.0.57, layer
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.0.57, layer version 1
+VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -155,7 +132,7 @@ VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.0.57, 
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.0.57, layer version 1
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -163,7 +140,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.0.57, layer v
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.0.46, layer version 1
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.0.65, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -193,10 +170,8 @@ Present Modes:		count = 3
 	FIFO_RELAXED_KHR
 	MAILBOX_KHR
 
-
 VkSurfaceCapabilitiesKHR:
 =========================
-
 	minImageCount       = 2
 	maxImageCount       = 8
 	currentExtent:
@@ -208,7 +183,7 @@ VkSurfaceCapabilitiesKHR:
 	maxImageExtent:
 		width       = 256
 		height      = 256
-	maxImageArrayLayers = 2048
+	maxImageArrayLayers = 1
 	supportedTransform:
 		VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
 	currentTransform:
@@ -239,10 +214,8 @@ Present Modes:		count = 2
 	IMMEDIATE_KHR
 	FIFO_KHR
 
-
 VkSurfaceCapabilitiesKHR:
 =========================
-
 	minImageCount       = 2
 	maxImageCount       = 0
 	currentExtent:
@@ -266,6 +239,7 @@ VkSurfaceCapabilitiesKHR:
 		VK_IMAGE_USAGE_TRANSFER_SRC_BIT
 		VK_IMAGE_USAGE_TRANSFER_DST_BIT
 		VK_IMAGE_USAGE_SAMPLED_BIT
+		VK_IMAGE_USAGE_STORAGE_BIT
 		VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT
 
 VkSurfaceCapabilities2EXT:
@@ -274,13 +248,14 @@ VkSurfaceCapabilities2EXT:
 	supportedSurfaceCounters:
 		None
 
+
 Device Properties and Extensions :
 ==================================
 GPU0
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x40002e  (1.0.46)
-	driverVersion  = 1611874304 (0x60134000)
+	apiVersion     = 0x400041  (1.0.65)
+	driverVersion  = 1640546304 (0x61c8c000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = DISCRETE_GPU
@@ -294,7 +269,7 @@ VkPhysicalDeviceProperties:
 		maxImageArrayLayers                     = 2048
 		maxTexelBufferElements                  = 0x8000000
 		maxUniformBufferRange                   = 0x10000
-		maxStorageBufferRange                   = 0x7fffffff
+		maxStorageBufferRange                   = 0xffffffff
 		maxPushConstantsSize                    = 256
 		maxMemoryAllocationCount                = 4096
 		maxSamplerAllocationCount               = 4000
@@ -303,18 +278,18 @@ VkPhysicalDeviceProperties:
 		maxBoundDescriptorSets                  = 8
 		maxPerStageDescriptorSamplers           = 4000
 		maxPerStageDescriptorUniformBuffers     = 12
-		maxPerStageDescriptorStorageBuffers     = 16
-		maxPerStageDescriptorSampledImages      = 8192
-		maxPerStageDescriptorStorageImages      = 8192
+		maxPerStageDescriptorStorageBuffers     = 4096
+		maxPerStageDescriptorSampledImages      = 16384
+		maxPerStageDescriptorStorageImages      = 16384
 		maxPerStageDescriptorInputAttachments   = 8
-		maxPerStageResources                    = 24612
+		maxPerStageResources                    = 53268
 		maxDescriptorSetSamplers                = 4000
 		maxDescriptorSetUniformBuffers          = 72
 		maxDescriptorSetUniformBuffersDynamic   = 72
-		maxDescriptorSetStorageBuffers          = 96
-		maxDescriptorSetStorageBuffersDynamic   = 96
-		maxDescriptorSetSampledImages           = 49152
-		maxDescriptorSetStorageImages           = 49152
+		maxDescriptorSetStorageBuffers          = 4096
+		maxDescriptorSetStorageBuffersDynamic   = 16
+		maxDescriptorSetSampledImages           = 98304
+		maxDescriptorSetStorageImages           = 98304
 		maxDescriptorSetInputAttachments        = 8
 		maxVertexInputAttributes                = 32
 		maxVertexInputBindings                  = 32
@@ -409,20 +384,34 @@ VkPhysicalDeviceProperties:
 		residencyAlignedMipSize                  = 1
 		residencyNonResidentStrict               = 0
 
-Device Extensions	count = 23
-	VK_KHR_swapchain                    : extension revision 68
+Device Extensions	count = 37
+	VK_KHR_swapchain                    : extension revision 70
+	VK_KHR_16bit_storage                : extension revision  1
+	VK_KHR_bind_memory2                 : extension revision  1
+	VK_KHR_dedicated_allocation         : extension revision  3
 	VK_KHR_descriptor_update_template   : extension revision  1
+	VK_KHR_get_memory_requirements2     : extension revision  1
+	VK_KHR_image_format_list            : extension revision  1
 	VK_KHR_maintenance1                 : extension revision  1
-	VK_KHR_push_descriptor              : extension revision  1
+	VK_KHR_maintenance2                 : extension revision  1
+	VK_KHR_push_descriptor              : extension revision  2
+	VK_KHR_relaxed_block_layout         : extension revision  1
 	VK_KHR_sampler_mirror_clamp_to_edge : extension revision  1
+	VK_KHR_sampler_ycbcr_conversion     : extension revision  1
 	VK_KHR_shader_draw_parameters       : extension revision  1
-	VK_KHX_device_group                 : extension revision  1
-	VK_KHX_external_memory              : extension revision  1
-	VK_KHX_external_memory_win32        : extension revision  1
-	VK_KHX_external_semaphore           : extension revision  1
-	VK_KHX_external_semaphore_win32     : extension revision  1
+	VK_KHR_storage_buffer_storage_class : extension revision  1
+	VK_KHR_external_memory              : extension revision  1
+	VK_KHR_external_memory_win32        : extension revision  1
+	VK_KHR_external_semaphore           : extension revision  1
+	VK_KHR_external_semaphore_win32     : extension revision  1
+	VK_KHR_win32_keyed_mutex            : extension revision  1
+	VK_KHR_external_fence               : extension revision  1
+	VK_KHR_external_fence_win32         : extension revision  1
+	VK_KHR_variable_pointers            : extension revision  1
+	VK_KHX_device_group                 : extension revision  2
 	VK_KHX_multiview                    : extension revision  1
-	VK_KHX_win32_keyed_mutex            : extension revision  1
+	VK_EXT_blend_operation_advanced     : extension revision  2
+	VK_EXT_depth_range_unrestricted     : extension revision  1
 	VK_EXT_discard_rectangles           : extension revision  1
 	VK_EXT_shader_subgroup_ballot       : extension revision  1
 	VK_EXT_shader_subgroup_vote         : extension revision  1
@@ -431,7 +420,7 @@ Device Extensions	count = 23
 	VK_NV_external_memory_win32         : extension revision  1
 	VK_NV_glsl_shader                   : extension revision  1
 	VK_NV_win32_keyed_mutex             : extension revision  1
-	VK_NVX_device_generated_commands    : extension revision  1
+	VK_NVX_device_generated_commands    : extension revision  3
 	VK_NVX_multiview_per_view_attributes: extension revision  1
 
 VkQueueFamilyProperties[0]:
@@ -450,6 +439,15 @@ VkQueueFamilyProperties[1]:
 
 VkPhysicalDeviceMemoryProperties:
 =================================
+	memoryHeapCount       = 2
+	memoryHeaps[0] :
+		size          = 2107703296 (0x7da10000) (1.96 GiB)
+		flags:
+			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
+	memoryHeaps[1] :
+		size          = 17034117120 (0x3f7500000) (15.86 GiB)
+		flags:
+			None
 	memoryTypeCount       = 11
 	memoryTypes[0] :
 		heapIndex     = 1
@@ -492,73 +490,63 @@ VkPhysicalDeviceMemoryProperties:
 			VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
 			VK_MEMORY_PROPERTY_HOST_CACHED_BIT
 
-	memoryHeapCount       = 2
-	memoryHeaps[0] :
-		size          = 2117992448 (0x7e3e0000) (1.97 GiB)
-		flags:
-			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
-	memoryHeaps[1] :
-		size          = 17034117120 (0x3f7500000) (15.86 GiB)
-		flags:
-			None
-
 VkPhysicalDeviceFeatures:
 =========================
-	robustBufferAccess                      = 1
+	alphaToOne                              = 1
+	depthBiasClamp                          = 1
+	depthBounds                             = 1
+	depthClamp                              = 1
+	drawIndirectFirstInstance               = 1
+	dualSrcBlend                            = 1
+	fillModeNonSolid                        = 1
+	fragmentStoresAndAtomics                = 1
 	fullDrawIndexUint32                     = 1
+	geometryShader                          = 1
 	imageCubeArray                          = 1
 	independentBlend                        = 1
-	geometryShader                          = 1
-	tessellationShader                      = 1
-	sampleRateShading                       = 1
-	dualSrcBlend                            = 1
+	inheritedQueries                        = 1
+	largePoints                             = 1
 	logicOp                                 = 1
 	multiDrawIndirect                       = 1
-	drawIndirectFirstInstance               = 1
-	depthClamp                              = 1
-	depthBiasClamp                          = 1
-	fillModeNonSolid                        = 1
-	depthBounds                             = 1
-	wideLines                               = 1
-	largePoints                             = 1
-	alphaToOne                              = 1
 	multiViewport                           = 1
-	samplerAnisotropy                       = 1
-	textureCompressionETC2                  = 0
-	textureCompressionASTC_LDR              = 0
-	textureCompressionBC                    = 1
 	occlusionQueryPrecise                   = 1
 	pipelineStatisticsQuery                 = 1
-	vertexPipelineStoresAndAtomics          = 1
-	fragmentStoresAndAtomics                = 1
-	shaderTessellationAndGeometryPointSize  = 1
+	robustBufferAccess                      = 1
+	samplerAnisotropy                       = 1
+	sampleRateShading                       = 1
+	shaderClipDistance                      = 1
+	shaderCullDistance                      = 1
+	shaderFloat64                           = 1
 	shaderImageGatherExtended               = 1
+	shaderInt16                             = 0
+	shaderInt64                             = 1
+	shaderSampledImageArrayDynamicIndexing  = 1
+	shaderStorageBufferArrayDynamicIndexing = 1
+	shaderStorageImageArrayDynamicIndexing  = 1
 	shaderStorageImageExtendedFormats       = 1
 	shaderStorageImageMultisample           = 1
 	shaderStorageImageReadWithoutFormat     = 1
 	shaderStorageImageWriteWithoutFormat    = 1
+	shaderTessellationAndGeometryPointSize  = 1
 	shaderUniformBufferArrayDynamicIndexing = 1
-	shaderSampledImageArrayDynamicIndexing  = 1
-	shaderStorageBufferArrayDynamicIndexing = 1
-	shaderStorageImageArrayDynamicIndexing  = 1
-	shaderClipDistance                      = 1
-	shaderCullDistance                      = 1
-	shaderFloat64                           = 1
-	shaderInt64                             = 1
-	shaderInt16                             = 0
-	shaderResourceResidency                 = 0
-	shaderResourceMinLod                    = 0
 	sparseBinding                           = 1
-	sparseResidencyBuffer                   = 0
-	sparseResidencyImage2D                  = 0
-	sparseResidencyImage3D                  = 0
 	sparseResidency2Samples                 = 0
 	sparseResidency4Samples                 = 0
 	sparseResidency8Samples                 = 0
 	sparseResidency16Samples                = 0
 	sparseResidencyAliased                  = 0
+	sparseResidencyBuffer                   = 0
+	sparseResidencyImage2D                  = 0
+	sparseResidencyImage3D                  = 0
+	shaderResourceMinLod                    = 0
+	shaderResourceResidency                 = 0
+	tessellationShader                      = 1
+	textureCompressionASTC_LDR              = 0
+	textureCompressionBC                    = 1
+	textureCompressionETC2                  = 0
 	variableMultisampleRate                 = 1
-	inheritedQueries                        = 1
+	vertexPipelineStoresAndAtomics          = 1
+	wideLines                               = 1
 
 Format Properties:
 ==================
@@ -2420,7 +2408,7 @@ FORMAT_BC1_RGB_SRGB_BLOCK:
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_BC1_RGBA_UNORM_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
@@ -2436,7 +2424,7 @@ FORMAT_UNKNOWN_FORMAT:
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_BC1_RGBA_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
@@ -2652,7 +2640,7 @@ FORMAT_ETC2_R8G8B8_UNORM_BLOCK:
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_ETC2_R8G8B8_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
@@ -2668,7 +2656,7 @@ FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK:
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
@@ -2684,7 +2672,7 @@ FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK:
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
@@ -2955,8 +2943,8 @@ Device Properties and Extensions :
 GPU1
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x40001f  (1.0.31)
-	driverVersion  = 65539 (0x10003)
+	apiVersion     = 0x400038  (1.0.56)
+	driverVersion  = 65538 (0x10002)
 	vendorID       = 0x8086
 	deviceID       = 0x191b
 	deviceType     = INTEGRATED_GPU
@@ -2975,16 +2963,16 @@ VkPhysicalDeviceProperties:
 		maxMemoryAllocationCount                = 1871490
 		maxSamplerAllocationCount               = 4000
 		bufferImageGranularity                  = 0x1
-		sparseAddressSpaceSize                  = 0x0
-		maxBoundDescriptorSets                  = 4
-		maxPerStageDescriptorSamplers           = 16
+		sparseAddressSpaceSize                  = 0x100000000000
+		maxBoundDescriptorSets                  = 8
+		maxPerStageDescriptorSamplers           = 64
 		maxPerStageDescriptorUniformBuffers     = 200
 		maxPerStageDescriptorStorageBuffers     = 200
 		maxPerStageDescriptorSampledImages      = 200
 		maxPerStageDescriptorStorageImages      = 16
 		maxPerStageDescriptorInputAttachments   = 8
 		maxPerStageResources                    = 200
-		maxDescriptorSetSamplers                = 96
+		maxDescriptorSetSamplers                = 384
 		maxDescriptorSetUniformBuffers          = 1200
 		maxDescriptorSetUniformBuffersDynamic   = 16
 		maxDescriptorSetStorageBuffers          = 1200
@@ -3037,7 +3025,7 @@ VkPhysicalDeviceProperties:
 		viewportSubPixelBits                    = 8
 		minMemoryMapAlignment                   = 64
 		minTexelBufferOffsetAlignment           = 0x10
-		minUniformBufferOffsetAlignment         = 0x10
+		minUniformBufferOffsetAlignment         = 0x20
 		minStorageBufferOffsetAlignment         = 0x10
 		minTexelOffset                          = -8
 		maxTexelOffset                          =  7
@@ -3062,9 +3050,9 @@ VkPhysicalDeviceProperties:
 		maxSampleMaskWords                      = 1
 		timestampComputeAndGraphics             = 1
 		timestampPeriod                         = 83.000000
-		maxClipDistances                        = 16
-		maxCullDistances                        = 16
-		maxCombinedClipAndCullDistances         = 16
+		maxClipDistances                        = 8
+		maxCullDistances                        = 8
+		maxCombinedClipAndCullDistances         = 8
 		discreteQueuePriorities                 = 2
 		pointSizeRange[0]                       = 0.125000
 		pointSizeRange[1]                       = 255.875000
@@ -3079,25 +3067,49 @@ VkPhysicalDeviceProperties:
 		nonCoherentAtomSize                     = 0x1
 	VkPhysicalDeviceSparseProperties:
 	---------------------------------
-		residencyStandard2DBlockShape            = 0
-		residencyStandard2DMultisampleBlockShape = 0
-		residencyStandard3DBlockShape            = 0
+		residencyStandard2DBlockShape            = 1
+		residencyStandard2DMultisampleBlockShape = 1
+		residencyStandard3DBlockShape            = 1
 		residencyAlignedMipSize                  = 0
 		residencyNonResidentStrict               = 0
 
-Device Extensions	count = 2
+Device Extensions	count = 21
 	VK_KHR_swapchain                    : extension revision 68
+	VK_KHR_external_memory              : extension revision  1
+	VK_KHR_external_memory_win32        : extension revision  1
+	VK_KHR_external_semaphore           : extension revision  1
+	VK_KHR_external_semaphore_win32     : extension revision  1
+	VK_KHR_external_fence               : extension revision  1
+	VK_KHR_external_fence_win32         : extension revision  1
+	VK_KHR_get_memory_requirements2     : extension revision  1
+	VK_KHR_dedicated_allocation         : extension revision  1
 	VK_KHR_sampler_mirror_clamp_to_edge : extension revision  1
+	VK_KHR_maintenance1                 : extension revision  1
+	VK_KHR_shader_draw_parameters       : extension revision  1
+	VK_KHR_push_descriptor              : extension revision  1
+	VK_KHR_descriptor_update_template   : extension revision  1
+	VK_KHX_multiview                    : extension revision  1
+	VK_KHR_16bit_storage                : extension revision  1
+	VK_EXT_shader_subgroup_ballot       : extension revision  1
+	VK_EXT_shader_subgroup_vote         : extension revision  1
+	VK_KHR_storage_buffer_storage_class : extension revision  1
+	VK_KHR_variable_pointers            : extension revision  1
+	VK_KHR_relaxed_block_layout         : extension revision  1
 
 VkQueueFamilyProperties[0]:
 ===========================
-	queueFlags         = GRAPHICS | COMPUTE | TRANSFER
+	queueFlags         = GRAPHICS | COMPUTE | TRANSFER | SPARSE
 	queueCount         = 1
 	timestampValidBits = 36
 	minImageTransferGranularity = (1, 1, 1)
 
 VkPhysicalDeviceMemoryProperties:
 =================================
+	memoryHeapCount       = 1
+	memoryHeaps[0] :
+		size          = 7665623654 (0x1c8e82266) (7.14 GiB)
+		flags:
+			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryTypeCount       = 2
 	memoryTypes[0] :
 		heapIndex     = 0
@@ -3113,69 +3125,63 @@ VkPhysicalDeviceMemoryProperties:
 			VK_MEMORY_PROPERTY_HOST_COHERENT_BIT
 			VK_MEMORY_PROPERTY_HOST_CACHED_BIT
 
-	memoryHeapCount       = 1
-	memoryHeaps[0] :
-		size          = 7665623654 (0x1c8e82266) (7.14 GiB)
-		flags:
-			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
-
 VkPhysicalDeviceFeatures:
 =========================
-	robustBufferAccess                      = 1
+	alphaToOne                              = 1
+	depthBiasClamp                          = 1
+	depthBounds                             = 0
+	depthClamp                              = 1
+	drawIndirectFirstInstance               = 1
+	dualSrcBlend                            = 1
+	fillModeNonSolid                        = 1
+	fragmentStoresAndAtomics                = 1
 	fullDrawIndexUint32                     = 1
+	geometryShader                          = 1
 	imageCubeArray                          = 1
 	independentBlend                        = 1
-	geometryShader                          = 1
-	tessellationShader                      = 1
-	sampleRateShading                       = 1
-	dualSrcBlend                            = 1
+	inheritedQueries                        = 1
+	largePoints                             = 1
 	logicOp                                 = 1
 	multiDrawIndirect                       = 1
-	drawIndirectFirstInstance               = 1
-	depthClamp                              = 1
-	depthBiasClamp                          = 1
-	fillModeNonSolid                        = 1
-	depthBounds                             = 0
-	wideLines                               = 1
-	largePoints                             = 1
-	alphaToOne                              = 1
 	multiViewport                           = 1
-	samplerAnisotropy                       = 1
-	textureCompressionETC2                  = 1
-	textureCompressionASTC_LDR              = 1
-	textureCompressionBC                    = 1
 	occlusionQueryPrecise                   = 1
 	pipelineStatisticsQuery                 = 1
-	vertexPipelineStoresAndAtomics          = 1
-	fragmentStoresAndAtomics                = 1
-	shaderTessellationAndGeometryPointSize  = 1
+	robustBufferAccess                      = 1
+	samplerAnisotropy                       = 1
+	sampleRateShading                       = 1
+	shaderClipDistance                      = 1
+	shaderCullDistance                      = 1
+	shaderFloat64                           = 1
 	shaderImageGatherExtended               = 1
+	shaderInt16                             = 1
+	shaderInt64                             = 1
+	shaderSampledImageArrayDynamicIndexing  = 1
+	shaderStorageBufferArrayDynamicIndexing = 1
+	shaderStorageImageArrayDynamicIndexing  = 1
 	shaderStorageImageExtendedFormats       = 1
 	shaderStorageImageMultisample           = 1
 	shaderStorageImageReadWithoutFormat     = 0
 	shaderStorageImageWriteWithoutFormat    = 1
+	shaderTessellationAndGeometryPointSize  = 1
 	shaderUniformBufferArrayDynamicIndexing = 1
-	shaderSampledImageArrayDynamicIndexing  = 1
-	shaderStorageBufferArrayDynamicIndexing = 1
-	shaderStorageImageArrayDynamicIndexing  = 1
-	shaderClipDistance                      = 1
-	shaderCullDistance                      = 1
-	shaderFloat64                           = 1
-	shaderInt64                             = 1
-	shaderInt16                             = 1
-	shaderResourceResidency                 = 1
+	sparseBinding                           = 1
+	sparseResidency2Samples                 = 1
+	sparseResidency4Samples                 = 1
+	sparseResidency8Samples                 = 1
+	sparseResidency16Samples                = 1
+	sparseResidencyAliased                  = 1
+	sparseResidencyBuffer                   = 1
+	sparseResidencyImage2D                  = 1
+	sparseResidencyImage3D                  = 1
 	shaderResourceMinLod                    = 1
-	sparseBinding                           = 0
-	sparseResidencyBuffer                   = 0
-	sparseResidencyImage2D                  = 0
-	sparseResidencyImage3D                  = 0
-	sparseResidency2Samples                 = 0
-	sparseResidency4Samples                 = 0
-	sparseResidency8Samples                 = 0
-	sparseResidency16Samples                = 0
-	sparseResidencyAliased                  = 0
+	shaderResourceResidency                 = 1
+	tessellationShader                      = 1
+	textureCompressionASTC_LDR              = 1
+	textureCompressionBC                    = 1
+	textureCompressionETC2                  = 1
 	variableMultisampleRate                 = 1
-	inheritedQueries                        = 1
+	vertexPipelineStoresAndAtomics          = 1
+	wideLines                               = 1
 
 Format Properties:
 ==================
@@ -3203,6 +3209,8 @@ FORMAT_R4G4B4A4_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3210,6 +3218,8 @@ FORMAT_R4G4B4A4_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3221,6 +3231,8 @@ FORMAT_B4G4R4A4_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3228,6 +3240,8 @@ FORMAT_B4G4R4A4_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3239,6 +3253,8 @@ FORMAT_R5G6B5_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3246,6 +3262,8 @@ FORMAT_R5G6B5_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3254,10 +3272,14 @@ FORMAT_B5G6R5_UNORM_PACK16:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3269,6 +3291,8 @@ FORMAT_R5G5B5A1_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3276,6 +3300,8 @@ FORMAT_R5G5B5A1_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3283,9 +3309,13 @@ FORMAT_B5G5R5A1_UNORM_PACK16:
 	linearTiling   FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3297,6 +3327,8 @@ FORMAT_A1R5G5B5_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3304,6 +3336,8 @@ FORMAT_A1R5G5B5_UNORM_PACK16:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3316,6 +3350,8 @@ FORMAT_R8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3324,6 +3360,8 @@ FORMAT_R8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -3337,6 +3375,8 @@ FORMAT_R8_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3345,6 +3385,8 @@ FORMAT_R8_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -3372,12 +3414,16 @@ FORMAT_R8_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3390,12 +3436,16 @@ FORMAT_R8_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3418,6 +3468,8 @@ FORMAT_R8G8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3426,6 +3478,8 @@ FORMAT_R8G8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3440,6 +3494,8 @@ FORMAT_R8G8_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3448,6 +3504,8 @@ FORMAT_R8G8_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3476,12 +3534,16 @@ FORMAT_R8G8_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3494,12 +3556,16 @@ FORMAT_R8G8_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3518,10 +3584,14 @@ FORMAT_R8G8B8_UNORM:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -3531,10 +3601,14 @@ FORMAT_R8G8B8_SNORM:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -3644,6 +3718,8 @@ FORMAT_R8G8B8A8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3652,6 +3728,8 @@ FORMAT_R8G8B8A8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3666,6 +3744,8 @@ FORMAT_R8G8B8A8_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3674,6 +3754,8 @@ FORMAT_R8G8B8A8_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3702,12 +3784,16 @@ FORMAT_R8G8B8A8_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3720,12 +3806,16 @@ FORMAT_R8G8B8A8_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3739,6 +3829,8 @@ FORMAT_R8G8B8A8_SRGB:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3746,6 +3838,8 @@ FORMAT_R8G8B8A8_SRGB:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3757,6 +3851,8 @@ FORMAT_B8G8R8A8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3764,6 +3860,8 @@ FORMAT_B8G8R8A8_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -3816,6 +3914,8 @@ FORMAT_B8G8R8A8_SRGB:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3823,6 +3923,8 @@ FORMAT_B8G8R8A8_SRGB:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3835,6 +3937,8 @@ FORMAT_A8B8G8R8_UNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3843,6 +3947,8 @@ FORMAT_A8B8G8R8_UNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3857,6 +3963,8 @@ FORMAT_A8B8G8R8_SNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -3865,6 +3973,8 @@ FORMAT_A8B8G8R8_SNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3893,12 +4003,16 @@ FORMAT_A8B8G8R8_UINT_PACK32:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3911,12 +4025,16 @@ FORMAT_A8B8G8R8_SINT_PACK32:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -3930,6 +4048,8 @@ FORMAT_A8B8G8R8_SRGB_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3937,6 +4057,8 @@ FORMAT_A8B8G8R8_SRGB_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -3948,6 +4070,8 @@ FORMAT_A2R10G10B10_UNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
@@ -3955,6 +4079,8 @@ FORMAT_A2R10G10B10_UNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -4008,6 +4134,8 @@ FORMAT_A2B10G10R10_UNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4016,6 +4144,8 @@ FORMAT_A2B10G10R10_UNORM_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4052,12 +4182,16 @@ FORMAT_A2B10G10R10_UINT_PACK32:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4080,6 +4214,8 @@ FORMAT_R16_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4088,6 +4224,8 @@ FORMAT_R16_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4102,6 +4240,8 @@ FORMAT_R16_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4110,6 +4250,8 @@ FORMAT_R16_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4138,12 +4280,16 @@ FORMAT_R16_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4156,12 +4302,16 @@ FORMAT_R16_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4176,6 +4326,8 @@ FORMAT_R16_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4184,6 +4336,8 @@ FORMAT_R16_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4198,6 +4352,8 @@ FORMAT_R16G16_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4206,6 +4362,8 @@ FORMAT_R16G16_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4220,6 +4378,8 @@ FORMAT_R16G16_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4228,6 +4388,8 @@ FORMAT_R16G16_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4256,12 +4418,16 @@ FORMAT_R16G16_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4274,12 +4440,16 @@ FORMAT_R16G16_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4294,6 +4464,8 @@ FORMAT_R16G16_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4302,6 +4474,8 @@ FORMAT_R16G16_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4312,10 +4486,14 @@ FORMAT_R16G16B16_UNORM:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -4325,10 +4503,14 @@ FORMAT_R16G16B16_SNORM:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -4370,10 +4552,14 @@ FORMAT_R16G16B16_SFLOAT:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -4387,6 +4573,8 @@ FORMAT_R16G16B16A16_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4395,6 +4583,8 @@ FORMAT_R16G16B16A16_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4409,6 +4599,8 @@ FORMAT_R16G16B16A16_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4417,6 +4609,8 @@ FORMAT_R16G16B16A16_SNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4445,12 +4639,16 @@ FORMAT_R16G16B16A16_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4463,12 +4661,16 @@ FORMAT_R16G16B16A16_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4483,6 +4685,8 @@ FORMAT_R16G16B16A16_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4491,6 +4695,8 @@ FORMAT_R16G16B16A16_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4504,6 +4710,8 @@ FORMAT_R32_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4511,6 +4719,8 @@ FORMAT_R32_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4525,6 +4735,8 @@ FORMAT_R32_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4532,6 +4744,8 @@ FORMAT_R32_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4547,6 +4761,8 @@ FORMAT_R32_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4555,6 +4771,8 @@ FORMAT_R32_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4567,12 +4785,16 @@ FORMAT_R32G32_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4585,12 +4807,16 @@ FORMAT_R32G32_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4605,6 +4831,8 @@ FORMAT_R32G32_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4613,6 +4841,8 @@ FORMAT_R32G32_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4622,9 +4852,13 @@ FORMAT_R32G32B32_UINT:
 	linearTiling   FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -4633,9 +4867,13 @@ FORMAT_R32G32B32_SINT:
 	linearTiling   FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -4644,9 +4882,13 @@ FORMAT_R32G32B32_SFLOAT:
 	linearTiling   FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_VERTEX_BUFFER_BIT
@@ -4658,12 +4900,16 @@ FORMAT_R32G32B32A32_UINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4676,12 +4922,16 @@ FORMAT_R32G32B32A32_SINT:
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
 		VK_FORMAT_FEATURE_COLOR_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4696,6 +4946,8 @@ FORMAT_R32G32B32A32_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4704,6 +4956,8 @@ FORMAT_R32G32B32A32_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 		VK_FORMAT_FEATURE_STORAGE_TEXEL_BUFFER_BIT
@@ -4814,6 +5068,8 @@ FORMAT_B10G11R11_UFLOAT_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_STORAGE_IMAGE_BIT
@@ -4822,6 +5078,8 @@ FORMAT_B10G11R11_UFLOAT_PACK32:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		VK_FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT
 
@@ -4830,10 +5088,14 @@ FORMAT_E5B9G9R9_UFLOAT_PACK32:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4846,6 +5108,8 @@ FORMAT_D16_UNORM:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4857,6 +5121,8 @@ FORMAT_X8_D24_UNORM_PACK32:
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4869,6 +5135,8 @@ FORMAT_D32_SFLOAT:
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4896,6 +5164,8 @@ FORMAT_D24_UNORM_S8_UINT:
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4907,6 +5177,8 @@ FORMAT_D32_SFLOAT_S8_UINT:
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4917,6 +5189,8 @@ FORMAT_BC1_RGB_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4927,26 +5201,32 @@ FORMAT_BC1_RGB_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_BC1_RGBA_UNORM_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_BC1_RGBA_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4957,6 +5237,8 @@ FORMAT_BC2_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4967,6 +5249,8 @@ FORMAT_BC2_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4977,6 +5261,8 @@ FORMAT_BC3_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4987,6 +5273,8 @@ FORMAT_BC3_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -4997,6 +5285,8 @@ FORMAT_BC4_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5007,6 +5297,8 @@ FORMAT_BC4_SNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5017,6 +5309,8 @@ FORMAT_BC5_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5027,6 +5321,8 @@ FORMAT_BC5_SNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5037,6 +5333,8 @@ FORMAT_BC6H_UFLOAT_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5047,6 +5345,8 @@ FORMAT_BC6H_SFLOAT_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5057,6 +5357,8 @@ FORMAT_BC7_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5067,6 +5369,8 @@ FORMAT_BC7_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5077,16 +5381,20 @@ FORMAT_ETC2_R8G8B8_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_ETC2_R8G8B8_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5097,16 +5405,20 @@ FORMAT_ETC2_R8G8B8A1_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_ETC2_R8G8B8A1_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5117,16 +5429,20 @@ FORMAT_ETC2_R8G8B8A8_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
-FORMAT_UNKNOWN_FORMAT:
+FORMAT_ETC2_R8G8B8A8_SRGB_BLOCK:
 	linearTiling   FormatFeatureFlags:
 		None
 	optimalTiling  FormatFeatureFlags:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5137,6 +5453,8 @@ FORMAT_EAC_R11_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5147,6 +5465,8 @@ FORMAT_EAC_R11_SNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5157,6 +5477,8 @@ FORMAT_EAC_R11G11_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5167,6 +5489,8 @@ FORMAT_EAC_R11G11_SNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5177,6 +5501,8 @@ FORMAT_ASTC_4x4_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5187,6 +5513,8 @@ FORMAT_ASTC_4x4_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5197,6 +5525,8 @@ FORMAT_ASTC_5x4_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5207,6 +5537,8 @@ FORMAT_ASTC_5x4_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5217,6 +5549,8 @@ FORMAT_ASTC_5x5_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5227,6 +5561,8 @@ FORMAT_ASTC_5x5_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5237,6 +5573,8 @@ FORMAT_ASTC_6x5_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5247,6 +5585,8 @@ FORMAT_ASTC_6x5_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5257,6 +5597,8 @@ FORMAT_ASTC_6x6_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5267,6 +5609,8 @@ FORMAT_ASTC_6x6_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5277,6 +5621,8 @@ FORMAT_ASTC_8x5_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5287,6 +5633,8 @@ FORMAT_ASTC_8x5_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5297,6 +5645,8 @@ FORMAT_ASTC_8x6_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5307,6 +5657,8 @@ FORMAT_ASTC_8x6_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5317,6 +5669,8 @@ FORMAT_ASTC_8x8_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5327,6 +5681,8 @@ FORMAT_ASTC_8x8_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5337,6 +5693,8 @@ FORMAT_ASTC_10x5_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5347,6 +5705,8 @@ FORMAT_ASTC_10x5_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5357,6 +5717,8 @@ FORMAT_ASTC_10x6_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5367,6 +5729,8 @@ FORMAT_ASTC_10x6_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5377,6 +5741,8 @@ FORMAT_ASTC_10x8_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5387,6 +5753,8 @@ FORMAT_ASTC_10x8_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5397,6 +5765,8 @@ FORMAT_ASTC_10x10_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5407,6 +5777,8 @@ FORMAT_ASTC_10x10_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5417,6 +5789,8 @@ FORMAT_ASTC_12x10_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5427,6 +5801,8 @@ FORMAT_ASTC_12x10_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5437,6 +5813,8 @@ FORMAT_ASTC_12x12_UNORM_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
@@ -5447,6 +5825,8 @@ FORMAT_ASTC_12x12_SRGB_BLOCK:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
