@@ -367,7 +367,7 @@ VkPhysicalDeviceMemoryProperties:
 		flags:
 			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1] :
-		size          = 12566074368 (0x2ecff1400) (11.70 GiB)
+		size          = 12566062080 (0x2ecfee400) (11.70 GiB)
 		flags:
 			None
 	memoryTypeCount       = 11
