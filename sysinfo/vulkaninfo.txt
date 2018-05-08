@@ -23,7 +23,7 @@ Instance Extensions	count = 14
 	VK_KHR_external_memory_capabilities : extension revision  1
 	VK_KHR_external_semaphore_capabilities: extension revision  1
 	VK_EXT_debug_utils                  : extension revision  1
-Layers: count = 13
+Layers: count = 12
 =======
 VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 0
@@ -109,12 +109,6 @@ VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan v
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
-
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.0.69, layer version 1
-	Layer Extensions	count = 0
-	Devices 	count = 1
-		GPU id       : 0 (GeForce GTX 950)
-		Layer-Device Extensions	count = 0
 
 Presentable Surfaces:
 =====================
