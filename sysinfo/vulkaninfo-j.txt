@@ -82,12 +82,6 @@
 			"specVersion": 4194369,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
-		},
-		{
-			"layerName": "VK_LAYER_RENDERDOC_Capture",
-			"specVersion": 4194304,
-			"implementationVersion": 30,
-			"description": "Debugging capture layer for RenderDoc"
 		}
 	],
 	"VkPhysicalDeviceProperties": {

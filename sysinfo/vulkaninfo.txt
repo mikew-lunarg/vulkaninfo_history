@@ -22,7 +22,7 @@ Instance Extensions	count = 11
 	VK_EXT_display_surface_counter      : extension revision  1
 	VK_NV_external_memory_capabilities  : extension revision  1
 	VK_EXT_debug_utils                  : extension revision  1
-Layers: count = 14
+Layers: count = 13
 =======
 VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.70, layer version 2
 	Layer Extensions	count = 0
@@ -147,16 +147,6 @@ VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.0.65, layer version 
 		Layer-Device Extensions	count = 0
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
-
-VK_LAYER_RENDERDOC_Capture (Debugging capture layer for RenderDoc) Vulkan version 1.0.0, layer version 30
-	Layer Extensions	count = 0
-	Devices 	count = 2
-		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 1
-			VK_EXT_debug_marker                 : extension revision  3
-		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 1
-			VK_EXT_debug_marker                 : extension revision  3
 
 Presentable Surfaces:
 =====================
