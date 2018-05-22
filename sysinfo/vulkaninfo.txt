@@ -2,15 +2,17 @@
 VULKAN INFO
 ===========
 
-Vulkan Instance Version: 1.1.70
+Vulkan Instance Version: 1.1.73
 
+WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetInstanceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetInstanceProcAddr function for this layer.
+WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetDeviceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetDeviceProcAddr function for this layer.
 
 
 
 
 Instance Extensions:
 ====================
-Instance Extensions	count = 11
+Instance Extensions	count = 12
 	VK_KHR_surface                      : extension revision 25
 	VK_KHR_win32_surface                : extension revision  6
 	VK_KHR_external_memory_capabilities : extension revision  1
@@ -20,11 +22,12 @@ Instance Extensions	count = 11
 	VK_KHR_get_surface_capabilities2    : extension revision  1
 	VK_EXT_debug_report                 : extension revision  9
 	VK_EXT_display_surface_counter      : extension revision  1
+	VK_KHR_device_group_creation        : extension revision  1
 	VK_NV_external_memory_capabilities  : extension revision  1
 	VK_EXT_debug_utils                  : extension revision  1
-Layers: count = 13
+Layers: count = 14
 =======
-VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.70, layer version 2
+VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.73, layer version 2
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -32,7 +35,7 @@ VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.70, layer versi
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_assistant_layer (LunarG Validation Factory Layer) Vulkan version 1.1.70, layer version 1
+VK_LAYER_LUNARG_assistant_layer (LunarG Validation Factory Layer) Vulkan version 1.1.73, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
@@ -43,66 +46,7 @@ VK_LAYER_LUNARG_assistant_layer (LunarG Validation Factory Layer) Vulkan version
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.70, layer version 1
-	Layer Extensions	count = 1
-		VK_EXT_debug_report                 : extension revision  6
-	Devices 	count = 2
-		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 2
-			VK_EXT_debug_marker                 : extension revision  4
-			VK_EXT_validation_cache             : extension revision  1
-		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 2
-			VK_EXT_debug_marker                 : extension revision  4
-			VK_EXT_validation_cache             : extension revision  1
-
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.70, layer version 1
-	Layer Extensions	count = 0
-	Devices 	count = 2
-		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 0
-		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 0
-
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.70, layer version 1
-	Layer Extensions	count = 0
-	Devices 	count = 2
-		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 0
-		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 0
-
-VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.70, layer version 1
-	Layer Extensions	count = 1
-		VK_EXT_debug_report                 : extension revision  6
-	Devices 	count = 2
-		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 1
-			VK_EXT_debug_marker                 : extension revision  4
-		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 1
-			VK_EXT_debug_marker                 : extension revision  4
-
-VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.70, layer version 1
-	Layer Extensions	count = 1
-		VK_EXT_debug_report                 : extension revision  6
-	Devices 	count = 2
-		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 1
-			VK_EXT_debug_marker                 : extension revision  4
-		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 1
-			VK_EXT_debug_marker                 : extension revision  4
-
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.70, layer version 1
-	Layer Extensions	count = 0
-	Devices 	count = 2
-		GPU id       : 0 (GeForce GTX 960M)
-		Layer-Device Extensions	count = 0
-		GPU id       : 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions	count = 0
-
-VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.70, layer version 1
+VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.73, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
@@ -115,7 +59,66 @@ VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.70, layer version 1
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.73, layer version 1
+	Layer Extensions	count = 0
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 0
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 0
+
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.73, layer version 1
+	Layer Extensions	count = 0
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 0
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 0
+
+VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.73, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  4
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  4
+
+VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.73, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  4
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  4
+
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.73, layer version 1
+	Layer Extensions	count = 0
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 0
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 0
+
+VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.73, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 2
+			VK_EXT_debug_marker                 : extension revision  4
+			VK_EXT_validation_cache             : extension revision  1
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 2
+			VK_EXT_debug_marker                 : extension revision  4
+			VK_EXT_validation_cache             : extension revision  1
+
+VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.73, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 2
@@ -124,7 +127,7 @@ VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.70, layer
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.70, layer version 1
+VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.73, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -132,7 +135,7 @@ VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.70, 
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.70, layer version 1
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.73, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -140,13 +143,23 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.70, layer v
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.0.65, layer version 1
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.70, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
 		Layer-Device Extensions	count = 0
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
+
+VK_LAYER_RENDERDOC_Capture (Debugging capture layer for RenderDoc) Vulkan version 1.0.0, layer version 0
+	Layer Extensions	count = 0
+	Devices 	count = 2
+		GPU id       : 0 (GeForce GTX 960M)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  3
+		GPU id       : 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  3
 
 Presentable Surfaces:
 =====================
@@ -190,7 +203,6 @@ VkSurfaceCapabilitiesKHR:
 
 VkSurfaceCapabilities2EXT:
 ==========================
-
 	supportedSurfaceCounters:
 		None
 GPU id       : 1 (Intel(R) HD Graphics 530)
@@ -234,9 +246,27 @@ VkSurfaceCapabilitiesKHR:
 
 VkSurfaceCapabilities2EXT:
 ==========================
-
 	supportedSurfaceCounters:
 		None
+
+
+Groups :
+========
+	Device Group Properties (Group 0) :
+		physicalDeviceCount = 1
+
+			GeForce GTX 960M (ID: 0)
+
+		subsetAllocation = 0
+
+
+	Device Group Properties (Group 1) :
+		physicalDeviceCount = 1
+
+			Intel(R) HD Graphics 530 (ID: 0)
+
+		subsetAllocation = 0
+
 
 
 Device Properties and Extensions :
@@ -244,8 +274,8 @@ Device Properties and Extensions :
 GPU0
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x400041  (1.0.65)
-	driverVersion  = 1640546304 (0x61c8c000)
+	apiVersion     = 0x401046  (1.1.70)
+	driverVersion  = 1666187264 (0x63500000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = DISCRETE_GPU
@@ -374,16 +404,45 @@ VkPhysicalDeviceProperties:
 		residencyAlignedMipSize                  = 1
 		residencyNonResidentStrict               = 0
 
-Device Extensions	count = 37
+VkPhysicalDeviceBlendOperationAdvancedProperties:
+=================================================
+	advancedBlendMaxColorAttachments               = 1
+	advancedBlendIndependentBlend                  = 0
+	advancedBlendNonPremultipliedSrcColor          = 1
+	advancedBlendNonPremultipliedDstColor          = 1
+	advancedBlendCorrelatedOverlap                 = 1
+	advancedBlendAllOperations                     = 1
+
+VkPhysicalDevicePointClippingProperties:
+========================================
+	pointClippingBehavior               = 1
+
+VkPhysicalDevicePushDescriptorProperties:
+=========================================
+	maxPushDescriptors               = 32
+
+VkPhysicalDeviceDiscardRectangleProperties:
+=========================================
+	maxDiscardRectangles               = 8
+
+VkPhysicalDeviceMultiviewProperties:
+=========================================
+	maxMultiviewInstanceIndex = 134217727
+	maxMultiviewViewCount     = 32
+
+Device Extensions	count = 40
 	VK_KHR_swapchain                    : extension revision 70
 	VK_KHR_16bit_storage                : extension revision  1
 	VK_KHR_bind_memory2                 : extension revision  1
 	VK_KHR_dedicated_allocation         : extension revision  3
 	VK_KHR_descriptor_update_template   : extension revision  1
+	VK_KHR_device_group                 : extension revision  3
 	VK_KHR_get_memory_requirements2     : extension revision  1
 	VK_KHR_image_format_list            : extension revision  1
 	VK_KHR_maintenance1                 : extension revision  1
 	VK_KHR_maintenance2                 : extension revision  1
+	VK_KHR_maintenance3                 : extension revision  1
+	VK_KHR_multiview                    : extension revision  1
 	VK_KHR_push_descriptor              : extension revision  2
 	VK_KHR_relaxed_block_layout         : extension revision  1
 	VK_KHR_sampler_mirror_clamp_to_edge : extension revision  1
@@ -508,7 +567,7 @@ VkPhysicalDeviceFeatures:
 	shaderCullDistance                      = 1
 	shaderFloat64                           = 1
 	shaderImageGatherExtended               = 1
-	shaderInt16                             = 0
+	shaderInt16                             = 1
 	shaderInt64                             = 1
 	shaderSampledImageArrayDynamicIndexing  = 1
 	shaderStorageBufferArrayDynamicIndexing = 1
@@ -537,6 +596,32 @@ VkPhysicalDeviceFeatures:
 	variableMultisampleRate                 = 1
 	vertexPipelineStoresAndAtomics          = 1
 	wideLines                               = 1
+
+VkPhysicalDevice16BitStorageFeatures:
+=====================================
+	storageBuffer16BitAccess           = 1
+	uniformAndStorageBuffer16BitAccess = 1
+	storagePushConstant16              = 1
+	storageInputOutput16               = 0
+
+VkPhysicalDeviceSamplerYcbcrConversionFeatures:
+===============================================
+	samplerYcbcrConversion = 1
+
+VkPhysicalDeviceVariablePointerFeatures:
+========================================
+	variablePointersStorageBuffer = 1
+	variablePointers              = 1
+
+VkPhysicalDeviceBlendOperationAdvancedFeatures:
+===============================================
+	advancedBlendCoherentOperations = 1
+
+VkPhysicalDeviceMultiviewFeatures:
+==================================
+	multiview                   = 1
+	multiviewGeometryShader     = 1
+	multiviewTessellationShader = 1
 
 Format Properties:
 ==================
@@ -3063,6 +3148,10 @@ VkPhysicalDeviceProperties:
 		residencyAlignedMipSize                  = 0
 		residencyNonResidentStrict               = 0
 
+VkPhysicalDevicePushDescriptorProperties:
+=========================================
+	maxPushDescriptors               = 0
+
 Device Extensions	count = 21
 	VK_KHR_swapchain                    : extension revision 68
 	VK_KHR_external_memory              : extension revision  1
@@ -3172,6 +3261,18 @@ VkPhysicalDeviceFeatures:
 	variableMultisampleRate                 = 1
 	vertexPipelineStoresAndAtomics          = 1
 	wideLines                               = 1
+
+VkPhysicalDevice16BitStorageFeatures:
+=====================================
+	storageBuffer16BitAccess           = 1
+	uniformAndStorageBuffer16BitAccess = 1
+	storagePushConstant16              = 1
+	storageInputOutput16               = 1
+
+VkPhysicalDeviceVariablePointerFeatures:
+========================================
+	variablePointersStorageBuffer = 0
+	variablePointers              = 0
 
 Format Properties:
 ==================

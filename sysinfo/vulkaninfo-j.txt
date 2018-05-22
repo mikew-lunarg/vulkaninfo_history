@@ -1,95 +1,103 @@
+WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetInstanceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetInstanceProcAddr function for this layer.
+WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetDeviceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetDeviceProcAddr function for this layer.
 {
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the VulkanInfo program.",
-		"vulkanApiVersion": "1.1.70"
+		"vulkanApiVersion": "1.1.73"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 2,
 			"description": "LunarG debug layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_assistant_layer",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Factory Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_core_validation",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_object_tracker",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_parameter_validation",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "LunarG Standard Validation"
 		},
 		{
 			"layerName": "VK_LAYER_GOOGLE_threading",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "Google Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_GOOGLE_unique_objects",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "Google Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4198470,
+			"specVersion": 4198473,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4194369,
+			"specVersion": 4198470,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
+		},
+		{
+			"layerName": "VK_LAYER_RENDERDOC_Capture",
+			"specVersion": 4194304,
+			"implementationVersion": 0,
+			"description": "Debugging capture layer for RenderDoc"
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4194369,
+		"apiVersion": 4198470,
 		"deviceID": 5019,
 		"deviceName": "GeForce GTX 960M",
 		"deviceType": 2,
-		"driverVersion": 1640546304,
+		"driverVersion": 1666187264,
 		"limits": {
 			"bufferImageGranularity": 65536,
 			"discreteQueuePriorities": 2,
@@ -219,22 +227,22 @@
 			"viewportSubPixelBits": 8
 		},
 		"pipelineCacheUUID": [
-			223,
-			138,
-			23,
-			235,
-			129,
-			162,
+			6,
 			192,
-			57,
-			26,
-			136,
-			2,
-			52,
-			11,
-			181,
+			107,
+			112,
+			207,
+			113,
+			196,
+			84,
+			253,
+			212,
 			144,
-			202
+			29,
+			136,
+			71,
+			17,
+			173
 		],
 		"sparseProperties": {
 			"residencyAlignedMipSize": 1,
@@ -352,7 +360,7 @@
 		"shaderCullDistance": 1,
 		"shaderFloat64": 1,
 		"shaderImageGatherExtended": 1,
-		"shaderInt16": 0,
+		"shaderInt16": 1,
 		"shaderInt64": 1,
 		"shaderResourceMinLod": 0,
 		"shaderResourceResidency": 0,
