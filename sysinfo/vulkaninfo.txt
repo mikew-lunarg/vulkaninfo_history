@@ -162,7 +162,7 @@ GPU0
 VkPhysicalDeviceProperties:
 ===========================
 	apiVersion     = 0x400041  (1.0.65)
-	driverVersion  = 1636745216 (0x618ec000)
+	driverVersion  = 1636466688 (0x618a8000)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = DISCRETE_GPU
@@ -381,7 +381,7 @@ VkPhysicalDeviceMemoryProperties:
 		flags:
 			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1] :
-		size          = 12566055936 (0x2ecfecc00) (11.70 GiB)
+		size          = 12566052864 (0x2ecfec000) (11.70 GiB)
 		flags:
 			None
 	memoryTypeCount       = 11
