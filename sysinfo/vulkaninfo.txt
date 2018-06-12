@@ -3271,7 +3271,7 @@ VkPhysicalDevice16BitStorageFeatures:
 
 VkPhysicalDeviceVariablePointerFeatures:
 ========================================
-	variablePointersStorageBuffer = 0
+	variablePointersStorageBuffer = 2347171156
 	variablePointers              = 0
 
 Format Properties:
