@@ -2,7 +2,7 @@
 VULKAN INFO
 ===========
 
-Vulkan Instance Version: 1.1.73
+Vulkan Instance Version: 1.1.77
 
 
 
@@ -11,33 +11,48 @@ Instance Extensions:
 Instance Extensions	count = 14
 	VK_EXT_acquire_xlib_display         : extension revision  1
 	VK_EXT_debug_report                 : extension revision  9
+	VK_EXT_debug_utils                  : extension revision  1
 	VK_EXT_direct_mode_display          : extension revision  1
 	VK_EXT_display_surface_counter      : extension revision  1
 	VK_KHR_display                      : extension revision 21
+	VK_KHR_external_fence_capabilities  : extension revision  1
+	VK_KHR_external_memory_capabilities : extension revision  1
+	VK_KHR_external_semaphore_capabilities: extension revision  1
 	VK_KHR_get_physical_device_properties2: extension revision  1
 	VK_KHR_get_surface_capabilities2    : extension revision  1
 	VK_KHR_surface                      : extension revision 25
 	VK_KHR_xcb_surface                  : extension revision  6
 	VK_KHR_xlib_surface                 : extension revision  6
-	VK_KHR_external_fence_capabilities  : extension revision  1
-	VK_KHR_external_memory_capabilities : extension revision  1
-	VK_KHR_external_semaphore_capabilities: extension revision  1
-	VK_EXT_debug_utils                  : extension revision  1
 Layers: count = 12
 =======
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.73, layer version 1
+VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.77, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 1
+		GPU id       : 0 (GeForce GTX 950)
+		Layer-Device Extensions	count = 0
+
+VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.77, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.73, layer version 2
+VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.77, layer version 2
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.73, layer version 1
+VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.77, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 1
+		GPU id       : 0 (GeForce GTX 950)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  4
+
+VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.77, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -46,26 +61,19 @@ VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.73, layer version 1
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.77, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.73, layer version 1
-	Layer Extensions	count = 1
-		VK_EXT_debug_report                 : extension revision  6
-	Devices 	count = 1
-		GPU id       : 0 (GeForce GTX 950)
-		Layer-Device Extensions	count = 0
-
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.73, layer version 1
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.77, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.73, layer version 1
+VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.77, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -73,19 +81,7 @@ VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.73, layer version 1
-	Layer Extensions	count = 0
-	Devices 	count = 1
-		GPU id       : 0 (GeForce GTX 950)
-		Layer-Device Extensions	count = 0
-
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.73, layer version 1
-	Layer Extensions	count = 0
-	Devices 	count = 1
-		GPU id       : 0 (GeForce GTX 950)
-		Layer-Device Extensions	count = 0
-
-VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.73, layer version 1
+VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.77, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -93,7 +89,13 @@ VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.73, 
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.73, layer version 1
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.77, layer version 1
+	Layer Extensions	count = 0
+	Devices 	count = 1
+		GPU id       : 0 (GeForce GTX 950)
+		Layer-Device Extensions	count = 0
+
+VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.77, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -102,13 +104,11 @@ VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.73,
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.73, layer version 1
-	Layer Extensions	count = 1
-		VK_EXT_debug_report                 : extension revision  6
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.77, layer version 1
+	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
-		Layer-Device Extensions	count = 1
-			VK_EXT_debug_marker                 : extension revision  4
+		Layer-Device Extensions	count = 0
 
 Presentable Surfaces:
 =====================
@@ -313,30 +313,6 @@ VkPhysicalDeviceDiscardRectangleProperties:
 	maxDiscardRectangles               = 8
 
 Device Extensions	count = 45
-	VK_KHR_swapchain                    : extension revision 70
-	VK_KHR_16bit_storage                : extension revision  1
-	VK_KHR_bind_memory2                 : extension revision  1
-	VK_KHR_dedicated_allocation         : extension revision  3
-	VK_KHR_descriptor_update_template   : extension revision  1
-	VK_KHR_get_memory_requirements2     : extension revision  1
-	VK_KHR_image_format_list            : extension revision  1
-	VK_KHR_maintenance1                 : extension revision  1
-	VK_KHR_maintenance2                 : extension revision  1
-	VK_KHR_push_descriptor              : extension revision  2
-	VK_KHR_relaxed_block_layout         : extension revision  1
-	VK_KHR_sampler_mirror_clamp_to_edge : extension revision  1
-	VK_KHR_sampler_ycbcr_conversion     : extension revision  1
-	VK_KHR_shader_draw_parameters       : extension revision  1
-	VK_KHR_storage_buffer_storage_class : extension revision  1
-	VK_KHR_external_memory              : extension revision  1
-	VK_KHR_external_memory_fd           : extension revision  1
-	VK_KHR_external_semaphore           : extension revision  1
-	VK_KHR_external_semaphore_fd        : extension revision  1
-	VK_KHR_external_fence               : extension revision  1
-	VK_KHR_external_fence_fd            : extension revision  1
-	VK_KHR_variable_pointers            : extension revision  1
-	VK_KHX_device_group                 : extension revision  2
-	VK_KHX_multiview                    : extension revision  1
 	VK_EXT_blend_operation_advanced     : extension revision  2
 	VK_EXT_depth_range_unrestricted     : extension revision  1
 	VK_EXT_discard_rectangles           : extension revision  1
@@ -347,17 +323,41 @@ Device Extensions	count = 45
 	VK_EXT_shader_subgroup_ballot       : extension revision  1
 	VK_EXT_shader_subgroup_vote         : extension revision  1
 	VK_EXT_shader_viewport_index_layer  : extension revision  1
+	VK_KHR_16bit_storage                : extension revision  1
+	VK_KHR_bind_memory2                 : extension revision  1
+	VK_KHR_dedicated_allocation         : extension revision  3
+	VK_KHR_descriptor_update_template   : extension revision  1
+	VK_KHR_external_fence               : extension revision  1
+	VK_KHR_external_fence_fd            : extension revision  1
+	VK_KHR_external_memory              : extension revision  1
+	VK_KHR_external_memory_fd           : extension revision  1
+	VK_KHR_external_semaphore           : extension revision  1
+	VK_KHR_external_semaphore_fd        : extension revision  1
+	VK_KHR_get_memory_requirements2     : extension revision  1
+	VK_KHR_image_format_list            : extension revision  1
+	VK_KHR_maintenance1                 : extension revision  1
+	VK_KHR_maintenance2                 : extension revision  1
+	VK_KHR_push_descriptor              : extension revision  2
+	VK_KHR_relaxed_block_layout         : extension revision  1
+	VK_KHR_sampler_mirror_clamp_to_edge : extension revision  1
+	VK_KHR_sampler_ycbcr_conversion     : extension revision  1
+	VK_KHR_shader_draw_parameters       : extension revision  1
+	VK_KHR_storage_buffer_storage_class : extension revision  1
+	VK_KHR_swapchain                    : extension revision 70
+	VK_KHR_variable_pointers            : extension revision  1
+	VK_KHX_device_group                 : extension revision  2
+	VK_KHX_multiview                    : extension revision  1
+	VK_NVX_device_generated_commands    : extension revision  3
+	VK_NVX_multiview_per_view_attributes: extension revision  1
 	VK_NV_dedicated_allocation          : extension revision  1
 	VK_NV_fill_rectangle                : extension revision  1
 	VK_NV_fragment_coverage_to_color    : extension revision  1
 	VK_NV_framebuffer_mixed_samples     : extension revision  1
+	VK_NV_geometry_shader_passthrough   : extension revision  1
 	VK_NV_glsl_shader                   : extension revision  1
 	VK_NV_sample_mask_override_coverage : extension revision  1
 	VK_NV_viewport_array2               : extension revision  1
 	VK_NV_viewport_swizzle              : extension revision  1
-	VK_NV_geometry_shader_passthrough   : extension revision  1
-	VK_NVX_device_generated_commands    : extension revision  3
-	VK_NVX_multiview_per_view_attributes: extension revision  1
 
 VkQueueFamilyProperties[0]:
 ===========================
@@ -428,61 +428,61 @@ VkPhysicalDeviceMemoryProperties:
 
 VkPhysicalDeviceFeatures:
 =========================
-	alphaToOne                              = 1
-	depthBiasClamp                          = 1
-	depthBounds                             = 1
-	depthClamp                              = 1
-	drawIndirectFirstInstance               = 1
-	dualSrcBlend                            = 1
-	fillModeNonSolid                        = 1
-	fragmentStoresAndAtomics                = 1
+	robustBufferAccess                      = 1
 	fullDrawIndexUint32                     = 1
-	geometryShader                          = 1
 	imageCubeArray                          = 1
 	independentBlend                        = 1
-	inheritedQueries                        = 1
-	largePoints                             = 1
+	geometryShader                          = 1
+	tessellationShader                      = 1
+	sampleRateShading                       = 1
+	dualSrcBlend                            = 1
 	logicOp                                 = 1
 	multiDrawIndirect                       = 1
+	drawIndirectFirstInstance               = 1
+	depthClamp                              = 1
+	depthBiasClamp                          = 1
+	fillModeNonSolid                        = 1
+	depthBounds                             = 1
+	wideLines                               = 1
+	largePoints                             = 1
+	alphaToOne                              = 1
 	multiViewport                           = 1
+	samplerAnisotropy                       = 1
+	textureCompressionETC2                  = 0
+	textureCompressionASTC_LDR              = 0
+	textureCompressionBC                    = 1
 	occlusionQueryPrecise                   = 1
 	pipelineStatisticsQuery                 = 1
-	robustBufferAccess                      = 1
-	samplerAnisotropy                       = 1
-	sampleRateShading                       = 1
-	shaderClipDistance                      = 1
-	shaderCullDistance                      = 1
-	shaderFloat64                           = 1
+	vertexPipelineStoresAndAtomics          = 1
+	fragmentStoresAndAtomics                = 1
+	shaderTessellationAndGeometryPointSize  = 1
 	shaderImageGatherExtended               = 1
-	shaderInt16                             = 0
-	shaderInt64                             = 1
-	shaderSampledImageArrayDynamicIndexing  = 1
-	shaderStorageBufferArrayDynamicIndexing = 1
-	shaderStorageImageArrayDynamicIndexing  = 1
 	shaderStorageImageExtendedFormats       = 1
 	shaderStorageImageMultisample           = 1
 	shaderStorageImageReadWithoutFormat     = 1
 	shaderStorageImageWriteWithoutFormat    = 1
-	shaderTessellationAndGeometryPointSize  = 1
 	shaderUniformBufferArrayDynamicIndexing = 1
+	shaderSampledImageArrayDynamicIndexing  = 1
+	shaderStorageBufferArrayDynamicIndexing = 1
+	shaderStorageImageArrayDynamicIndexing  = 1
+	shaderClipDistance                      = 1
+	shaderCullDistance                      = 1
+	shaderFloat64                           = 1
+	shaderInt64                             = 1
+	shaderInt16                             = 0
+	shaderResourceResidency                 = 1
+	shaderResourceMinLod                    = 1
 	sparseBinding                           = 1
+	sparseResidencyBuffer                   = 1
+	sparseResidencyImage2D                  = 1
+	sparseResidencyImage3D                  = 1
 	sparseResidency2Samples                 = 1
 	sparseResidency4Samples                 = 1
 	sparseResidency8Samples                 = 1
 	sparseResidency16Samples                = 1
 	sparseResidencyAliased                  = 1
-	sparseResidencyBuffer                   = 1
-	sparseResidencyImage2D                  = 1
-	sparseResidencyImage3D                  = 1
-	shaderResourceMinLod                    = 1
-	shaderResourceResidency                 = 1
-	tessellationShader                      = 1
-	textureCompressionASTC_LDR              = 0
-	textureCompressionBC                    = 1
-	textureCompressionETC2                  = 0
 	variableMultisampleRate                 = 1
-	vertexPipelineStoresAndAtomics          = 1
-	wideLines                               = 1
+	inheritedQueries                        = 1
 
 VkPhysicalDevice16BitStorageFeatures:
 =====================================
