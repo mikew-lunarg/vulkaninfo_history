@@ -3150,7 +3150,7 @@ VkPhysicalDeviceProperties:
 
 VkPhysicalDevicePushDescriptorProperties:
 =========================================
-	maxPushDescriptors               = 5439575
+	maxPushDescriptors               = 0
 
 Device Extensions	count = 21
 	VK_EXT_shader_subgroup_ballot       : extension revision  1
@@ -3271,7 +3271,7 @@ VkPhysicalDevice16BitStorageFeatures:
 
 VkPhysicalDeviceVariablePointerFeatures:
 ========================================
-	variablePointersStorageBuffer = 0
+	variablePointersStorageBuffer = 191543939
 	variablePointers              = 0
 
 Format Properties:
