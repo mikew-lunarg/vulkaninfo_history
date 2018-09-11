@@ -8,16 +8,18 @@ Vulkan Instance Version: 1.1.77
 
 Instance Extensions:
 ====================
-Instance Extensions	count = 14
+Instance Extensions	count = 16
 	VK_EXT_acquire_xlib_display         : extension revision  1
 	VK_EXT_debug_report                 : extension revision  9
 	VK_EXT_debug_utils                  : extension revision  1
 	VK_EXT_direct_mode_display          : extension revision  1
 	VK_EXT_display_surface_counter      : extension revision  1
+	VK_KHR_device_group_creation        : extension revision  1
 	VK_KHR_display                      : extension revision 21
 	VK_KHR_external_fence_capabilities  : extension revision  1
 	VK_KHR_external_memory_capabilities : extension revision  1
 	VK_KHR_external_semaphore_capabilities: extension revision  1
+	VK_KHR_get_display_properties2      : extension revision  1
 	VK_KHR_get_physical_device_properties2: extension revision  1
 	VK_KHR_get_surface_capabilities2    : extension revision  1
 	VK_KHR_surface                      : extension revision 25
@@ -156,13 +158,24 @@ VkSurfaceCapabilities2EXT:
 		None
 
 
+Groups :
+========
+	Device Group Properties (Group 0) :
+		physicalDeviceCount = 1
+
+			GeForce GTX 950 (ID: 0)
+
+		subsetAllocation = 0
+
+
+
 Device Properties and Extensions :
 ==================================
 GPU0
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x400041  (1.0.65)
-	driverVersion  = 1636466688 (0x618a8000)
+	apiVersion     = 0x401052  (1.1.82)
+	driverVersion  = 1661829440 (0x630d8140)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = DISCRETE_GPU
@@ -182,22 +195,22 @@ VkPhysicalDeviceProperties:
 		maxSamplerAllocationCount               = 4000
 		bufferImageGranularity                  = 0x400
 		sparseAddressSpaceSize                  = 0xffffffffffffffff
-		maxBoundDescriptorSets                  = 8
-		maxPerStageDescriptorSamplers           = 4000
-		maxPerStageDescriptorUniformBuffers     = 12
-		maxPerStageDescriptorStorageBuffers     = 4096
-		maxPerStageDescriptorSampledImages      = 16384
-		maxPerStageDescriptorStorageImages      = 16384
-		maxPerStageDescriptorInputAttachments   = 8
-		maxPerStageResources                    = 53268
-		maxDescriptorSetSamplers                = 4000
-		maxDescriptorSetUniformBuffers          = 72
-		maxDescriptorSetUniformBuffersDynamic   = 72
-		maxDescriptorSetStorageBuffers          = 4096
+		maxBoundDescriptorSets                  = 32
+		maxPerStageDescriptorSamplers           = 1048576
+		maxPerStageDescriptorUniformBuffers     = 15
+		maxPerStageDescriptorStorageBuffers     = 1048576
+		maxPerStageDescriptorSampledImages      = 1048576
+		maxPerStageDescriptorStorageImages      = 1048576
+		maxPerStageDescriptorInputAttachments   = 1048576
+		maxPerStageResources                    = 4294967295
+		maxDescriptorSetSamplers                = 1048576
+		maxDescriptorSetUniformBuffers          = 90
+		maxDescriptorSetUniformBuffersDynamic   = 15
+		maxDescriptorSetStorageBuffers          = 1048576
 		maxDescriptorSetStorageBuffersDynamic   = 16
-		maxDescriptorSetSampledImages           = 98304
-		maxDescriptorSetStorageImages           = 98304
-		maxDescriptorSetInputAttachments        = 8
+		maxDescriptorSetSampledImages           = 1048576
+		maxDescriptorSetStorageImages           = 1048576
+		maxDescriptorSetInputAttachments        = 1048576
 		maxVertexInputAttributes                = 32
 		maxVertexInputBindings                  = 32
 		maxVertexInputAttributeOffset           = 0x7ff
@@ -312,21 +325,36 @@ VkPhysicalDeviceDiscardRectangleProperties:
 =========================================
 	maxDiscardRectangles               = 8
 
-Device Extensions	count = 45
+VkPhysicalDeviceMultiviewProperties:
+=========================================
+	maxMultiviewViewCount     = 32
+	maxMultiviewInstanceIndex = 134217727
+
+Device Extensions	count = 57
 	VK_EXT_blend_operation_advanced     : extension revision  2
+	VK_EXT_conditional_rendering        : extension revision  1
+	VK_EXT_conservative_rasterization   : extension revision  1
 	VK_EXT_depth_range_unrestricted     : extension revision  1
+	VK_EXT_descriptor_indexing          : extension revision  2
 	VK_EXT_discard_rectangles           : extension revision  1
 	VK_EXT_display_control              : extension revision  1
+	VK_EXT_global_priority              : extension revision  2
+	VK_EXT_inline_uniform_block         : extension revision  1
 	VK_EXT_post_depth_coverage          : extension revision  1
 	VK_EXT_sample_locations             : extension revision  1
 	VK_EXT_sampler_filter_minmax        : extension revision  1
 	VK_EXT_shader_subgroup_ballot       : extension revision  1
 	VK_EXT_shader_subgroup_vote         : extension revision  1
 	VK_EXT_shader_viewport_index_layer  : extension revision  1
+	VK_EXT_vertex_attribute_divisor     : extension revision  3
 	VK_KHR_16bit_storage                : extension revision  1
+	VK_KHR_8bit_storage                 : extension revision  1
 	VK_KHR_bind_memory2                 : extension revision  1
+	VK_KHR_create_renderpass2           : extension revision  1
 	VK_KHR_dedicated_allocation         : extension revision  3
 	VK_KHR_descriptor_update_template   : extension revision  1
+	VK_KHR_device_group                 : extension revision  3
+	VK_KHR_draw_indirect_count          : extension revision  1
 	VK_KHR_external_fence               : extension revision  1
 	VK_KHR_external_fence_fd            : extension revision  1
 	VK_KHR_external_memory              : extension revision  1
@@ -335,8 +363,10 @@ Device Extensions	count = 45
 	VK_KHR_external_semaphore_fd        : extension revision  1
 	VK_KHR_get_memory_requirements2     : extension revision  1
 	VK_KHR_image_format_list            : extension revision  1
-	VK_KHR_maintenance1                 : extension revision  1
+	VK_KHR_maintenance1                 : extension revision  2
 	VK_KHR_maintenance2                 : extension revision  1
+	VK_KHR_maintenance3                 : extension revision  1
+	VK_KHR_multiview                    : extension revision  1
 	VK_KHR_push_descriptor              : extension revision  2
 	VK_KHR_relaxed_block_layout         : extension revision  1
 	VK_KHR_sampler_mirror_clamp_to_edge : extension revision  1
@@ -345,17 +375,17 @@ Device Extensions	count = 45
 	VK_KHR_storage_buffer_storage_class : extension revision  1
 	VK_KHR_swapchain                    : extension revision 70
 	VK_KHR_variable_pointers            : extension revision  1
-	VK_KHX_device_group                 : extension revision  2
-	VK_KHX_multiview                    : extension revision  1
+	VK_KHR_vulkan_memory_model          : extension revision  2
 	VK_NVX_device_generated_commands    : extension revision  3
 	VK_NVX_multiview_per_view_attributes: extension revision  1
 	VK_NV_dedicated_allocation          : extension revision  1
+	VK_NV_device_diagnostic_checkpoints : extension revision  2
 	VK_NV_fill_rectangle                : extension revision  1
 	VK_NV_fragment_coverage_to_color    : extension revision  1
 	VK_NV_framebuffer_mixed_samples     : extension revision  1
 	VK_NV_geometry_shader_passthrough   : extension revision  1
-	VK_NV_glsl_shader                   : extension revision  1
 	VK_NV_sample_mask_override_coverage : extension revision  1
+	VK_NV_shader_subgroup_partitioned   : extension revision  1
 	VK_NV_viewport_array2               : extension revision  1
 	VK_NV_viewport_swizzle              : extension revision  1
 
@@ -469,7 +499,7 @@ VkPhysicalDeviceFeatures:
 	shaderCullDistance                      = 1
 	shaderFloat64                           = 1
 	shaderInt64                             = 1
-	shaderInt16                             = 0
+	shaderInt16                             = 1
 	shaderResourceResidency                 = 1
 	shaderResourceMinLod                    = 1
 	sparseBinding                           = 1
@@ -503,6 +533,12 @@ VkPhysicalDeviceVariablePointerFeatures:
 VkPhysicalDeviceBlendOperationAdvancedFeatures:
 ===============================================
 	advancedBlendCoherentOperations = 1
+
+VkPhysicalDeviceMultiviewFeatures:
+==================================
+	multiview                   = 1
+	multiviewGeometryShader     = 1
+	multiviewTessellationShader = 1
 
 Format Properties:
 ==================
@@ -2242,6 +2278,7 @@ FORMAT_D16_UNORM:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
 		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
 		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
@@ -2259,6 +2296,7 @@ FORMAT_X8_D24_UNORM_PACK32:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
 		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
 		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
@@ -2276,6 +2314,7 @@ FORMAT_D32_SFLOAT:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
 		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
 		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
@@ -2292,6 +2331,7 @@ FORMAT_S8_UINT:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
 		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
@@ -2316,6 +2356,7 @@ FORMAT_D24_UNORM_S8_UINT:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
 		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
 		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
@@ -2333,6 +2374,7 @@ FORMAT_D32_SFLOAT_S8_UINT:
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
 		VK_FORMAT_FEATURE_DEPTH_STENCIL_ATTACHMENT_BIT
 		VK_FORMAT_FEATURE_BLIT_SRC_BIT
+		VK_FORMAT_FEATURE_BLIT_DST_BIT
 		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
 		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
 		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
