@@ -1,11 +1,9 @@
-===========
-VULKAN INFO
-===========
+==========
+VULKANINFO
+==========
 
-Vulkan Instance Version: 1.1.77
+Vulkan Instance Version: 1.1.85
 
-WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetInstanceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetInstanceProcAddr function for this layer.
-WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetDeviceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetDeviceProcAddr function for this layer.
 
 
 
@@ -45,7 +43,7 @@ VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.85, 
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.82, layer version 2
+VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.85, layer version 2
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -77,7 +75,7 @@ VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.85,
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.82, layer version 1
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.85, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -85,7 +83,7 @@ VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan versio
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.82, layer version 1
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.85, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -115,7 +113,7 @@ VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.82, layer version 1
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.85, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -136,7 +134,7 @@ VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.82, layer version 1
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.85, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -350,19 +348,19 @@ VkPhysicalDeviceProperties:
 		maxViewports                            = 16
 		maxViewportDimensions[0]                = 16384
 		maxViewportDimensions[1]                = 16384
-		viewportBoundsRange[0]                  =-32768.000000
-		viewportBoundsRange[1]                  = 32768.000000
+		viewportBoundsRange[0]                  = -32768.000000
+		viewportBoundsRange[1]                  =  32768.000000
 		viewportSubPixelBits                    = 8
 		minMemoryMapAlignment                   = 64
 		minTexelBufferOffsetAlignment           = 0x10
 		minUniformBufferOffsetAlignment         = 0x100
 		minStorageBufferOffsetAlignment         = 0x20
-		minTexelOffset                          = -8
-		maxTexelOffset                          =  7
-		minTexelGatherOffset                    =-32
-		maxTexelGatherOffset                    = 31
-		minInterpolationOffset                  =-0.500000
-		maxInterpolationOffset                  = 0.437500
+		minTexelOffset                          =  -8
+		maxTexelOffset                          =   7
+		minTexelGatherOffset                    = -32
+		maxTexelGatherOffset                    =  31
+		minInterpolationOffset                  = -0.500000
+		maxInterpolationOffset                  =  0.437500
 		subPixelInterpolationOffsetBits         = 4
 		maxFramebufferWidth                     = 16384
 		maxFramebufferHeight                    = 16384
@@ -428,6 +426,19 @@ VkPhysicalDeviceMultiviewProperties:
 =========================================
 	maxMultiviewViewCount     = 32
 	maxMultiviewInstanceIndex = 134217727
+
+VkPhysicalDeviceMaintenance3Properties:
+=======================================
+	maxPerSetDescriptors    = 4294967295
+	maxMemoryAllocationSize = 4292870144
+
+VkPhysicalDeviceIDProperties:
+=========================================
+	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
+	driverUUID      = c01cb37b-ac5f-1d9f-b796-a81fcd0352dd
+	deviceLUIDValid = true
+	deviceLUID      = c1d50000-00000000
+	deviceNodeMask  = 0x00000001
 
 Device Extensions	count = 45
 	VK_EXT_blend_operation_advanced     : extension revision  2
@@ -600,6 +611,12 @@ VkPhysicalDeviceFeatures:
 	sparseResidencyAliased                  = 0
 	variableMultisampleRate                 = 1
 	inheritedQueries                        = 1
+
+VkPhysicalDevice8BitStorageFeatures:
+=====================================
+	storageBuffer8BitAccess           = 1
+	uniformAndStorageBuffer8BitAccess = 1
+	storagePushConstant8              = 1
 
 VkPhysicalDevice16BitStorageFeatures:
 =====================================
@@ -3099,19 +3116,19 @@ VkPhysicalDeviceProperties:
 		maxViewports                            = 16
 		maxViewportDimensions[0]                = 32768
 		maxViewportDimensions[1]                = 32768
-		viewportBoundsRange[0]                  =-65536.000000
-		viewportBoundsRange[1]                  = 65535.000000
+		viewportBoundsRange[0]                  = -65536.000000
+		viewportBoundsRange[1]                  =  65535.000000
 		viewportSubPixelBits                    = 8
 		minMemoryMapAlignment                   = 64
 		minTexelBufferOffsetAlignment           = 0x10
 		minUniformBufferOffsetAlignment         = 0x20
 		minStorageBufferOffsetAlignment         = 0x10
-		minTexelOffset                          = -8
-		maxTexelOffset                          =  7
-		minTexelGatherOffset                    =-32
-		maxTexelGatherOffset                    = 31
-		minInterpolationOffset                  =-0.500000
-		maxInterpolationOffset                  = 0.437500
+		minTexelOffset                          =  -8
+		maxTexelOffset                          =   7
+		minTexelGatherOffset                    = -32
+		maxTexelGatherOffset                    =  31
+		minInterpolationOffset                  = -0.500000
+		maxInterpolationOffset                  =  0.437500
 		subPixelInterpolationOffsetBits         = 4
 		maxFramebufferWidth                     = 16384
 		maxFramebufferHeight                    = 16384
@@ -3164,6 +3181,19 @@ VkPhysicalDeviceMultiviewProperties:
 =========================================
 	maxMultiviewViewCount     = 16
 	maxMultiviewInstanceIndex = 268435454
+
+VkPhysicalDeviceMaintenance3Properties:
+=======================================
+	maxPerSetDescriptors    = 4120
+	maxMemoryAllocationSize = 7665623654
+
+VkPhysicalDeviceIDProperties:
+=========================================
+	deviceUUID      = 86801b19-0600-0000-0000-000000000000
+	driverUUID      = 32342e32-302e-3130-302e-363238360000
+	deviceLUIDValid = true
+	deviceLUID      = 00d10000-00000000
+	deviceNodeMask  = 0x00000001
 
 Device Extensions	count = 39
 	VK_EXT_conservative_rasterization   : extension revision  1
@@ -3292,6 +3322,12 @@ VkPhysicalDeviceFeatures:
 	sparseResidencyAliased                  = 1
 	variableMultisampleRate                 = 1
 	inheritedQueries                        = 1
+
+VkPhysicalDevice8BitStorageFeatures:
+=====================================
+	storageBuffer8BitAccess           = 1
+	uniformAndStorageBuffer8BitAccess = 1
+	storagePushConstant8              = 1
 
 VkPhysicalDevice16BitStorageFeatures:
 =====================================

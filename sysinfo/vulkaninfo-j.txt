@@ -1,10 +1,8 @@
-WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetInstanceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetInstanceProcAddr function for this layer.
-WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using deprecated 'vkGetDeviceProcAddr' tag which was deprecated starting with JSON file version 1.1.0.  Instead, use the new vkNegotiateLayerInterfaceVersion function to return the GetDeviceProcAddr function for this layer.
 {
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.77"
+		"vulkanApiVersion": "1.1.85"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
@@ -21,7 +19,7 @@ WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using depr
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 2,
 			"description": "LunarG debug layer"
 		},
@@ -39,13 +37,13 @@ WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using depr
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
 		},
@@ -63,7 +61,7 @@ WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using depr
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
@@ -75,7 +73,7 @@ WARNING: [Loader Message] Code 0 : Layer "VK_LAYER_RENDERDOC_Capture" using depr
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
 		},
