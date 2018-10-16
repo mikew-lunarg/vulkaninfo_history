@@ -19,13 +19,13 @@
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 2,
 			"description": "LunarG debug layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_assistant_layer",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer Factory Layer"
 		},
@@ -36,14 +36,20 @@
 			"description": "LunarG Validation Layer"
 		},
 		{
+			"layerName": "VK_LAYER_LUNARG_demo_layer",
+			"specVersion": 4198485,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer Factory Layer"
+		},
+		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
 		},
@@ -61,7 +67,7 @@
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
@@ -72,8 +78,14 @@
 			"description": "LunarG Standard Validation"
 		},
 		{
+			"layerName": "VK_LAYER_LUNARG_starter_layer",
+			"specVersion": 4198485,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer Factory Layer"
+		},
+		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4198482,
+			"specVersion": 4198485,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
 		}
