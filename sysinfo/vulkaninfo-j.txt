@@ -6,76 +6,10 @@
 	},
 	"ArrayOfVkLayerProperties": [
 		{
-			"layerName": "VK_LAYER_GOOGLE_threading",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "Google Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_GOOGLE_unique_objects",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "Google Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4198485,
-			"implementationVersion": 2,
-			"description": "LunarG debug layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_assistant_layer",
-			"specVersion": 4198482,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Factory Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_core_validation",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "LunarG device simulation layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "Execution Monitoring Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_object_tracker",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_parameter_validation",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "LunarG image capture layer"
-		},
-		{
 			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4198485,
+			"specVersion": 4194389,
 			"implementationVersion": 1,
-			"description": "LunarG Standard Validation"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4198485,
-			"implementationVersion": 1,
-			"description": "Vktrace tracing library"
+			"description": "LunarG Standard Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
