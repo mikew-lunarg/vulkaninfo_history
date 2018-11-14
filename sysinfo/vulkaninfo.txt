@@ -190,8 +190,8 @@ Device Properties and Extensions :
 GPU0
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x401052  (1.1.82)
-	driverVersion  = 1661829440 (0x630d8140)
+	apiVersion     = 0x401055  (1.1.85)
+	driverVersion  = 1661829696 (0x630d8240)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = DISCRETE_GPU
@@ -354,10 +354,10 @@ VkPhysicalDeviceMaintenance3Properties:
 VkPhysicalDeviceIDProperties:
 =========================================
 	deviceUUID      = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID      = 8776b2bd-c21f-d296-3163-894064205426
+	driverUUID      = e1af80e2-1022-862b-2a40-27ef338d028f
 	deviceLUIDValid = false
 
-Device Extensions	count = 57
+Device Extensions	count = 60
 	VK_EXT_blend_operation_advanced     : extension revision  2
 	VK_EXT_conditional_rendering        : extension revision  1
 	VK_EXT_conservative_rasterization   : extension revision  1
@@ -373,6 +373,7 @@ Device Extensions	count = 57
 	VK_EXT_shader_subgroup_ballot       : extension revision  1
 	VK_EXT_shader_subgroup_vote         : extension revision  1
 	VK_EXT_shader_viewport_index_layer  : extension revision  1
+	VK_EXT_transform_feedback           : extension revision  1
 	VK_EXT_vertex_attribute_divisor     : extension revision  3
 	VK_KHR_16bit_storage                : extension revision  1
 	VK_KHR_8bit_storage                 : extension revision  1
@@ -382,6 +383,7 @@ Device Extensions	count = 57
 	VK_KHR_descriptor_update_template   : extension revision  1
 	VK_KHR_device_group                 : extension revision  3
 	VK_KHR_draw_indirect_count          : extension revision  1
+	VK_KHR_driver_properties            : extension revision  1
 	VK_KHR_external_fence               : extension revision  1
 	VK_KHR_external_fence_fd            : extension revision  1
 	VK_KHR_external_memory              : extension revision  1
@@ -398,6 +400,7 @@ Device Extensions	count = 57
 	VK_KHR_relaxed_block_layout         : extension revision  1
 	VK_KHR_sampler_mirror_clamp_to_edge : extension revision  1
 	VK_KHR_sampler_ycbcr_conversion     : extension revision  1
+	VK_KHR_shader_atomic_int64          : extension revision  1
 	VK_KHR_shader_draw_parameters       : extension revision  1
 	VK_KHR_storage_buffer_storage_class : extension revision  1
 	VK_KHR_swapchain                    : extension revision 70
