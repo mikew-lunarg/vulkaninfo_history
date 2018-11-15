@@ -2,7 +2,7 @@
 VULKANINFO
 ==========
 
-Vulkan Instance Version: 1.1.85
+Vulkan Instance Version: 1.1.92
 
 
 
@@ -27,26 +27,26 @@ Instance Extensions	count = 16
 	VK_KHR_xlib_surface                 : extension revision  6
 Layers: count = 14
 =======
-VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.85, layer version 2
+VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.92, layer version 2
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -54,7 +54,7 @@ VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan v
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -63,7 +63,7 @@ VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.85,
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_demo_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_demo_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -71,19 +71,19 @@ VK_LAYER_LUNARG_demo_layer (LunarG Validation Layer Factory Layer) Vulkan versio
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -91,7 +91,7 @@ VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.85, 
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -99,13 +99,13 @@ VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -114,7 +114,7 @@ VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_starter_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_starter_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -122,7 +122,7 @@ VK_LAYER_LUNARG_starter_layer (LunarG Validation Layer Factory Layer) Vulkan ver
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.85, layer version 1
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
@@ -139,9 +139,7 @@ Present Modes:		count = 3
 	FIFO_KHR
 	FIFO_RELAXED_KHR
 	IMMEDIATE_KHR
-
 VkSurfaceCapabilitiesKHR:
-=========================
 	minImageCount       = 2
 	maxImageCount       = 8
 	currentExtent:
@@ -167,11 +165,50 @@ VkSurfaceCapabilitiesKHR:
 		VK_IMAGE_USAGE_STORAGE_BIT
 		VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT
 		VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT
-
 VkSurfaceCapabilities2EXT:
-==========================
 	supportedSurfaceCounters:
 		None
+
+
+GPU id       : 0 (GeForce GTX 950)
+Surface type : VK_KHR_xlib_surface
+Formats:		count = 2
+	B8G8R8A8_UNORM
+	B8G8R8A8_SRGB
+Present Modes:		count = 3
+	FIFO_KHR
+	FIFO_RELAXED_KHR
+	IMMEDIATE_KHR
+VkSurfaceCapabilitiesKHR:
+	minImageCount       = 2
+	maxImageCount       = 8
+	currentExtent:
+		width       = 256
+		height      = 256
+	minImageExtent:
+		width       = 256
+		height      = 256
+	maxImageExtent:
+		width       = 256
+		height      = 256
+	maxImageArrayLayers = 1
+	supportedTransform:
+		VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+	currentTransform:
+		VK_SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+	supportedCompositeAlpha:
+		VK_COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+	supportedUsageFlags:
+		VK_IMAGE_USAGE_TRANSFER_SRC_BIT
+		VK_IMAGE_USAGE_TRANSFER_DST_BIT
+		VK_IMAGE_USAGE_SAMPLED_BIT
+		VK_IMAGE_USAGE_STORAGE_BIT
+		VK_IMAGE_USAGE_COLOR_ATTACHMENT_BIT
+		VK_IMAGE_USAGE_INPUT_ATTACHMENT_BIT
+VkSurfaceCapabilities2EXT:
+	supportedSurfaceCounters:
+		None
+
 
 
 Groups :
