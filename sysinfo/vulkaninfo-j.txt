@@ -2,18 +2,84 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.85"
+		"vulkanApiVersion": "1.1.92"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
-			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4194389,
+			"layerName": "VK_LAYER_GOOGLE_threading",
+			"specVersion": 4198492,
 			"implementationVersion": 1,
-			"description": "LunarG Standard Validation Layer"
+			"description": "Google Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_GOOGLE_unique_objects",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "Google Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_api_dump",
+			"specVersion": 4198492,
+			"implementationVersion": 2,
+			"description": "LunarG debug layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_assistant_layer",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Factory Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_core_validation",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_device_simulation",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "LunarG device simulation layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_monitor",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "Execution Monitoring Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_object_tracker",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_parameter_validation",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_screenshot",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "LunarG image capture layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_standard_validation",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "LunarG Standard Validation"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_vktrace",
+			"specVersion": 4198492,
+			"implementationVersion": 1,
+			"description": "Vktrace tracing library"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4198482,
+			"specVersion": 4198484,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
 		},
@@ -25,29 +91,29 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198482,
-		"driverVersion": 1724891136,
+		"apiVersion": 4198484,
+		"driverVersion": 1745387520,
 		"vendorID": 4318,
 		"deviceID": 5019,
 		"deviceType": 2,
 		"deviceName": "GeForce GTX 960M",
 		"pipelineCacheUUID": [
-			241,
-			40,
-			38,
-			164,
-			249,
-			18,
-			83,
-			218,
-			192,
-			28,
-			179,
-			123,
-			172,
-			95,
-			29,
-			159
+			145,
+			46,
+			174,
+			151,
+			186,
+			122,
+			24,
+			6,
+			47,
+			144,
+			239,
+			11,
+			57,
+			94,
+			208,
+			19
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -63,7 +129,7 @@
 			"maxSamplerAllocationCount": 4000,
 			"bufferImageGranularity": 65536,
 			"sparseAddressSpaceSize": 18446744073709551615,
-			"maxBoundDescriptorSets": 8,
+			"maxBoundDescriptorSets": 32,
 			"maxPerStageDescriptorSamplers": 1048576,
 			"maxPerStageDescriptorUniformBuffers": 15,
 			"maxPerStageDescriptorStorageBuffers": 1048576,
@@ -1046,31 +1112,31 @@
 		{
 			"formatID": 124,
 			"linearTilingFeatures": 54273,
-			"optimalTilingFeatures": 54785,
+			"optimalTilingFeatures": 56833,
 			"bufferFeatures": 0
 		},
 		{
 			"formatID": 125,
 			"linearTilingFeatures": 54273,
-			"optimalTilingFeatures": 54785,
+			"optimalTilingFeatures": 56833,
 			"bufferFeatures": 0
 		},
 		{
 			"formatID": 126,
 			"linearTilingFeatures": 54273,
-			"optimalTilingFeatures": 54785,
+			"optimalTilingFeatures": 56833,
 			"bufferFeatures": 0
 		},
 		{
 			"formatID": 129,
 			"linearTilingFeatures": 54273,
-			"optimalTilingFeatures": 54785,
+			"optimalTilingFeatures": 56833,
 			"bufferFeatures": 0
 		},
 		{
 			"formatID": 130,
 			"linearTilingFeatures": 54273,
-			"optimalTilingFeatures": 54785,
+			"optimalTilingFeatures": 56833,
 			"bufferFeatures": 0
 		},
 		{
