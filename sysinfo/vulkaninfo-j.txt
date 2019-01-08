@@ -91,29 +91,29 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198485,
-		"driverVersion": 1661829696,
+		"apiVersion": 4198484,
+		"driverVersion": 1741045760,
 		"vendorID": 4318,
 		"deviceID": 5122,
 		"deviceType": 2,
 		"deviceName": "GeForce GTX 950",
 		"pipelineCacheUUID": [
-			83,
-			166,
-			166,
-			24,
-			61,
-			87,
 			195,
-			150,
-			225,
-			175,
-			128,
-			226,
-			16,
-			34,
-			134,
-			43
+			214,
+			149,
+			65,
+			249,
+			197,
+			1,
+			73,
+			71,
+			189,
+			39,
+			135,
+			52,
+			91,
+			33,
+			232
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -281,7 +281,7 @@
 			},
 			{
 				"flags": 0,
-				"size": 12566028288
+				"size": 12566025216
 			}
 		],
 		"memoryTypes": [

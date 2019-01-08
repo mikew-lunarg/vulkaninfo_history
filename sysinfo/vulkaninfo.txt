@@ -225,8 +225,8 @@ Device Properties and Extensions :
 GPU0
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x401055  (1.1.85)
-	driverVersion  = 1661829696 (0x630d8240)
+	apiVersion     = 0x401054  (1.1.84)
+	driverVersion  = 1741045760 (0x67c64000)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = DISCRETE_GPU
@@ -389,7 +389,7 @@ VkPhysicalDeviceMaintenance3Properties:
 VkPhysicalDeviceIDProperties:
 =========================================
 	deviceUUID      = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID      = e1af80e2-1022-862b-2a40-27ef338d028f
+	driverUUID      = 47bd2787-345b-21e8-c587-781c1f2be119
 	deviceLUIDValid = false
 
 Device Extensions	count = 60
@@ -476,7 +476,7 @@ VkPhysicalDeviceMemoryProperties:
 		flags:
 			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1] :
-		size          = 12566028288 (0x2ecfe6000) (11.70 GiB)
+		size          = 12566025216 (0x2ecfe5400) (11.70 GiB)
 		flags:
 			None
 	memoryTypeCount       = 11
