@@ -154,7 +154,7 @@ GPU0
 VkPhysicalDeviceProperties:
 ===========================
 	apiVersion     = 0x401054  (1.1.84)
-	driverVersion  = 1745387520 (0x68088000)
+	driverVersion  = 1750188032 (0x6851c000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = DISCRETE_GPU
@@ -317,12 +317,12 @@ VkPhysicalDeviceMaintenance3Properties:
 VkPhysicalDeviceIDProperties:
 =========================================
 	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
-	driverUUID      = 2f90ef0b-395e-d013-0efb-a764c768918f
+	driverUUID      = d26b38a8-15d3-9517-2883-6a118b8fdc21
 	deviceLUIDValid = true
-	deviceLUID      = 09b20000-00000000
+	deviceLUID      = 13d00000-00000000
 	deviceNodeMask  = 0x00000001
 
-Device Extensions	count = 50
+Device Extensions	count = 51
 	VK_EXT_blend_operation_advanced     : extension revision  2
 	VK_EXT_conditional_rendering        : extension revision  1
 	VK_EXT_depth_range_unrestricted     : extension revision  1
@@ -332,6 +332,7 @@ Device Extensions	count = 50
 	VK_EXT_inline_uniform_block         : extension revision  1
 	VK_EXT_shader_subgroup_ballot       : extension revision  1
 	VK_EXT_shader_subgroup_vote         : extension revision  1
+	VK_EXT_transform_feedback           : extension revision  1
 	VK_EXT_vertex_attribute_divisor     : extension revision  3
 	VK_KHR_16bit_storage                : extension revision  1
 	VK_KHR_8bit_storage                 : extension revision  1
@@ -3057,8 +3058,8 @@ VkPhysicalDeviceProperties:
 
 VkPhysicalDeviceMaintenance3Properties:
 =======================================
-	maxPerSetDescriptors    = 64
-	maxMemoryAllocationSize = 2250547343024
+	maxPerSetDescriptors    = 1295444328
+	maxMemoryAllocationSize = 1730474256640819647
 
 VkPhysicalDeviceIDProperties:
 =========================================
