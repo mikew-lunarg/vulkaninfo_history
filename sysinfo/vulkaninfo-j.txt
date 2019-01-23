@@ -2,7 +2,7 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.92"
+		"vulkanApiVersion": "1.1.97"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
@@ -12,46 +12,58 @@
 			"description": "Google Validation Layer"
 		},
 		{
+			"layerName": "VK_LAYER_GOOGLE_threading",
+			"specVersion": 4198497,
+			"implementationVersion": 1,
+			"description": "Google Validation Layer"
+		},
+		{
 			"layerName": "VK_LAYER_GOOGLE_unique_objects",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "Google Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 2,
 			"description": "LunarG debug layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_assistant_layer",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer Factory Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_core_validation",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_demo_layer",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer Factory Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_object_tracker",
+			"specVersion": 4198497,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_object_tracker",
@@ -66,28 +78,40 @@
 			"description": "LunarG Validation Layer"
 		},
 		{
+			"layerName": "VK_LAYER_LUNARG_parameter_validation",
+			"specVersion": 4198497,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "LunarG Standard Validation"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_starter_layer",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "LunarG Validation Layer Factory Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4198492,
+			"specVersion": 4198497,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
+		},
+		{
+			"layerName": "VK_LAYER_RENDERDOC_Capture",
+			"specVersion": 4198473,
+			"implementationVersion": 2,
+			"description": "Debugging capture layer for RenderDoc"
 		}
 	],
 	"VkPhysicalDeviceProperties": {
@@ -1239,6 +1263,210 @@
 			"formatID": 146,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 119809,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156000,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156001,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156002,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156003,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156004,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156005,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156006,
+			"linearTilingFeatures": 5230593,
+			"optimalTilingFeatures": 5230593,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156007,
+			"linearTilingFeatures": 1036289,
+			"optimalTilingFeatures": 1036289,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156008,
+			"linearTilingFeatures": 1036289,
+			"optimalTilingFeatures": 1036289,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156009,
+			"linearTilingFeatures": 1036289,
+			"optimalTilingFeatures": 1036289,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156010,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156011,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156012,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156013,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156014,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156015,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156016,
+			"linearTilingFeatures": 5230593,
+			"optimalTilingFeatures": 5230593,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156017,
+			"linearTilingFeatures": 1036289,
+			"optimalTilingFeatures": 1036289,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156018,
+			"linearTilingFeatures": 1036289,
+			"optimalTilingFeatures": 1036289,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156019,
+			"linearTilingFeatures": 1036289,
+			"optimalTilingFeatures": 1036289,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156020,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156021,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156022,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156023,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156024,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156025,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156026,
+			"linearTilingFeatures": 5230593,
+			"optimalTilingFeatures": 5230593,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156027,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156028,
+			"linearTilingFeatures": 9424897,
+			"optimalTilingFeatures": 9424897,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156029,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156030,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156031,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156032,
+			"linearTilingFeatures": 13619201,
+			"optimalTilingFeatures": 13619201,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156033,
+			"linearTilingFeatures": 5230593,
+			"optimalTilingFeatures": 5230593,
 			"bufferFeatures": 0
 		}
 	]

@@ -2,7 +2,7 @@
 VULKANINFO
 ==========
 
-Vulkan Instance Version: 1.1.92
+Vulkan Instance Version: 1.1.97
 
 
 
@@ -25,7 +25,7 @@ Instance Extensions	count = 16
 	VK_KHR_surface                      : extension revision 25
 	VK_KHR_xcb_surface                  : extension revision  6
 	VK_KHR_xlib_surface                 : extension revision  6
-Layers: count = 14
+Layers: count = 18
 =======
 VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
@@ -34,19 +34,26 @@ VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.92, layer
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_GOOGLE_threading (Google Validation Layer) Vulkan version 1.1.97, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 1
+		GPU id       : 0 (GeForce GTX 950)
+		Layer-Device Extensions	count = 0
+
+VK_LAYER_GOOGLE_unique_objects (Google Validation Layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.92, layer version 2
+VK_LAYER_LUNARG_api_dump (LunarG debug layer) Vulkan version 1.1.97, layer version 2
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -54,7 +61,7 @@ VK_LAYER_LUNARG_assistant_layer (LunarG Validation Layer Factory Layer) Vulkan v
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -63,7 +70,7 @@ VK_LAYER_LUNARG_core_validation (LunarG Validation Layer) Vulkan version 1.1.92,
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_demo_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_demo_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -71,17 +78,25 @@ VK_LAYER_LUNARG_demo_layer (LunarG Validation Layer Factory Layer) Vulkan versio
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
+
+VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.97, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 1
+		GPU id       : 0 (GeForce GTX 950)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  4
 
 VK_LAYER_LUNARG_object_tracker (LunarG Validation Layer) Vulkan version 1.1.92, layer version 1
 	Layer Extensions	count = 1
@@ -99,13 +114,21 @@ VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_parameter_validation (LunarG Validation Layer) Vulkan version 1.1.97, layer version 1
+	Layer Extensions	count = 1
+		VK_EXT_debug_report                 : extension revision  6
+	Devices 	count = 1
+		GPU id       : 0 (GeForce GTX 950)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  4
+
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -114,7 +137,7 @@ VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 
 			VK_EXT_debug_marker                 : extension revision  4
 			VK_EXT_validation_cache             : extension revision  1
 
-VK_LAYER_LUNARG_starter_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_starter_layer (LunarG Validation Layer Factory Layer) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 1
 		VK_EXT_debug_report                 : extension revision  6
 	Devices 	count = 1
@@ -122,11 +145,19 @@ VK_LAYER_LUNARG_starter_layer (LunarG Validation Layer Factory Layer) Vulkan ver
 		Layer-Device Extensions	count = 1
 			VK_EXT_debug_marker                 : extension revision  4
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.92, layer version 1
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.97, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 1
 		GPU id       : 0 (GeForce GTX 950)
 		Layer-Device Extensions	count = 0
+
+VK_LAYER_RENDERDOC_Capture (Debugging capture layer for RenderDoc) Vulkan version 1.1.73, layer version 2
+	Layer Extensions	count = 1
+		VK_EXT_debug_utils                  : extension revision  1
+	Devices 	count = 1
+		GPU id       : 0 (GeForce GTX 950)
+		Layer-Device Extensions	count = 1
+			VK_EXT_debug_marker                 : extension revision  3
 
 Presentable Surfaces:
 =====================
@@ -373,11 +404,11 @@ VkPhysicalDevicePushDescriptorProperties:
 	maxPushDescriptors               = 32
 
 VkPhysicalDeviceDiscardRectangleProperties:
-=========================================
+===========================================
 	maxDiscardRectangles               = 8
 
 VkPhysicalDeviceMultiviewProperties:
-=========================================
+====================================
 	maxMultiviewViewCount     = 32
 	maxMultiviewInstanceIndex = 134217727
 
@@ -391,6 +422,30 @@ VkPhysicalDeviceIDProperties:
 	deviceUUID      = 0215b411-453b-f8c7-9aa3-6027c535ae2a
 	driverUUID      = 47bd2787-345b-21e8-c587-781c1f2be119
 	deviceLUIDValid = false
+
+VkPhysicalDeviceDriverProperties:
+=================================
+	driverID   = 4
+	driverName = NVIDIA
+	driverInfo = 415.25
+	conformanceVersion:
+		major    = 1
+		minor    = 1
+		subminor = 2
+		patch    = 0
+
+VkPhysicalDeviceTransformFeedbackProperties
+===========================================
+	maxTransformFeedbackStreams                = 4
+	maxTransformFeedbackBuffers                = 4
+	maxTransformFeedbackBufferSize             = 18446744073709551615
+	maxTransformFeedbackStreamDataSize         = 2048
+	maxTransformFeedbackBufferDataSize         = 512
+	maxTransformFeedbackBufferDataStride       = 2048
+	transformFeedbackQueries                   = 1
+	transformFeedbackStreamsLinesTriangles     = 0
+	transformFeedbackRasterizationStreamSelect = 1
+	transformFeedbackDraw                      = 1
 
 Device Extensions	count = 60
 	VK_EXT_blend_operation_advanced     : extension revision  2
@@ -610,6 +665,16 @@ VkPhysicalDeviceMultiviewFeatures:
 	multiview                   = 1
 	multiviewGeometryShader     = 1
 	multiviewTessellationShader = 1
+
+VkPhysicalDeviceShaderAtomicInt64Features:
+==========================================
+	shaderBufferInt64Atomics = 1
+	shaderSharedInt64Atomics = 1
+
+VkPhysicalDeviceTransformFeedbackFeatures:
+==========================================
+	transformFeedback = 1
+	geometryStreams   = 1
 
 Format Properties:
 ==================
@@ -3009,6 +3074,482 @@ FORMAT_ASTC_12x12_SRGB_BLOCK:
 		None
 	optimalTiling  FormatFeatureFlags:
 		None
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G8B8G8R8_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B8G8R8G8_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G8_B8_R8_3PLANE_420_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G8_B8R8_2PLANE_420_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G8_B8_R8_3PLANE_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G8_B8R8_2PLANE_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G8_B8_R8_3PLANE_444_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R10X6_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R10X6G10X6_UNORM_2PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R10X6G10X6B10X6A10X6_UNORM_4PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G10X6B10X6G10X6R10X6_422_UNORM_4PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B10X6G10X6R10X6G10X6_422_UNORM_4PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G10X6_B10X6_R10X6_3PLANE_420_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G10X6_B10X6R10X6_2PLANE_420_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G10X6_B10X6_R10X6_3PLANE_422_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G10X6_B10X6R10X6_2PLANE_422_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G10X6_B10X6_R10X6_3PLANE_444_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R12X4_UNORM_PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R12X4G12X4_UNORM_2PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_R12X4G12X4B12X4A12X4_UNORM_4PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G12X4B12X4G12X4R12X4_422_UNORM_4PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B12X4G12X4R12X4G12X4_422_UNORM_4PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G12X4_B12X4_R12X4_3PLANE_420_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G12X4_B12X4R12X4_2PLANE_420_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G12X4_B12X4_R12X4_3PLANE_422_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G12X4_B12X4R12X4_2PLANE_422_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G12X4_B12X4_R12X4_3PLANE_444_UNORM_3PACK16:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G16B16G16R16_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_B16G16R16G16_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G16_B16_R16_3PLANE_420_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G16_B16R16_2PLANE_420_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G16_B16_R16_3PLANE_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G16_B16R16_2PLANE_422_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	bufferFeatures FormatFeatureFlags:
+		None
+
+FORMAT_G16_B16_R16_3PLANE_444_UNORM:
+	linearTiling   FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
+	optimalTiling  FormatFeatureFlags:
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_BIT
+		VK_FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT
+		VK_FORMAT_FEATURE_TRANSFER_SRC_BIT_KHR
+		VK_FORMAT_FEATURE_TRANSFER_DST_BIT_KHR
 	bufferFeatures FormatFeatureFlags:
 		None
 
