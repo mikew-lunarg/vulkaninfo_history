@@ -8,7 +8,7 @@ Vulkan Instance Version: 1.1.97
 
 Instance Extensions:
 ====================
-Instance Extensions	count = 16
+Instance Extensions	count = 17
 	VK_EXT_acquire_xlib_display         : extension revision  1
 	VK_EXT_debug_report                 : extension revision  9
 	VK_EXT_debug_utils                  : extension revision  1
@@ -23,6 +23,7 @@ Instance Extensions	count = 16
 	VK_KHR_get_physical_device_properties2: extension revision  1
 	VK_KHR_get_surface_capabilities2    : extension revision  1
 	VK_KHR_surface                      : extension revision 25
+	VK_KHR_wayland_surface              : extension revision  6
 	VK_KHR_xcb_surface                  : extension revision  6
 	VK_KHR_xlib_surface                 : extension revision  6
 Layers: count = 18
