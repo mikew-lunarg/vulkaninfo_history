@@ -2,7 +2,7 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.82"
+		"vulkanApiVersion": "1.1.97"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
@@ -86,7 +86,7 @@
 		{
 			"layerName": "VK_LAYER_RENDERDOC_Capture",
 			"specVersion": 4198473,
-			"implementationVersion": 1,
+			"implementationVersion": 2,
 			"description": "Debugging capture layer for RenderDoc"
 		}
 	],
@@ -1233,6 +1233,210 @@
 			"formatID": 146,
 			"linearTilingFeatures": 54273,
 			"optimalTilingFeatures": 54273,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156000,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156001,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156002,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156003,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156004,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156005,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156006,
+			"linearTilingFeatures": 5165057,
+			"optimalTilingFeatures": 5165057,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156007,
+			"linearTilingFeatures": 970753,
+			"optimalTilingFeatures": 970753,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156008,
+			"linearTilingFeatures": 970753,
+			"optimalTilingFeatures": 970753,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156009,
+			"linearTilingFeatures": 970753,
+			"optimalTilingFeatures": 970753,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156010,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156011,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156012,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156013,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156014,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156015,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156016,
+			"linearTilingFeatures": 5165057,
+			"optimalTilingFeatures": 5165057,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156017,
+			"linearTilingFeatures": 970753,
+			"optimalTilingFeatures": 970753,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156018,
+			"linearTilingFeatures": 970753,
+			"optimalTilingFeatures": 970753,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156019,
+			"linearTilingFeatures": 970753,
+			"optimalTilingFeatures": 970753,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156020,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156021,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156022,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156023,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156024,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156025,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156026,
+			"linearTilingFeatures": 5165057,
+			"optimalTilingFeatures": 5165057,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156027,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156028,
+			"linearTilingFeatures": 9359361,
+			"optimalTilingFeatures": 9359361,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156029,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156030,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156031,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156032,
+			"linearTilingFeatures": 13553665,
+			"optimalTilingFeatures": 13553665,
+			"bufferFeatures": 0
+		},
+		{
+			"formatID": 1000156033,
+			"linearTilingFeatures": 5165057,
+			"optimalTilingFeatures": 5165057,
 			"bufferFeatures": 0
 		}
 	]
