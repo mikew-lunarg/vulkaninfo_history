@@ -425,7 +425,7 @@ VkPhysicalDeviceIDProperties:
 	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
 	driverUUID      = d26b38a8-15d3-9517-2883-6a118b8fdc21
 	deviceLUIDValid = true
-	deviceLUID      = a1d10000-00000000
+	deviceLUID      = 0fd20000-00000000
 	deviceNodeMask  = 0x00000001
 
 VkPhysicalDeviceDriverProperties:
