@@ -97,8 +97,8 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198484,
-		"driverVersion": 1741045760,
+		"apiVersion": 4198495,
+		"driverVersion": 1753923584,
 		"vendorID": 4318,
 		"deviceID": 5122,
 		"deviceType": 2,
@@ -112,14 +112,14 @@
 			197,
 			1,
 			73,
-			71,
-			189,
-			39,
-			135,
-			52,
-			91,
-			33,
-			232
+			150,
+			9,
+			104,
+			178,
+			46,
+			105,
+			86,
+			11
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -289,7 +289,7 @@
 			},
 			{
 				"flags": 0,
-				"size": 12565985280
+				"size": 12565979136
 			}
 		],
 		"memoryTypes": [
