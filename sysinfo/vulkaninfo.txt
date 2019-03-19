@@ -141,7 +141,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.101, layer 
 		GPU id       : 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions	count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.84, layer version 1
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.95, layer version 1
 	Layer Extensions	count = 0
 	Devices 	count = 2
 		GPU id       : 0 (GeForce GTX 960M)
@@ -269,8 +269,8 @@ Device Properties and Extensions :
 GPU0
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x401054  (1.1.84)
-	driverVersion  = 1750188032 (0x6851c000)
+	apiVersion     = 0x40105f  (1.1.95)
+	driverVersion  = 1757986816 (0x68c8c000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = DISCRETE_GPU
@@ -433,21 +433,41 @@ VkPhysicalDeviceMaintenance3Properties:
 VkPhysicalDeviceIDProperties:
 =========================================
 	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
-	driverUUID      = d26b38a8-15d3-9517-2883-6a118b8fdc21
+	driverUUID      = 52dc6763-773f-499e-79bf-c9cccc91812b
 	deviceLUIDValid = true
-	deviceLUID      = faf50000-00000000
+	deviceLUID      = bf210100-00000000
 	deviceNodeMask  = 0x00000001
 
 VkPhysicalDeviceDriverProperties:
 =================================
 	driverID   = 4
 	driverName = NVIDIA
-	driverInfo = 417.71
+	driverInfo = 419.35
 	conformanceVersion:
 		major    = 1
 		minor    = 1
 		subminor = 2
-		patch    = 0
+		patch    = 3
+
+VkPhysicalDeviceFloatControlsProperties:
+========================================
+	separateDenormSettings       = 1
+	separateRoundingModeSettings = 1
+	shaderSignedZeroInfNanPreserveFloat16 = 1
+	shaderSignedZeroInfNanPreserveFloat32 = 1
+	shaderSignedZeroInfNanPreserveFloat64 = 1
+	shaderDenormPreserveFloat16          = 0
+	shaderDenormPreserveFloat32           = 0
+	shaderDenormPreserveFloat64           = 0
+	shaderDenormFlushToZeroFloat16        = 0
+	shaderDenormFlushToZeroFloat32        = 0
+	shaderDenormFlushToZeroFloat64        = 0
+	shaderRoundingModeRTEFloat16          = 1
+	shaderRoundingModeRTEFloat32          = 1
+	shaderRoundingModeRTEFloat64         = 1
+	shaderRoundingModeRTZFloat16          = 0
+	shaderRoundingModeRTZFloat32          = 1
+	shaderRoundingModeRTZFloat64          = 1
 
 VkPhysicalDeviceTransformFeedbackProperties
 ===========================================
@@ -462,14 +482,16 @@ VkPhysicalDeviceTransformFeedbackProperties
 	transformFeedbackRasterizationStreamSelect = 1
 	transformFeedbackDraw                      = 1
 
-Device Extensions	count = 51
+Device Extensions	count = 57
 	VK_EXT_blend_operation_advanced     : extension revision  2
 	VK_EXT_conditional_rendering        : extension revision  1
 	VK_EXT_depth_range_unrestricted     : extension revision  1
 	VK_EXT_descriptor_indexing          : extension revision  2
 	VK_EXT_discard_rectangles           : extension revision  1
+	VK_EXT_external_memory_host         : extension revision  1
 	VK_EXT_hdr_metadata                 : extension revision  1
 	VK_EXT_inline_uniform_block         : extension revision  1
+	VK_EXT_scalar_block_layout          : extension revision  1
 	VK_EXT_shader_subgroup_ballot       : extension revision  1
 	VK_EXT_shader_subgroup_vote         : extension revision  1
 	VK_EXT_transform_feedback           : extension revision  1
@@ -479,6 +501,7 @@ Device Extensions	count = 51
 	VK_KHR_bind_memory2                 : extension revision  1
 	VK_KHR_create_renderpass2           : extension revision  1
 	VK_KHR_dedicated_allocation         : extension revision  3
+	VK_KHR_depth_stencil_resolve        : extension revision  1
 	VK_KHR_descriptor_update_template   : extension revision  1
 	VK_KHR_device_group                 : extension revision  3
 	VK_KHR_draw_indirect_count          : extension revision  1
@@ -501,8 +524,11 @@ Device Extensions	count = 51
 	VK_KHR_sampler_ycbcr_conversion     : extension revision  1
 	VK_KHR_shader_atomic_int64          : extension revision  1
 	VK_KHR_shader_draw_parameters       : extension revision  1
+	VK_KHR_shader_float16_int8          : extension revision  1
+	VK_KHR_shader_float_controls        : extension revision  1
 	VK_KHR_storage_buffer_storage_class : extension revision  1
 	VK_KHR_swapchain                    : extension revision 70
+	VK_KHR_swapchain_mutable_format     : extension revision  1
 	VK_KHR_variable_pointers            : extension revision  1
 	VK_KHR_vulkan_memory_model          : extension revision  2
 	VK_KHR_win32_keyed_mutex            : extension revision  1
@@ -537,7 +563,7 @@ VkPhysicalDeviceMemoryProperties:
 		flags:
 			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1] :
-		size          = 17034117120 (0x3f7500000) (15.86 GiB)
+		size          = 8517357568 (0x1fbac9000) (7.93 GiB)
 		flags:
 			None
 	memoryTypeCount       = 11
@@ -672,6 +698,11 @@ VkPhysicalDeviceMultiviewFeatures:
 	multiviewGeometryShader     = 1
 	multiviewTessellationShader = 1
 
+VkPhysicalDeviceFloat16Int8Features:
+====================================
+	shaderFloat16 = 0
+	shaderInt8    = 1
+
 VkPhysicalDeviceShaderAtomicInt64Features:
 ==========================================
 	shaderBufferInt64Atomics = 1
@@ -681,6 +712,10 @@ VkPhysicalDeviceTransformFeedbackFeatures:
 ==========================================
 	transformFeedback = 1
 	geometryStreams   = 1
+
+VkPhysicalDeviceScalarBlockLayoutFeatures:
+==========================================
+	scalarBlockLayout = 1
 
 Format Properties:
 ==================
@@ -1394,7 +1429,7 @@ VkPhysicalDeviceIDProperties:
 	deviceUUID      = 86801b19-0600-0000-0000-000000000000
 	driverUUID      = 32332e32-302e-3136-2e34-393733000000
 	deviceLUIDValid = true
-	deviceLUID      = 45f00000-00000000
+	deviceLUID      = fe1c0100-00000000
 	deviceNodeMask  = 0x00000001
 
 Device Extensions	count = 30
