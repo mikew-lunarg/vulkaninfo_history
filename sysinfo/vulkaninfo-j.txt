@@ -266,8 +266,7 @@
 			},
 			"queueCount": 16,
 			"queueFlags": 15,
-			"timestampValidBits": 64,
-			"present_support": "true"
+			"timestampValidBits": 64
 		},
 		{
 			"minImageTransferGranularity": {
@@ -277,8 +276,7 @@
 			},
 			"queueCount": 1,
 			"queueFlags": 4,
-			"timestampValidBits": 64,
-			"present_support": "false"
+			"timestampValidBits": 64
 		}
 	],
 	"VkPhysicalDeviceMemoryProperties": {
@@ -289,7 +287,7 @@
 			},
 			{
 				"flags": 0,
-				"size": 12565979136
+				"size": 12566003712
 			}
 		],
 		"memoryTypes": [
