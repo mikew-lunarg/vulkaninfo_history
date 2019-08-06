@@ -2,14 +2,86 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.97"
+		"vulkanApiVersion": "1.1.114"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
-			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4194401,
+			"layerName": "VK_LAYER_GOOGLE_threading",
+			"specVersion": 4198514,
 			"implementationVersion": 1,
-			"description": "LunarG Standard Validation Layer"
+			"description": "Google Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_GOOGLE_unique_objects",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "Google Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_KHRONOS_validation",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_api_dump",
+			"specVersion": 4198514,
+			"implementationVersion": 2,
+			"description": "LunarG API dump layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_assistant_layer",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer Factory Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_core_validation",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_device_simulation",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG device simulation layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_monitor",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "Execution Monitoring Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_object_tracker",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_parameter_validation",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_screenshot",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG image capture layer"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_standard_validation",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "LunarG Standard Validation"
+		},
+		{
+			"layerName": "VK_LAYER_LUNARG_vktrace",
+			"specVersion": 4198514,
+			"implementationVersion": 1,
+			"description": "Vktrace tracing library"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
@@ -215,7 +287,7 @@
 			},
 			{
 				"flags": 0,
-				"size": 8517357568
+				"size": 8517349376
 			}
 		],
 		"memoryTypes": [
