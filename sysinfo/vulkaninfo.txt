@@ -283,7 +283,7 @@ GPU0
 VkPhysicalDeviceProperties:
 ===========================
 	apiVersion     = 0x40105f  (1.1.95)
-	driverVersion  = 1758593024 (0x68d20000)
+	driverVersion  = 1783316480 (0x6a4b4000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = DISCRETE_GPU
@@ -446,16 +446,16 @@ VkPhysicalDeviceMaintenance3Properties:
 VkPhysicalDeviceIDProperties:
 =========================================
 	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
-	driverUUID      = f13d64d1-35dc-5b49-1478-f693b47f5d47
+	driverUUID      = a4abd40e-264e-803e-05c0-07f26dc3fb48
 	deviceLUIDValid = true
-	deviceLUID      = 804a0100-00000000
+	deviceLUID      = 79430100-00000000
 	deviceNodeMask  = 0x00000001
 
 VkPhysicalDeviceDriverProperties:
 =================================
 	driverID   = 4
 	driverName = NVIDIA
-	driverInfo = 419.72
+	driverInfo = 425.45
 	conformanceVersion:
 		major    = 1
 		minor    = 1
@@ -1536,7 +1536,7 @@ VkPhysicalDeviceIDProperties:
 	deviceUUID      = 86801b19-0600-0000-0000-000000000000
 	driverUUID      = 32332e32-302e-3136-2e34-393733000000
 	deviceLUIDValid = true
-	deviceLUID      = e8450100-00000000
+	deviceLUID      = de3e0100-00000000
 	deviceNodeMask  = 0x00000001
 
 Device Extensions	count = 30
