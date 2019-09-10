@@ -448,7 +448,7 @@ VkPhysicalDeviceIDProperties:
 	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
 	driverUUID      = a4abd40e-264e-803e-05c0-07f26dc3fb48
 	deviceLUIDValid = true
-	deviceLUID      = 79430100-00000000
+	deviceLUID      = 98f10000-00000000
 	deviceNodeMask  = 0x00000001
 
 VkPhysicalDeviceDriverProperties:
@@ -1536,7 +1536,7 @@ VkPhysicalDeviceIDProperties:
 	deviceUUID      = 86801b19-0600-0000-0000-000000000000
 	driverUUID      = 32332e32-302e-3136-2e34-393733000000
 	deviceLUIDValid = true
-	deviceLUID      = de3e0100-00000000
+	deviceLUID      = 7eed0000-00000000
 	deviceNodeMask  = 0x00000001
 
 Device Extensions	count = 30
