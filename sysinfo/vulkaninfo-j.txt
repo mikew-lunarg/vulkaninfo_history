@@ -91,8 +91,8 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198495,
-		"driverVersion": 1753923584,
+		"apiVersion": 4198499,
+		"driverVersion": 1804369920,
 		"vendorID": 4318,
 		"deviceID": 5122,
 		"deviceType": 2,
@@ -106,14 +106,14 @@
 			197,
 			1,
 			73,
-			150,
-			9,
-			104,
-			178,
-			46,
-			105,
-			86,
-			11
+			173,
+			250,
+			127,
+			76,
+			248,
+			223,
+			47,
+			227
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -229,14 +229,14 @@
 			"discreteQueuePriorities": 2,
 			"pointSizeRange": [
 				1,
-				189.875
+				2047.94
 			],
 			"lineWidthRange": [
-				0.5,
-				10
+				1,
+				64
 			],
-			"pointSizeGranularity": 0.125,
-			"lineWidthGranularity": 0.125,
+			"pointSizeGranularity": 0.0625,
+			"lineWidthGranularity": 1,
 			"strictLines": 1,
 			"standardSampleLocations": 1,
 			"optimalBufferCopyOffsetAlignment": 1,
@@ -268,7 +268,7 @@
 				"height": 1,
 				"width": 1
 			},
-			"queueCount": 1,
+			"queueCount": 2,
 			"queueFlags": 4,
 			"timestampValidBits": 64
 		}

@@ -247,8 +247,8 @@ Device Properties and Extensions :
 GPU0
 VkPhysicalDeviceProperties:
 ===========================
-	apiVersion     = 0x40105f  (1.1.95)
-	driverVersion  = 1753923584 (0x688ac000)
+	apiVersion     = 0x401063  (1.1.99)
+	driverVersion  = 1804369920 (0x6b8c8000)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = DISCRETE_GPU
@@ -359,11 +359,11 @@ VkPhysicalDeviceProperties:
 		maxCombinedClipAndCullDistances         = 8
 		discreteQueuePriorities                 = 2
 		pointSizeRange[0]                       = 1.000000
-		pointSizeRange[1]                       = 189.875000
-		lineWidthRange[0]                       = 0.500000
-		lineWidthRange[1]                       = 10.000000
-		pointSizeGranularity                    = 0.125000
-		lineWidthGranularity                    = 0.125000
+		pointSizeRange[1]                       = 2047.937500
+		lineWidthRange[0]                       = 1.000000
+		lineWidthRange[1]                       = 64.000000
+		pointSizeGranularity                    = 0.062500
+		lineWidthGranularity                    = 1.000000
 		strictLines                             = 1
 		standardSampleLocations                 = 1
 		optimalBufferCopyOffsetAlignment        = 0x1
@@ -411,19 +411,19 @@ VkPhysicalDeviceMaintenance3Properties:
 VkPhysicalDeviceIDProperties:
 =========================================
 	deviceUUID      = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID      = 960968b2-2e69-560b-d288-86262216893b
+	driverUUID      = adfa7f4c-f8df-2fe3-e2f3-ad81a0df2820
 	deviceLUIDValid = false
 
 VkPhysicalDeviceDriverProperties:
 =================================
 	driverID   = 4
 	driverName = NVIDIA
-	driverInfo = 418.43
+	driverInfo = 430.50
 	conformanceVersion:
 		major    = 1
 		minor    = 1
-		subminor = 2
-		patch    = 3
+		subminor = 3
+		patch    = 0
 
 VkPhysicalDeviceFloatControlsProperties:
 ========================================
@@ -444,6 +444,13 @@ VkPhysicalDeviceFloatControlsProperties:
 	shaderRoundingModeRTZFloat16          = 0
 	shaderRoundingModeRTZFloat32          = 1
 	shaderRoundingModeRTZFloat64          = 1
+
+VkPhysicalDevicePCIBusInfoProperties
+====================================
+	pciDomain   = 0
+	pciBus      = 1
+	pciDevice   = 0
+	pciFunction = 0
 
 VkPhysicalDeviceTransformFeedbackProperties
 ===========================================
@@ -498,16 +505,21 @@ VkPhysicalDeviceDepthStencilResolveProperties
 	independentResolveNone = 1
 	independentResolve     = 1
 
-Device Extensions	count = 65
+Device Extensions	count = 71
 	VK_EXT_blend_operation_advanced     : extension revision  2
+	VK_EXT_buffer_device_address        : extension revision  2
 	VK_EXT_conditional_rendering        : extension revision  1
 	VK_EXT_conservative_rasterization   : extension revision  1
+	VK_EXT_depth_clip_enable            : extension revision  1
 	VK_EXT_depth_range_unrestricted     : extension revision  1
 	VK_EXT_descriptor_indexing          : extension revision  2
 	VK_EXT_discard_rectangles           : extension revision  1
 	VK_EXT_display_control              : extension revision  1
 	VK_EXT_global_priority              : extension revision  2
+	VK_EXT_host_query_reset             : extension revision  1
 	VK_EXT_inline_uniform_block         : extension revision  1
+	VK_EXT_memory_budget                : extension revision  1
+	VK_EXT_pci_bus_info                 : extension revision  2
 	VK_EXT_post_depth_coverage          : extension revision  1
 	VK_EXT_sample_locations             : extension revision  1
 	VK_EXT_sampler_filter_minmax        : extension revision  1
@@ -551,10 +563,11 @@ Device Extensions	count = 65
 	VK_KHR_swapchain                    : extension revision 70
 	VK_KHR_swapchain_mutable_format     : extension revision  1
 	VK_KHR_variable_pointers            : extension revision  1
-	VK_KHR_vulkan_memory_model          : extension revision  2
+	VK_KHR_vulkan_memory_model          : extension revision  3
 	VK_NVX_device_generated_commands    : extension revision  3
 	VK_NVX_multiview_per_view_attributes: extension revision  1
 	VK_NV_dedicated_allocation          : extension revision  1
+	VK_NV_dedicated_allocation_image_aliasing: extension revision  1
 	VK_NV_device_diagnostic_checkpoints : extension revision  2
 	VK_NV_fill_rectangle                : extension revision  1
 	VK_NV_fragment_coverage_to_color    : extension revision  1
@@ -576,7 +589,7 @@ VkQueueFamilyProperties[0]:
 VkQueueFamilyProperties[1]:
 ===========================
 	queueFlags         = TRANSFER
-	queueCount         = 1
+	queueCount         = 2
 	timestampValidBits = 64
 	minImageTransferGranularity = (1, 1, 1)
 	present support    = false
@@ -586,10 +599,14 @@ VkPhysicalDeviceMemoryProperties:
 	memoryHeapCount       = 2
 	memoryHeaps[0] :
 		size          = 2147483648 (0x80000000) (2.00 GiB)
+		budget        = 1764360192
+		usage         = 0
 		flags:
 			VK_MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1] :
 		size          = 12565976064 (0x2ecfd9400) (11.70 GiB)
+		budget        = 12565976064
+		usage         = 0
 		flags:
 			None
 	memoryTypeCount       = 11
@@ -776,6 +793,12 @@ VkPhysicalDeviceScalarBlockLayoutFeatures:
 ==========================================
 	scalarBlockLayout = 1
 
+VkPhysicalDeviceBufferAddressFeatures:
+======================================
+	bufferDeviceAddress = 1
+	bufferDeviceAddressCaptureReplay = 0
+	bufferDeviceAddressMultiDevice = 1
+
 VkPhysicalDeviceDescriptorIndexingFeatures:
 =======================================
 	shaderInputAttachmentArrayDynamicIndexing = 1
@@ -798,6 +821,10 @@ VkPhysicalDeviceDescriptorIndexingFeatures:
 	descriptorBindingPartiallyBound = 1
 	descriptorBindingVariableDescriptorCount = 1
 	runtimeDescriptorArray = 1
+
+VkPhysicalDeviceHostQueryResetFeatures:
+=======================================
+	hostQueryReset = 1
 
 Format Properties:
 ==================
