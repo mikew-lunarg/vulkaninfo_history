@@ -84,6 +84,12 @@
 			"description": "Vktrace tracing library"
 		},
 		{
+			"layerName": "VK_LAYER_NV_optimus",
+			"specVersion": 4198523,
+			"implementationVersion": 1,
+			"description": "NVIDIA Optimus layer"
+		},
+		{
 			"layerName": "VK_LAYER_RENDERDOC_Capture",
 			"specVersion": 4198473,
 			"implementationVersion": 2,
@@ -91,29 +97,29 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198499,
-		"driverVersion": 1804369920,
+		"apiVersion": 4198523,
+		"driverVersion": 1824964608,
 		"vendorID": 4318,
 		"deviceID": 5122,
 		"deviceType": 2,
 		"deviceName": "GeForce GTX 950",
 		"pipelineCacheUUID": [
-			195,
-			214,
-			149,
+			93,
+			4,
+			210,
+			246,
+			49,
+			154,
+			159,
+			168,
 			65,
-			249,
-			197,
-			1,
-			73,
-			173,
-			250,
-			127,
-			76,
-			248,
-			223,
-			47,
-			227
+			245,
+			30,
+			156,
+			236,
+			16,
+			139,
+			142
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -199,7 +205,7 @@
 			"minMemoryMapAlignment": 64,
 			"minTexelBufferOffsetAlignment": 16,
 			"minUniformBufferOffsetAlignment": 256,
-			"minStorageBufferOffsetAlignment": 32,
+			"minStorageBufferOffsetAlignment": 16,
 			"minTexelOffset": -8,
 			"maxTexelOffset": 7,
 			"minTexelGatherOffset": -32,
@@ -236,7 +242,7 @@
 				64
 			],
 			"pointSizeGranularity": 0.0625,
-			"lineWidthGranularity": 1,
+			"lineWidthGranularity": 0.0625,
 			"strictLines": 1,
 			"standardSampleLocations": 1,
 			"optimalBufferCopyOffsetAlignment": 1,
@@ -269,7 +275,7 @@
 				"width": 1
 			},
 			"queueCount": 2,
-			"queueFlags": 4,
+			"queueFlags": 12,
 			"timestampValidBits": 64
 		}
 	],
@@ -281,7 +287,7 @@
 			},
 			{
 				"flags": 0,
-				"size": 12565976064
+				"size": 12565963776
 			}
 		],
 		"memoryTypes": [
