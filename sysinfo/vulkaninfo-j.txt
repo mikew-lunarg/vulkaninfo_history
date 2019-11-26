@@ -2,103 +2,61 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.114"
+		"vulkanApiVersion": "1.1.126"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
-			"layerName": "VK_LAYER_GOOGLE_threading",
-			"specVersion": 4198514,
-			"implementationVersion": 1,
-			"description": "Google Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_GOOGLE_unique_objects",
-			"specVersion": 4198514,
-			"implementationVersion": 1,
-			"description": "Google Validation Layer"
-		},
-		{
 			"layerName": "VK_LAYER_KHRONOS_validation",
-			"specVersion": 4198514,
+			"specVersion": 4198526,
 			"implementationVersion": 1,
-			"description": "LunarG Validation Layer"
+			"description": "Khronos Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4198514,
+			"specVersion": 4198526,
 			"implementationVersion": 2,
 			"description": "LunarG API dump layer"
 		},
 		{
-			"layerName": "VK_LAYER_LUNARG_assistant_layer",
-			"specVersion": 4198514,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Layer Factory Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_core_validation",
-			"specVersion": 4198514,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Layer"
-		},
-		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4198514,
+			"specVersion": 4198526,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4198514,
+			"specVersion": 4198526,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
 		},
 		{
-			"layerName": "VK_LAYER_LUNARG_object_tracker",
-			"specVersion": 4198514,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_parameter_validation",
-			"specVersion": 4198514,
-			"implementationVersion": 1,
-			"description": "LunarG Validation Layer"
-		},
-		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4198514,
+			"specVersion": 4198526,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4198514,
+			"specVersion": 4198526,
 			"implementationVersion": 1,
 			"description": "LunarG Standard Validation"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4198514,
+			"specVersion": 4198526,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4198495,
+			"specVersion": 4198499,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
-		},
-		{
-			"layerName": "VK_LAYER_RENDERDOC_Capture",
-			"specVersion": 4198473,
-			"implementationVersion": 2,
-			"description": "Debugging capture layer for RenderDoc"
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198495,
-		"driverVersion": 1783316480,
+		"apiVersion": 4198499,
+		"driverVersion": 1808891904,
 		"vendorID": 4318,
 		"deviceID": 5019,
 		"deviceType": 2,
@@ -112,14 +70,14 @@
 			122,
 			24,
 			6,
-			164,
-			171,
-			212,
-			14,
-			38,
-			78,
-			128,
-			62
+			114,
+			109,
+			173,
+			139,
+			114,
+			198,
+			122,
+			9
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -235,14 +193,14 @@
 			"discreteQueuePriorities": 2,
 			"pointSizeRange": [
 				1,
-				189.875
+				2047.94
 			],
 			"lineWidthRange": [
-				0.5,
-				10
+				1,
+				64
 			],
-			"pointSizeGranularity": 0.125,
-			"lineWidthGranularity": 0.125,
+			"pointSizeGranularity": 0.0625,
+			"lineWidthGranularity": 1,
 			"strictLines": 1,
 			"standardSampleLocations": 1,
 			"optimalBufferCopyOffsetAlignment": 1,
@@ -260,9 +218,9 @@
 	"ArrayOfVkQueueFamilyProperties": [
 		{
 			"minImageTransferGranularity": {
-				"depth": 1,
+				"width": 1,
 				"height": 1,
-				"width": 1
+				"depth": 1
 			},
 			"queueCount": 16,
 			"queueFlags": 15,
@@ -270,11 +228,11 @@
 		},
 		{
 			"minImageTransferGranularity": {
-				"depth": 1,
+				"width": 1,
 				"height": 1,
-				"width": 1
+				"depth": 1
 			},
-			"queueCount": 1,
+			"queueCount": 2,
 			"queueFlags": 4,
 			"timestampValidBits": 64
 		}
