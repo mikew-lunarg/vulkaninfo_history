@@ -79,7 +79,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.126, layer 
 		GPU id 	: 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.123, layer version 1:
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.126, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 950)
@@ -167,8 +167,8 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion     = 4198523 (1.1.123)
-	driverVersion  = 1824964608 (0x6cc6c000)
+	apiVersion     = 4198526 (1.1.126)
+	driverVersion  = 1846198336 (0x6e0ac040)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
@@ -413,8 +413,8 @@ VkPhysicalDeviceDriverPropertiesKHR:
 ------------------------------------
 	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY_KHR
 	driverName         = NVIDIA
-	driverInfo         = 435.27.00
-	conformanceVersion = 1.1.5.1
+	driverInfo         = 440.43.01
+	conformanceVersion = 1.1.6.0
 
 VkPhysicalDeviceFloatControlsPropertiesKHR:
 -------------------------------------------
@@ -439,7 +439,7 @@ VkPhysicalDeviceFloatControlsPropertiesKHR:
 VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      =  215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID      = 41f51e9c-ec10-8b8e-b436-3f6d89c65a9b
+	driverUUID      = d51356d0-1e92-678d-9677-1fd0a48094a
 	deviceNodeMask  = 1
 	deviceLUIDValid = false
 
@@ -574,7 +574,7 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 	maxVertexAttribDivisor = 4294967295
 
 
-Device Extensions: count = 89
+Device Extensions: count = 92
 	VK_EXT_blend_operation_advanced           : extension revision 2
 	VK_EXT_buffer_device_address              : extension revision 2
 	VK_EXT_calibrated_timestamps              : extension revision 1
@@ -611,6 +611,7 @@ Device Extensions: count = 89
 	VK_KHR_16bit_storage                      : extension revision 1
 	VK_KHR_8bit_storage                       : extension revision 1
 	VK_KHR_bind_memory2                       : extension revision 1
+	VK_KHR_buffer_device_address              : extension revision 1
 	VK_KHR_create_renderpass2                 : extension revision 1
 	VK_KHR_dedicated_allocation               : extension revision 3
 	VK_KHR_depth_stencil_resolve              : extension revision 1
@@ -636,12 +637,14 @@ Device Extensions: count = 89
 	VK_KHR_relaxed_block_layout               : extension revision 1
 	VK_KHR_sampler_mirror_clamp_to_edge       : extension revision 3
 	VK_KHR_sampler_ycbcr_conversion           : extension revision 14
+	VK_KHR_separate_depth_stencil_layouts     : extension revision 1
 	VK_KHR_shader_atomic_int64                : extension revision 1
 	VK_KHR_shader_clock                       : extension revision 1
 	VK_KHR_shader_draw_parameters             : extension revision 1
 	VK_KHR_shader_float16_int8                : extension revision 1
 	VK_KHR_shader_float_controls              : extension revision 4
 	VK_KHR_shader_subgroup_extended_types     : extension revision 1
+	VK_KHR_spirv_1_4                          : extension revision 1
 	VK_KHR_storage_buffer_storage_class       : extension revision 1
 	VK_KHR_swapchain                          : extension revision 70
 	VK_KHR_swapchain_mutable_format           : extension revision 1
@@ -688,7 +691,7 @@ VkPhysicalDeviceMemoryProperties:
 memoryHeaps: count = 2
 	memoryHeaps[0]:
 		size   = 2147483648 (0x80000000) (2.00 GiB)
-		budget = 1776025600
+		budget = 1763901440
 		usage  = 0
 		flags:
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
