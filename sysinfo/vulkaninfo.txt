@@ -2,10 +2,10 @@
 VULKANINFO
 ==========
 
-Vulkan Instance Version: 1.1.126
+Vulkan Instance Version: 1.1.130
 
 
-Instance Extensions: count = 12
+Instance Extensions: count = 13
 ====================
 	VK_EXT_debug_report                    : extension revision 9
 	VK_EXT_debug_utils                     : extension revision 1
@@ -17,64 +17,67 @@ Instance Extensions: count = 12
 	VK_KHR_get_physical_device_properties2 : extension revision 1
 	VK_KHR_get_surface_capabilities2       : extension revision 1
 	VK_KHR_surface                         : extension revision 25
+	VK_KHR_surface_protected_capabilities  : extension revision 1
 	VK_KHR_win32_surface                   : extension revision 5
 	VK_NV_external_memory_capabilities     : extension revision 1
 
 Layers: count = 8
 =======
-VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.1.126, layer version 1:
+VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.1.130, layer version 1:
 	Layer Extensions: count = 3
 		VK_EXT_debug_report        : extension revision 9
 		VK_EXT_debug_utils         : extension revision 1
 		VK_EXT_validation_features : extension revision 2
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
-		Layer-Device Extensions: count = 2
+		Layer-Device Extensions: count = 3
 			VK_EXT_debug_marker     : extension revision 4
+			VK_EXT_tooling_info     : extension revision 1
 			VK_EXT_validation_cache : extension revision 1
 
-VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.1.126, layer version 2:
+VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.1.130, layer version 2:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.126, layer version 1:
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.1.130, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.126, layer version 1:
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.1.130, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.126, layer version 1:
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.1.130, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.126, layer version 1:
+VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation) Vulkan version 1.1.130, layer version 1:
 	Layer Extensions: count = 3
 		VK_EXT_debug_report        : extension revision 9
 		VK_EXT_debug_utils         : extension revision 1
 		VK_EXT_validation_features : extension revision 2
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
-		Layer-Device Extensions: count = 2
+		Layer-Device Extensions: count = 3
 			VK_EXT_debug_marker     : extension revision 4
+			VK_EXT_tooling_info     : extension revision 1
 			VK_EXT_validation_cache : extension revision 1
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.126, layer version 1:
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.1.130, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.99, layer version 1:
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.126, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 960M)
@@ -92,10 +95,11 @@ GPU id : 0 (GeForce GTX 960M):
 		SurfaceFormat[1]:
 			format = FORMAT_B8G8R8A8_SRGB
 			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
-	Present Modes: count = 3
+	Present Modes: count = 4
 		PRESENT_MODE_FIFO_KHR
 		PRESENT_MODE_FIFO_RELAXED_KHR
 		PRESENT_MODE_MAILBOX_KHR
+		PRESENT_MODE_IMMEDIATE_KHR
 	VkSurfaceCapabilitiesKHR:
 	-------------------------
 		minImageCount       = 2
@@ -127,12 +131,19 @@ GPU id : 0 (GeForce GTX 960M):
 	--------------------------
 		supportedSurfaceCounters:
 			None
+	VkSurfaceCapabilitiesFullScreenExclusiveEXT:
+	--------------------------------------------
+		fullScreenExclusiveSupported = false
+
+	VkSurfaceProtectedCapabilitiesKHR:
+	----------------------------------
+		supportsProtected = false
+
 
 
 Groups:
 =======
 	Device Group Properties (Group 0):
-	----------------------------------
 		physicalDeviceCount: count = 1
 			GeForce GTX 960M (ID: 0)
 		subsetAllocation = 1
@@ -150,8 +161,8 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion     = 4198499 (1.1.99)
-	driverVersion  = 1808891904 (0x6bd18000)
+	apiVersion     = 4198526 (1.1.126)
+	driverVersion  = 1850851328 (0x6e51c000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
@@ -238,7 +249,7 @@ VkPhysicalDeviceLimits:
 	minMemoryMapAlignment                           = 64
 	minTexelBufferOffsetAlignment                   = 0x00000010
 	minUniformBufferOffsetAlignment                 = 0x00000100
-	minStorageBufferOffsetAlignment                 = 0x00000020
+	minStorageBufferOffsetAlignment                 = 0x00000010
 	minTexelOffset                                  = -8
 	maxTexelOffset                                  = 7
 	minTexelGatherOffset                            = -32
@@ -309,7 +320,7 @@ VkPhysicalDeviceLimits:
 		1
 		64
 	pointSizeGranularity                            = 0.0625
-	lineWidthGranularity                            = 1
+	lineWidthGranularity                            = 0.0625
 	strictLines                                     = true
 	standardSampleLocations                         = true
 	optimalBufferCopyOffsetAlignment                = 0x00000001
@@ -377,8 +388,8 @@ VkPhysicalDeviceDriverPropertiesKHR:
 ------------------------------------
 	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY_KHR
 	driverName         = NVIDIA
-	driverInfo         = 431.70
-	conformanceVersion = 1.1.3.0
+	driverInfo         = 441.71
+	conformanceVersion = 1.1.6.0
 
 VkPhysicalDeviceExternalMemoryHostPropertiesEXT:
 ------------------------------------------------
@@ -407,8 +418,8 @@ VkPhysicalDeviceFloatControlsPropertiesKHR:
 VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 1c83ff25-1ac-5749-c772-a54fd2f648a8
-	driverUUID      = 726dad8b-72c6-7a9-f51e-c0f163cdde1
-	deviceLUID      = dded00-0000
+	driverUUID      = 771a664d-4071-6a64-4fa-a487ede94256
+	deviceLUID      = e71710-0000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -419,6 +430,10 @@ VkPhysicalDeviceInlineUniformBlockPropertiesEXT:
 	maxPerStageDescriptorUpdateAfterBindInlineUniformBlocks = 32
 	maxDescriptorSetInlineUniformBlocks                     = 32
 	maxDescriptorSetUpdateAfterBindInlineUniformBlocks      = 32
+
+VkPhysicalDeviceLineRasterizationPropertiesEXT:
+-----------------------------------------------
+	lineSubPixelPrecisionBits = 8
 
 VkPhysicalDeviceMaintenance3Properties:
 ---------------------------------------
@@ -473,6 +488,32 @@ VkPhysicalDeviceSubgroupProperties:
 		SUBGROUP_FEATURE_PARTITIONED_BIT_NV
 	quadOperationsInAllStages = true
 
+VkPhysicalDeviceSubgroupSizeControlPropertiesEXT:
+-------------------------------------------------
+	minSubgroupSize              = 32
+	maxSubgroupSize              = 32
+	maxComputeWorkgroupSubgroups = 3145728
+	requiredSubgroupSizeStages:
+		SHADER_STAGE_VERTEX_BIT
+		SHADER_STAGE_TESSELLATION_CONTROL_BIT
+		SHADER_STAGE_TESSELLATION_EVALUATION_BIT
+		SHADER_STAGE_GEOMETRY_BIT
+		SHADER_STAGE_FRAGMENT_BIT
+		SHADER_STAGE_COMPUTE_BIT
+		SHADER_STAGE_ALL_GRAPHICS
+		SHADER_STAGE_ALL
+
+VkPhysicalDeviceTexelBufferAlignmentPropertiesEXT:
+--------------------------------------------------
+	storageTexelBufferOffsetAlignmentBytes       = 0x00000010
+	storageTexelBufferOffsetSingleTexelAlignment = true
+	uniformTexelBufferOffsetAlignmentBytes       = 0x00000010
+	uniformTexelBufferOffsetSingleTexelAlignment = true
+
+VkPhysicalDeviceTimelineSemaphorePropertiesKHR:
+-----------------------------------------------
+	maxTimelineSemaphoreValueDifference = 2147483647
+
 VkPhysicalDeviceTransformFeedbackPropertiesEXT:
 -----------------------------------------------
 	maxTransformFeedbackStreams                = 4
@@ -491,34 +532,45 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 	maxVertexAttribDivisor = 4294967295
 
 
-Device Extensions: count = 64
+Device Extensions: count = 84
 	VK_EXT_blend_operation_advanced           : extension revision 2
 	VK_EXT_buffer_device_address              : extension revision 2
-	VK_EXT_conditional_rendering              : extension revision 1
+	VK_EXT_calibrated_timestamps              : extension revision 1
+	VK_EXT_conditional_rendering              : extension revision 2
 	VK_EXT_depth_clip_enable                  : extension revision 1
 	VK_EXT_depth_range_unrestricted           : extension revision 1
 	VK_EXT_descriptor_indexing                : extension revision 2
 	VK_EXT_discard_rectangles                 : extension revision 1
 	VK_EXT_external_memory_host               : extension revision 1
-	VK_EXT_hdr_metadata                       : extension revision 1
+	VK_EXT_full_screen_exclusive              : extension revision 4
+	VK_EXT_hdr_metadata                       : extension revision 2
 	VK_EXT_host_query_reset                   : extension revision 1
+	VK_EXT_index_type_uint8                   : extension revision 1
 	VK_EXT_inline_uniform_block               : extension revision 1
+	VK_EXT_line_rasterization                 : extension revision 1
 	VK_EXT_memory_budget                      : extension revision 1
 	VK_EXT_memory_priority                    : extension revision 1
 	VK_EXT_pci_bus_info                       : extension revision 2
+	VK_EXT_pipeline_creation_feedback         : extension revision 1
 	VK_EXT_scalar_block_layout                : extension revision 1
+	VK_EXT_separate_stencil_usage             : extension revision 1
+	VK_EXT_shader_demote_to_helper_invocation : extension revision 1
 	VK_EXT_shader_subgroup_ballot             : extension revision 1
 	VK_EXT_shader_subgroup_vote               : extension revision 1
+	VK_EXT_subgroup_size_control              : extension revision 2
+	VK_EXT_texel_buffer_alignment             : extension revision 1
 	VK_EXT_transform_feedback                 : extension revision 1
 	VK_EXT_vertex_attribute_divisor           : extension revision 3
+	VK_EXT_ycbcr_image_arrays                 : extension revision 1
 	VK_KHR_16bit_storage                      : extension revision 1
 	VK_KHR_8bit_storage                       : extension revision 1
 	VK_KHR_bind_memory2                       : extension revision 1
+	VK_KHR_buffer_device_address              : extension revision 1
 	VK_KHR_create_renderpass2                 : extension revision 1
 	VK_KHR_dedicated_allocation               : extension revision 3
 	VK_KHR_depth_stencil_resolve              : extension revision 1
 	VK_KHR_descriptor_update_template         : extension revision 1
-	VK_KHR_device_group                       : extension revision 3
+	VK_KHR_device_group                       : extension revision 4
 	VK_KHR_draw_indirect_count                : extension revision 1
 	VK_KHR_driver_properties                  : extension revision 1
 	VK_KHR_external_fence                     : extension revision 1
@@ -529,21 +581,29 @@ Device Extensions: count = 64
 	VK_KHR_external_semaphore_win32           : extension revision 1
 	VK_KHR_get_memory_requirements2           : extension revision 1
 	VK_KHR_image_format_list                  : extension revision 1
+	VK_KHR_imageless_framebuffer              : extension revision 1
 	VK_KHR_maintenance1                       : extension revision 2
 	VK_KHR_maintenance2                       : extension revision 1
 	VK_KHR_maintenance3                       : extension revision 1
 	VK_KHR_multiview                          : extension revision 1
+	VK_KHR_pipeline_executable_properties     : extension revision 1
 	VK_KHR_push_descriptor                    : extension revision 2
 	VK_KHR_relaxed_block_layout               : extension revision 1
-	VK_KHR_sampler_mirror_clamp_to_edge       : extension revision 1
-	VK_KHR_sampler_ycbcr_conversion           : extension revision 1
+	VK_KHR_sampler_mirror_clamp_to_edge       : extension revision 3
+	VK_KHR_sampler_ycbcr_conversion           : extension revision 14
+	VK_KHR_separate_depth_stencil_layouts     : extension revision 1
 	VK_KHR_shader_atomic_int64                : extension revision 1
+	VK_KHR_shader_clock                       : extension revision 1
 	VK_KHR_shader_draw_parameters             : extension revision 1
 	VK_KHR_shader_float16_int8                : extension revision 1
-	VK_KHR_shader_float_controls              : extension revision 1
+	VK_KHR_shader_float_controls              : extension revision 4
+	VK_KHR_shader_subgroup_extended_types     : extension revision 1
+	VK_KHR_spirv_1_4                          : extension revision 1
 	VK_KHR_storage_buffer_storage_class       : extension revision 1
 	VK_KHR_swapchain                          : extension revision 70
 	VK_KHR_swapchain_mutable_format           : extension revision 1
+	VK_KHR_timeline_semaphore                 : extension revision 2
+	VK_KHR_uniform_buffer_standard_layout     : extension revision 1
 	VK_KHR_variable_pointers                  : extension revision 1
 	VK_KHR_vulkan_memory_model                : extension revision 3
 	VK_KHR_win32_keyed_mutex                  : extension revision 1
@@ -554,8 +614,9 @@ Device Extensions: count = 64
 	VK_NV_device_diagnostic_checkpoints       : extension revision 2
 	VK_NV_external_memory                     : extension revision 1
 	VK_NV_external_memory_win32               : extension revision 1
+	VK_NV_shader_sm_builtins                  : extension revision 1
 	VK_NV_shader_subgroup_partitioned         : extension revision 1
-	VK_NV_win32_keyed_mutex                   : extension revision 1
+	VK_NV_win32_keyed_mutex                   : extension revision 2
 
 VkQueueFamilyProperties[0]:
 ==========================
@@ -568,8 +629,8 @@ VkQueueFamilyProperties[0]:
 VkQueueFamilyProperties[1]:
 ==========================
 	minImageTransferGranularity = (1, 1, 1)
-	queueCount                  = 2
-	queueFlags                  = QUEUE_TRANSFER
+	queueCount                  = 1
+	queueFlags                  = QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
 	timestampValidBits          = 64
 	present support = false
 
@@ -787,10 +848,27 @@ VkPhysicalDeviceHostQueryResetFeaturesEXT:
 ------------------------------------------
 	hostQueryReset = true
 
+VkPhysicalDeviceImagelessFramebufferFeaturesKHR:
+------------------------------------------------
+	imagelessFramebuffer = true
+
+VkPhysicalDeviceIndexTypeUint8FeaturesEXT:
+------------------------------------------
+	indexTypeUint8 = true
+
 VkPhysicalDeviceInlineUniformBlockFeaturesEXT:
 ----------------------------------------------
 	inlineUniformBlock                                 = true
 	descriptorBindingInlineUniformBlockUpdateAfterBind = true
+
+VkPhysicalDeviceLineRasterizationFeaturesEXT:
+---------------------------------------------
+	rectangularLines         = true
+	bresenhamLines           = true
+	smoothLines              = true
+	stippledRectangularLines = true
+	stippledBresenhamLines   = true
+	stippledSmoothLines      = true
 
 VkPhysicalDeviceMemoryPriorityFeaturesEXT:
 ------------------------------------------
@@ -801,6 +879,10 @@ VkPhysicalDeviceMultiviewFeatures:
 	multiview                   = true
 	multiviewGeometryShader     = true
 	multiviewTessellationShader = true
+
+VkPhysicalDevicePipelineExecutablePropertiesFeaturesKHR:
+--------------------------------------------------------
+	pipelineExecutableInfo = true
 
 VkPhysicalDeviceProtectedMemoryFeatures:
 ----------------------------------------
@@ -814,10 +896,23 @@ VkPhysicalDeviceScalarBlockLayoutFeaturesEXT:
 ---------------------------------------------
 	scalarBlockLayout = true
 
+VkPhysicalDeviceSeparateDepthStencilLayoutsFeaturesKHR:
+-------------------------------------------------------
+	separateDepthStencilLayouts = true
+
 VkPhysicalDeviceShaderAtomicInt64FeaturesKHR:
 ---------------------------------------------
 	shaderBufferInt64Atomics = true
 	shaderSharedInt64Atomics = true
+
+VkPhysicalDeviceShaderClockFeaturesKHR:
+---------------------------------------
+	shaderSubgroupClock = true
+	shaderDeviceClock   = true
+
+VkPhysicalDeviceShaderDemoteToHelperInvocationFeaturesEXT:
+----------------------------------------------------------
+	shaderDemoteToHelperInvocation = true
 
 VkPhysicalDeviceShaderDrawParametersFeatures:
 ---------------------------------------------
@@ -828,10 +923,31 @@ VkPhysicalDeviceShaderFloat16Int8FeaturesKHR:
 	shaderFloat16 = false
 	shaderInt8    = true
 
+VkPhysicalDeviceShaderSubgroupExtendedTypesFeaturesKHR:
+-------------------------------------------------------
+	shaderSubgroupExtendedTypes = true
+
+VkPhysicalDeviceSubgroupSizeControlFeaturesEXT:
+-----------------------------------------------
+	subgroupSizeControl  = true
+	computeFullSubgroups = true
+
+VkPhysicalDeviceTexelBufferAlignmentFeaturesEXT:
+------------------------------------------------
+	texelBufferAlignment = true
+
+VkPhysicalDeviceTimelineSemaphoreFeaturesKHR:
+---------------------------------------------
+	timelineSemaphore = true
+
 VkPhysicalDeviceTransformFeedbackFeaturesEXT:
 ---------------------------------------------
 	transformFeedback = true
 	geometryStreams   = true
+
+VkPhysicalDeviceUniformBufferStandardLayoutFeaturesKHR:
+-------------------------------------------------------
+	uniformBufferStandardLayout = true
 
 VkPhysicalDeviceVariablePointersFeatures:
 -----------------------------------------
@@ -848,5 +964,9 @@ VkPhysicalDeviceVulkanMemoryModelFeaturesKHR:
 	vulkanMemoryModel                             = true
 	vulkanMemoryModelDeviceScope                  = true
 	vulkanMemoryModelAvailabilityVisibilityChains = true
+
+VkPhysicalDeviceYcbcrImageArraysFeaturesEXT:
+--------------------------------------------
+	ycbcrImageArrays = true
 
 
