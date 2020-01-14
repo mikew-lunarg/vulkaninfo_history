@@ -419,7 +419,7 @@ VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 1c83ff25-1ac-5749-c772-a54fd2f648a8
 	driverUUID      = 771a664d-4071-6a64-4fa-a487ede94256
-	deviceLUID      = e71710-0000
+	deviceLUID      = 5b2410-0000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -645,7 +645,7 @@ memoryHeaps: count = 2
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1]:
 		size   = 8517349376 (0x1fbac7000) (7.93 GiB)
-		budget = 7665616281
+		budget = 7665614438
 		usage  = 0
 		flags:
 			None
