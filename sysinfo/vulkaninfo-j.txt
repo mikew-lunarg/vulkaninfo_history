@@ -2,54 +2,54 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.130"
+		"vulkanApiVersion": "1.2.131"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
 			"layerName": "VK_LAYER_KHRONOS_validation",
-			"specVersion": 4198530,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "Khronos Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4198530,
+			"specVersion": 4202627,
 			"implementationVersion": 2,
 			"description": "LunarG API dump layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4198530,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4198530,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4198530,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4198530,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "LunarG Standard Validation"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4198530,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4198526,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
 		},
@@ -61,8 +61,8 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198526,
-		"driverVersion": 1846198336,
+		"apiVersion": 4202627,
+		"driverVersion": 1846280320,
 		"vendorID": 4318,
 		"deviceID": 5122,
 		"deviceType": 2,
@@ -76,14 +76,14 @@
 			154,
 			159,
 			168,
-			213,
-			19,
-			86,
-			208,
-			30,
-			146,
-			103,
-			141
+			161,
+			254,
+			151,
+			60,
+			228,
+			42,
+			9,
+			202
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -98,7 +98,7 @@
 			"maxMemoryAllocationCount": 4294967295,
 			"maxSamplerAllocationCount": 4000,
 			"bufferImageGranularity": 1024,
-			"sparseAddressSpaceSize": 18446744073709551615,
+			"sparseAddressSpaceSize": 1099511627775,
 			"maxBoundDescriptorSets": 32,
 			"maxPerStageDescriptorSamplers": 1048576,
 			"maxPerStageDescriptorUniformBuffers": 15,
