@@ -2,7 +2,7 @@
 VULKANINFO
 ==========
 
-Vulkan Instance Version: 1.1.131
+Vulkan Instance Version: 1.1.126
 
 
 Instance Extensions: count = 13
@@ -157,6 +157,116 @@ GPU id : 0 (GeForce GTX 960M):
 			IMAGE_USAGE_STORAGE_BIT
 			IMAGE_USAGE_COLOR_ATTACHMENT_BIT
 			IMAGE_USAGE_INPUT_ATTACHMENT_BIT
+	VkSurfaceCapabilities2EXT:
+	--------------------------
+		supportedSurfaceCounters:
+			None
+	VkSurfaceCapabilitiesFullScreenExclusiveEXT:
+	--------------------------------------------
+		fullScreenExclusiveSupported = false
+
+	VkSurfaceProtectedCapabilitiesKHR:
+	----------------------------------
+		supportsProtected = false
+
+
+GPU id : 1 (Intel(R) HD Graphics 530):
+	Surface types: count = 1
+		VK_KHR_win32_surface
+	Formats: count = 2
+		SurfaceFormat[0]:
+			format = FORMAT_B8G8R8A8_UNORM
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+		SurfaceFormat[1]:
+			format = FORMAT_B8G8R8A8_SRGB
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+	Present Modes: count = 4
+		PRESENT_MODE_FIFO_KHR
+		PRESENT_MODE_FIFO_RELAXED_KHR
+		PRESENT_MODE_MAILBOX_KHR
+		PRESENT_MODE_IMMEDIATE_KHR
+	VkSurfaceCapabilitiesKHR:
+	-------------------------
+		minImageCount       = 2
+		maxImageCount       = 8
+		currentExtent:
+			width  = 256
+			height = 256
+		minImageExtent:
+			width  = 256
+			height = 256
+		maxImageExtent:
+			width  = 256
+			height = 256
+		maxImageArrayLayers = 1
+		supportedTransforms:
+			SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		currentTransform:
+			SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		supportedCompositeAlpha:
+			COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+		supportedUsageFlags:
+			IMAGE_USAGE_TRANSFER_SRC_BIT
+			IMAGE_USAGE_TRANSFER_DST_BIT
+			IMAGE_USAGE_SAMPLED_BIT
+			IMAGE_USAGE_STORAGE_BIT
+			IMAGE_USAGE_COLOR_ATTACHMENT_BIT
+			IMAGE_USAGE_INPUT_ATTACHMENT_BIT
+	VkSurfaceCapabilities2EXT:
+	--------------------------
+		supportedSurfaceCounters:
+			None
+	VkSurfaceProtectedCapabilitiesKHR:
+	----------------------------------
+		supportsProtected = false
+
+
+GPU id : 0 (GeForce GTX 960M):
+	Surface types: count = 1
+		VK_KHR_win32_surface
+	Formats: count = 4
+		SurfaceFormat[0]:
+			format = FORMAT_B8G8R8A8_UNORM
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+		SurfaceFormat[1]:
+			format = FORMAT_B8G8R8A8_SRGB
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+		SurfaceFormat[2]:
+			format = FORMAT_R8G8B8A8_UNORM
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+		SurfaceFormat[3]:
+			format = FORMAT_R8G8B8A8_SRGB
+			colorSpace = COLOR_SPACE_SRGB_NONLINEAR_KHR
+	Present Modes: count = 2
+		PRESENT_MODE_IMMEDIATE_KHR
+		PRESENT_MODE_FIFO_KHR
+	VkSurfaceCapabilitiesKHR:
+	-------------------------
+		minImageCount       = 2
+		maxImageCount       = 64
+		currentExtent:
+			width  = 256
+			height = 256
+		minImageExtent:
+			width  = 256
+			height = 256
+		maxImageExtent:
+			width  = 256
+			height = 256
+		maxImageArrayLayers = 2048
+		supportedTransforms:
+			SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		currentTransform:
+			SURFACE_TRANSFORM_IDENTITY_BIT_KHR
+		supportedCompositeAlpha:
+			COMPOSITE_ALPHA_OPAQUE_BIT_KHR
+			COMPOSITE_ALPHA_INHERIT_BIT_KHR
+		supportedUsageFlags:
+			IMAGE_USAGE_TRANSFER_SRC_BIT
+			IMAGE_USAGE_TRANSFER_DST_BIT
+			IMAGE_USAGE_SAMPLED_BIT
+			IMAGE_USAGE_STORAGE_BIT
+			IMAGE_USAGE_COLOR_ATTACHMENT_BIT
 	VkSurfaceCapabilities2EXT:
 	--------------------------
 		supportedSurfaceCounters:
@@ -444,10 +554,10 @@ VkPhysicalDeviceBlendOperationAdvancedPropertiesEXT:
 VkPhysicalDeviceDepthStencilResolvePropertiesKHR:
 -------------------------------------------------
 	supportedDepthResolveModes:
-		RESOLVE_MODE_SAMPLE_ZERO_BIT
-		RESOLVE_MODE_AVERAGE_BIT
+		RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR
+		RESOLVE_MODE_AVERAGE_BIT_KHR
 	supportedStencilResolveModes:
-		RESOLVE_MODE_SAMPLE_ZERO_BIT
+		RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR
 	independentResolveNone = true
 	independentResolve     = true
 
@@ -483,7 +593,7 @@ VkPhysicalDeviceDiscardRectanglePropertiesEXT:
 
 VkPhysicalDeviceDriverPropertiesKHR:
 ------------------------------------
-	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY
+	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY_KHR
 	driverName         = NVIDIA
 	driverInfo         = 441.71
 	conformanceVersion = 1.1.6.0
@@ -494,8 +604,8 @@ VkPhysicalDeviceExternalMemoryHostPropertiesEXT:
 
 VkPhysicalDeviceFloatControlsPropertiesKHR:
 -------------------------------------------
-	denormBehaviorIndependence            = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
-	roundingModeIndependence              = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
+	denormBehaviorIndependence            = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR
+	roundingModeIndependence              = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR
 	shaderSignedZeroInfNanPreserveFloat16 = true
 	shaderSignedZeroInfNanPreserveFloat32 = true
 	shaderSignedZeroInfNanPreserveFloat64 = true
@@ -514,9 +624,9 @@ VkPhysicalDeviceFloatControlsPropertiesKHR:
 
 VkPhysicalDeviceIDProperties:
 -----------------------------
-	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
-	driverUUID      = 771a664d-4071-6a64-4f0a-a487ede94256
-	deviceLUID      = e3f20000-00000000
+	deviceUUID      = 1c83ff25-1ac-5749-c772-a54fd2f648a8
+	driverUUID      = 771a664d-4071-6a64-4fa-a487ede94256
+	deviceLUID      = e3f200-0000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -630,7 +740,6 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 
 
 Device Extensions: count = 84
-------------------
 	VK_EXT_blend_operation_advanced           : extension revision 2
 	VK_EXT_buffer_device_address              : extension revision 2
 	VK_EXT_calibrated_timestamps              : extension revision 1
@@ -716,23 +825,21 @@ Device Extensions: count = 84
 	VK_NV_shader_subgroup_partitioned         : extension revision 1
 	VK_NV_win32_keyed_mutex                   : extension revision 2
 
-VkQueueFamilyProperties:
-========================
-	queueProperties[0]:
-	------------------
-		minImageTransferGranularity = (1,1,1)
-		queueCount                  = 16
-		queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
-		timestampValidBits          = 64
-		present support = false
+VkQueueFamilyProperties[0]:
+==========================
+	minImageTransferGranularity = (1, 1, 1)
+	queueCount                  = 16
+	queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
+	timestampValidBits          = 64
+	present support = false
 
-	queueProperties[1]:
-	------------------
-		minImageTransferGranularity = (1,1,1)
-		queueCount                  = 1
-		queueFlags                  = QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
-		timestampValidBits          = 64
-		present support = false
+VkQueueFamilyProperties[1]:
+==========================
+	minImageTransferGranularity = (1, 1, 1)
+	queueCount                  = 1
+	queueFlags                  = QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
+	timestampValidBits          = 64
+	present support = false
 
 VkPhysicalDeviceMemoryProperties:
 =================================
@@ -906,12 +1013,6 @@ VkPhysicalDeviceBlendOperationAdvancedFeaturesEXT:
 --------------------------------------------------
 	advancedBlendCoherentOperations = true
 
-VkPhysicalDeviceBufferDeviceAddressFeaturesKHR:
------------------------------------------------
-	bufferDeviceAddress              = true
-	bufferDeviceAddressCaptureReplay = true
-	bufferDeviceAddressMultiDevice   = true
-
 VkPhysicalDeviceBufferDeviceAddressFeaturesEXT:
 -----------------------------------------------
 	bufferDeviceAddress              = true
@@ -1002,10 +1103,6 @@ VkPhysicalDeviceScalarBlockLayoutFeaturesEXT:
 ---------------------------------------------
 	scalarBlockLayout = true
 
-VkPhysicalDeviceSeparateDepthStencilLayoutsFeaturesKHR:
--------------------------------------------------------
-	separateDepthStencilLayouts = true
-
 VkPhysicalDeviceShaderAtomicInt64FeaturesKHR:
 ---------------------------------------------
 	shaderBufferInt64Atomics = true
@@ -1024,8 +1121,8 @@ VkPhysicalDeviceShaderDrawParametersFeatures:
 ---------------------------------------------
 	shaderDrawParameters = true
 
-VkPhysicalDeviceFloat16Int8FeaturesKHR:
----------------------------------------
+VkPhysicalDeviceShaderFloat16Int8FeaturesKHR:
+---------------------------------------------
 	shaderFloat16 = false
 	shaderInt8    = true
 
@@ -1302,7 +1399,7 @@ VkPhysicalDeviceDescriptorIndexingPropertiesEXT:
 
 VkPhysicalDeviceDriverPropertiesKHR:
 ------------------------------------
-	driverID           = DRIVER_ID_INTEL_PROPRIETARY_WINDOWS
+	driverID           = DRIVER_ID_INTEL_PROPRIETARY_WINDOWS_KHR
 	driverName         = Intel Corporation
 	driverInfo         = Intel driver
 	conformanceVersion = 1.1.4.1
@@ -1313,9 +1410,9 @@ VkPhysicalDeviceExternalMemoryHostPropertiesEXT:
 
 VkPhysicalDeviceIDProperties:
 -----------------------------
-	deviceUUID      = 86801b19-0600-0000-0000-000000000000
-	driverUUID      = 32362e32-302e-3130-302e-363935310000
-	deviceLUID      = 9aee0000-00000000
+	deviceUUID      = 86801b19-60-00-00-000000
+	driverUUID      = 32362e32-302e-3130-302e-3639353100
+	deviceLUID      = 9aee00-0000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -1408,7 +1505,6 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 
 
 Device Extensions: count = 48
-------------------
 	VK_EXT_conditional_rendering        : extension revision 1
 	VK_EXT_conservative_rasterization   : extension revision 1
 	VK_EXT_depth_clip_enable            : extension revision 1
@@ -1458,23 +1554,21 @@ Device Extensions: count = 48
 	VK_KHR_variable_pointers            : extension revision 1
 	VK_KHR_vulkan_memory_model          : extension revision 3
 
-VkQueueFamilyProperties:
-========================
-	queueProperties[0]:
-	------------------
-		minImageTransferGranularity = (1,1,1)
-		queueCount                  = 1
-		queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
-		timestampValidBits          = 36
-		present support = false
+VkQueueFamilyProperties[0]:
+==========================
+	minImageTransferGranularity = (1, 1, 1)
+	queueCount                  = 1
+	queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
+	timestampValidBits          = 36
+	present support = false
 
 VkPhysicalDeviceMemoryProperties:
 =================================
 memoryHeaps: count = 1
 	memoryHeaps[0]:
 		size   = 7665612595 (0x1c8e7f733) (7.14 GiB)
-		budget = 13792492905365550
-		usage  = 3472873891262197351
+		budget = 16325836415893596
+		usage  = 32370056120500329
 		flags:
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 memoryTypes: count = 2
@@ -1632,8 +1726,8 @@ VkPhysicalDeviceShaderDrawParametersFeatures:
 ---------------------------------------------
 	shaderDrawParameters = true
 
-VkPhysicalDeviceFloat16Int8FeaturesKHR:
----------------------------------------
+VkPhysicalDeviceShaderFloat16Int8FeaturesKHR:
+---------------------------------------------
 	shaderFloat16 = true
 	shaderInt8    = true
 
