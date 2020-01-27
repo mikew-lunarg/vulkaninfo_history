@@ -160,7 +160,6 @@ GPU id : 0 (GeForce GTX 960M):
 	VkSurfaceCapabilities2EXT:
 	--------------------------
 		supportedSurfaceCounters:
-			None
 	VkSurfaceCapabilitiesFullScreenExclusiveEXT:
 	--------------------------------------------
 		fullScreenExclusiveSupported = false
@@ -215,7 +214,6 @@ GPU id : 1 (Intel(R) HD Graphics 530):
 	VkSurfaceCapabilities2EXT:
 	--------------------------
 		supportedSurfaceCounters:
-			None
 	VkSurfaceProtectedCapabilitiesKHR:
 	----------------------------------
 		supportsProtected = false
@@ -1567,8 +1565,8 @@ VkPhysicalDeviceMemoryProperties:
 memoryHeaps: count = 1
 	memoryHeaps[0]:
 		size   = 7665612595 (0x1c8e7f733) (7.14 GiB)
-		budget = 16325836415893596
-		usage  = 32370056120500329
+		budget = 33495998976491630
+		usage  = 25896191785238636
 		flags:
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 memoryTypes: count = 2
