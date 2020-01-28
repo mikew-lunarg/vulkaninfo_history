@@ -2,7 +2,7 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.1.126"
+		"vulkanApiVersion": "1.2.131"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
@@ -49,14 +49,14 @@
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4198526,
+			"specVersion": 4202627,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198526,
-		"driverVersion": 1850851328,
+		"apiVersion": 4202627,
+		"driverVersion": 1851310080,
 		"vendorID": 4318,
 		"deviceID": 5019,
 		"deviceType": 2,
@@ -70,14 +70,14 @@
 			45,
 			208,
 			61,
-			119,
-			26,
-			102,
-			77,
-			64,
-			113,
-			106,
-			100
+			236,
+			234,
+			13,
+			180,
+			49,
+			139,
+			4,
+			161
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -92,7 +92,7 @@
 			"maxMemoryAllocationCount": 4096,
 			"maxSamplerAllocationCount": 4000,
 			"bufferImageGranularity": 65536,
-			"sparseAddressSpaceSize": 18446744073709551615,
+			"sparseAddressSpaceSize": 1099511627775,
 			"maxBoundDescriptorSets": 32,
 			"maxPerStageDescriptorSamplers": 1048576,
 			"maxPerStageDescriptorUniformBuffers": 15,

@@ -2,7 +2,7 @@
 VULKANINFO
 ==========
 
-Vulkan Instance Version: 1.1.126
+Vulkan Instance Version: 1.2.131
 
 
 Instance Extensions: count = 13
@@ -104,7 +104,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.131, layer 
 		GPU id 	: 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.1.126, layer version 1:
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.131, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id 	: 0 (GeForce GTX 960M)
@@ -160,6 +160,7 @@ GPU id : 0 (GeForce GTX 960M):
 	VkSurfaceCapabilities2EXT:
 	--------------------------
 		supportedSurfaceCounters:
+			VK_SURFACE_COUNTER_VBLANK_EXT
 	VkSurfaceCapabilitiesFullScreenExclusiveEXT:
 	--------------------------------------------
 		fullScreenExclusiveSupported = false
@@ -214,6 +215,7 @@ GPU id : 1 (Intel(R) HD Graphics 530):
 	VkSurfaceCapabilities2EXT:
 	--------------------------
 		supportedSurfaceCounters:
+			VK_SURFACE_COUNTER_VBLANK_EXT
 	VkSurfaceProtectedCapabilitiesKHR:
 	----------------------------------
 		supportsProtected = false
@@ -268,7 +270,7 @@ GPU id : 0 (GeForce GTX 960M):
 	VkSurfaceCapabilities2EXT:
 	--------------------------
 		supportedSurfaceCounters:
-			None
+			VK_SURFACE_COUNTER_VBLANK_EXT
 	VkSurfaceCapabilitiesFullScreenExclusiveEXT:
 	--------------------------------------------
 		fullScreenExclusiveSupported = false
@@ -327,7 +329,7 @@ GPU id : 1 (Intel(R) HD Graphics 530):
 	VkSurfaceCapabilities2EXT:
 	--------------------------
 		supportedSurfaceCounters:
-			None
+			VK_SURFACE_COUNTER_VBLANK_EXT
 	VkSurfaceProtectedCapabilitiesKHR:
 	----------------------------------
 		supportsProtected = false
@@ -366,8 +368,8 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion     = 4198526 (1.1.126)
-	driverVersion  = 1850851328 (0x6e51c000)
+	apiVersion     = 4202627 (1.2.131)
+	driverVersion  = 1851310080 (0x6e58c000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
@@ -387,7 +389,7 @@ VkPhysicalDeviceLimits:
 	maxMemoryAllocationCount                        = 4096
 	maxSamplerAllocationCount                       = 4000
 	bufferImageGranularity                          = 0x00010000
-	sparseAddressSpaceSize                          = 0xffffffffffffffff
+	sparseAddressSpaceSize                          = 0xffffffffff
 	maxBoundDescriptorSets                          = 32
 	maxPerStageDescriptorSamplers                   = 1048576
 	maxPerStageDescriptorUniformBuffers             = 15
@@ -549,18 +551,18 @@ VkPhysicalDeviceBlendOperationAdvancedPropertiesEXT:
 	advancedBlendCorrelatedOverlap        = true
 	advancedBlendAllOperations            = true
 
-VkPhysicalDeviceDepthStencilResolvePropertiesKHR:
--------------------------------------------------
+VkPhysicalDeviceDepthStencilResolveProperties:
+----------------------------------------------
 	supportedDepthResolveModes:
-		RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR
-		RESOLVE_MODE_AVERAGE_BIT_KHR
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
+		RESOLVE_MODE_AVERAGE_BIT
 	supportedStencilResolveModes:
-		RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
 	independentResolveNone = true
 	independentResolve     = true
 
-VkPhysicalDeviceDescriptorIndexingPropertiesEXT:
-------------------------------------------------
+VkPhysicalDeviceDescriptorIndexingProperties:
+---------------------------------------------
 	maxUpdateAfterBindDescriptorsInAllPools              = 4294967295
 	shaderUniformBufferArrayNonUniformIndexingNative     = true
 	shaderSampledImageArrayNonUniformIndexingNative      = true
@@ -589,21 +591,21 @@ VkPhysicalDeviceDiscardRectanglePropertiesEXT:
 ----------------------------------------------
 	maxDiscardRectangles = 8
 
-VkPhysicalDeviceDriverPropertiesKHR:
-------------------------------------
-	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY_KHR
+VkPhysicalDeviceDriverProperties:
+---------------------------------
+	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName         = NVIDIA
-	driverInfo         = 441.71
-	conformanceVersion = 1.1.6.0
+	driverInfo         = 441.99
+	conformanceVersion = 1.2.1.0
 
 VkPhysicalDeviceExternalMemoryHostPropertiesEXT:
 ------------------------------------------------
 	minImportedHostPointerAlignment = 0x00001000
 
-VkPhysicalDeviceFloatControlsPropertiesKHR:
--------------------------------------------
-	denormBehaviorIndependence            = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR
-	roundingModeIndependence              = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR
+VkPhysicalDeviceFloatControlsProperties:
+----------------------------------------
+	denormBehaviorIndependence            = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
+	roundingModeIndependence              = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
 	shaderSignedZeroInfNanPreserveFloat16 = true
 	shaderSignedZeroInfNanPreserveFloat32 = true
 	shaderSignedZeroInfNanPreserveFloat64 = true
@@ -623,8 +625,8 @@ VkPhysicalDeviceFloatControlsPropertiesKHR:
 VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 1c83ff25-1ac-5749-c772-a54fd2f648a8
-	driverUUID      = 771a664d-4071-6a64-4fa-a487ede94256
-	deviceLUID      = e3f200-0000
+	driverUUID      = eceadb4-318b-4a1-b843-730426376d2
+	deviceLUID      = 8b937827-0000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -668,6 +670,11 @@ VkPhysicalDeviceProtectedMemoryProperties:
 VkPhysicalDevicePushDescriptorPropertiesKHR:
 --------------------------------------------
 	maxPushDescriptors = 32
+
+VkPhysicalDeviceSamplerFilterMinmaxProperties:
+----------------------------------------------
+	filterMinmaxSingleComponentFormats = false
+	filterMinmaxImageComponentMapping  = false
 
 VkPhysicalDeviceSubgroupProperties:
 -----------------------------------
@@ -715,8 +722,8 @@ VkPhysicalDeviceTexelBufferAlignmentPropertiesEXT:
 	uniformTexelBufferOffsetAlignmentBytes       = 0x00000010
 	uniformTexelBufferOffsetSingleTexelAlignment = true
 
-VkPhysicalDeviceTimelineSemaphorePropertiesKHR:
------------------------------------------------
+VkPhysicalDeviceTimelineSemaphoreProperties:
+--------------------------------------------
 	maxTimelineSemaphoreValueDifference = 2147483647
 
 VkPhysicalDeviceTransformFeedbackPropertiesEXT:
@@ -735,6 +742,103 @@ VkPhysicalDeviceTransformFeedbackPropertiesEXT:
 VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 ----------------------------------------------------
 	maxVertexAttribDivisor = 4294967295
+
+VkPhysicalDeviceVulkan11Properties:
+-----------------------------------
+	deviceUUID                        = 1c83ff25-1ac-5749-c772-a54fd2f648a8
+	driverUUID                        = eceadb4-318b-4a1-b843-730426376d2
+	deviceLUID                        = 8b937827-0000
+	deviceNodeMask                    = 1
+	deviceLUIDValid                   = true
+	subgroupSize                      = 32
+	subgroupSupportedStages:
+		SHADER_STAGE_VERTEX_BIT
+		SHADER_STAGE_TESSELLATION_CONTROL_BIT
+		SHADER_STAGE_TESSELLATION_EVALUATION_BIT
+		SHADER_STAGE_GEOMETRY_BIT
+		SHADER_STAGE_FRAGMENT_BIT
+		SHADER_STAGE_COMPUTE_BIT
+		SHADER_STAGE_ALL_GRAPHICS
+		SHADER_STAGE_ALL
+	subgroupSupportedOperations:
+		SUBGROUP_FEATURE_BASIC_BIT
+		SUBGROUP_FEATURE_VOTE_BIT
+		SUBGROUP_FEATURE_ARITHMETIC_BIT
+		SUBGROUP_FEATURE_BALLOT_BIT
+		SUBGROUP_FEATURE_SHUFFLE_BIT
+		SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT
+		SUBGROUP_FEATURE_CLUSTERED_BIT
+		SUBGROUP_FEATURE_QUAD_BIT
+		SUBGROUP_FEATURE_PARTITIONED_BIT_NV
+	subgroupQuadOperationsInAllStages = true
+	pointClippingBehavior             = POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY
+	maxMultiviewViewCount             = 32
+	maxMultiviewInstanceIndex         = 134217727
+	protectedNoFault                  = false
+	maxPerSetDescriptors              = 4294967295
+	maxMemoryAllocationSize           = 0xffe00000
+
+VkPhysicalDeviceVulkan12Properties:
+-----------------------------------
+	driverID                                             = DRIVER_ID_NVIDIA_PROPRIETARY
+	driverName                                           = NVIDIA
+	driverInfo                                           = 441.99
+	conformanceVersion                                   = 1.2.1.0
+	denormBehaviorIndependence                           = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
+	roundingModeIndependence                             = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
+	shaderSignedZeroInfNanPreserveFloat16                = true
+	shaderSignedZeroInfNanPreserveFloat32                = true
+	shaderSignedZeroInfNanPreserveFloat64                = true
+	shaderDenormPreserveFloat16                          = false
+	shaderDenormPreserveFloat32                          = false
+	shaderDenormPreserveFloat64                          = false
+	shaderDenormFlushToZeroFloat16                       = false
+	shaderDenormFlushToZeroFloat32                       = false
+	shaderDenormFlushToZeroFloat64                       = false
+	shaderRoundingModeRTEFloat16                         = true
+	shaderRoundingModeRTEFloat32                         = true
+	shaderRoundingModeRTEFloat64                         = true
+	shaderRoundingModeRTZFloat16                         = false
+	shaderRoundingModeRTZFloat32                         = true
+	shaderRoundingModeRTZFloat64                         = true
+	maxUpdateAfterBindDescriptorsInAllPools              = 4294967295
+	shaderUniformBufferArrayNonUniformIndexingNative     = true
+	shaderSampledImageArrayNonUniformIndexingNative      = true
+	shaderStorageBufferArrayNonUniformIndexingNative     = true
+	shaderStorageImageArrayNonUniformIndexingNative      = true
+	shaderInputAttachmentArrayNonUniformIndexingNative   = true
+	robustBufferAccessUpdateAfterBind                    = true
+	quadDivergentImplicitLod                             = true
+	maxPerStageDescriptorUpdateAfterBindSamplers         = 1048576
+	maxPerStageDescriptorUpdateAfterBindUniformBuffers   = 15
+	maxPerStageDescriptorUpdateAfterBindStorageBuffers   = 1048576
+	maxPerStageDescriptorUpdateAfterBindSampledImages    = 1048576
+	maxPerStageDescriptorUpdateAfterBindStorageImages    = 1048576
+	maxPerStageDescriptorUpdateAfterBindInputAttachments = 1048576
+	maxPerStageUpdateAfterBindResources                  = 4294967295
+	maxDescriptorSetUpdateAfterBindSamplers              = 1048576
+	maxDescriptorSetUpdateAfterBindUniformBuffers        = 90
+	maxDescriptorSetUpdateAfterBindUniformBuffersDynamic = 15
+	maxDescriptorSetUpdateAfterBindStorageBuffers        = 1048576
+	maxDescriptorSetUpdateAfterBindStorageBuffersDynamic = 16
+	maxDescriptorSetUpdateAfterBindSampledImages         = 1048576
+	maxDescriptorSetUpdateAfterBindStorageImages         = 1048576
+	maxDescriptorSetUpdateAfterBindInputAttachments      = 1048576
+	supportedDepthResolveModes:
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
+		RESOLVE_MODE_AVERAGE_BIT
+	supportedStencilResolveModes:
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
+	independentResolveNone                               = true
+	independentResolve                                   = true
+	filterMinmaxSingleComponentFormats                   = false
+	filterMinmaxImageComponentMapping                    = false
+	maxTimelineSemaphoreValueDifference                  = 2147483647
+	framebufferIntegerColorSampleCounts:
+		SAMPLE_COUNT_1_BIT
+		SAMPLE_COUNT_2_BIT
+		SAMPLE_COUNT_4_BIT
+		SAMPLE_COUNT_8_BIT
 
 
 Device Extensions: count = 84
@@ -823,21 +927,23 @@ Device Extensions: count = 84
 	VK_NV_shader_subgroup_partitioned         : extension revision 1
 	VK_NV_win32_keyed_mutex                   : extension revision 2
 
-VkQueueFamilyProperties[0]:
-==========================
-	minImageTransferGranularity = (1, 1, 1)
-	queueCount                  = 16
-	queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
-	timestampValidBits          = 64
-	present support = false
+VkQueueFamilyProperties:
+========================
+	queueProperties[0]:
+	------------------
+		minImageTransferGranularity = (1,1,1)
+		queueCount                  = 16
+		queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
+		timestampValidBits          = 64
+		present support = false
 
-VkQueueFamilyProperties[1]:
-==========================
-	minImageTransferGranularity = (1, 1, 1)
-	queueCount                  = 1
-	queueFlags                  = QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
-	timestampValidBits          = 64
-	present support = false
+	queueProperties[1]:
+	------------------
+		minImageTransferGranularity = (1,1,1)
+		queueCount                  = 1
+		queueFlags                  = QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
+		timestampValidBits          = 64
+		present support = false
 
 VkPhysicalDeviceMemoryProperties:
 =================================
@@ -1001,8 +1107,8 @@ VkPhysicalDevice16BitStorageFeatures:
 	storagePushConstant16              = true
 	storageInputOutput16               = false
 
-VkPhysicalDevice8BitStorageFeaturesKHR:
----------------------------------------
+VkPhysicalDevice8BitStorageFeatures:
+------------------------------------
 	storageBuffer8BitAccess           = true
 	uniformAndStorageBuffer8BitAccess = true
 	storagePushConstant8              = true
@@ -1010,6 +1116,12 @@ VkPhysicalDevice8BitStorageFeaturesKHR:
 VkPhysicalDeviceBlendOperationAdvancedFeaturesEXT:
 --------------------------------------------------
 	advancedBlendCoherentOperations = true
+
+VkPhysicalDeviceBufferDeviceAddressFeatures:
+--------------------------------------------
+	bufferDeviceAddress              = true
+	bufferDeviceAddressCaptureReplay = true
+	bufferDeviceAddressMultiDevice   = true
 
 VkPhysicalDeviceBufferDeviceAddressFeaturesEXT:
 -----------------------------------------------
@@ -1026,8 +1138,8 @@ VkPhysicalDeviceDepthClipEnableFeaturesEXT:
 -------------------------------------------
 	depthClipEnable = true
 
-VkPhysicalDeviceDescriptorIndexingFeaturesEXT:
-----------------------------------------------
+VkPhysicalDeviceDescriptorIndexingFeatures:
+-------------------------------------------
 	shaderInputAttachmentArrayDynamicIndexing          = true
 	shaderUniformTexelBufferArrayDynamicIndexing       = true
 	shaderStorageTexelBufferArrayDynamicIndexing       = true
@@ -1049,12 +1161,12 @@ VkPhysicalDeviceDescriptorIndexingFeaturesEXT:
 	descriptorBindingVariableDescriptorCount           = true
 	runtimeDescriptorArray                             = true
 
-VkPhysicalDeviceHostQueryResetFeaturesEXT:
-------------------------------------------
+VkPhysicalDeviceHostQueryResetFeatures:
+---------------------------------------
 	hostQueryReset = true
 
-VkPhysicalDeviceImagelessFramebufferFeaturesKHR:
-------------------------------------------------
+VkPhysicalDeviceImagelessFramebufferFeatures:
+---------------------------------------------
 	imagelessFramebuffer = true
 
 VkPhysicalDeviceIndexTypeUint8FeaturesEXT:
@@ -1097,12 +1209,16 @@ VkPhysicalDeviceSamplerYcbcrConversionFeatures:
 -----------------------------------------------
 	samplerYcbcrConversion = true
 
-VkPhysicalDeviceScalarBlockLayoutFeaturesEXT:
----------------------------------------------
+VkPhysicalDeviceScalarBlockLayoutFeatures:
+------------------------------------------
 	scalarBlockLayout = true
 
-VkPhysicalDeviceShaderAtomicInt64FeaturesKHR:
----------------------------------------------
+VkPhysicalDeviceSeparateDepthStencilLayoutsFeatures:
+----------------------------------------------------
+	separateDepthStencilLayouts = true
+
+VkPhysicalDeviceShaderAtomicInt64Features:
+------------------------------------------
 	shaderBufferInt64Atomics = true
 	shaderSharedInt64Atomics = true
 
@@ -1119,13 +1235,13 @@ VkPhysicalDeviceShaderDrawParametersFeatures:
 ---------------------------------------------
 	shaderDrawParameters = true
 
-VkPhysicalDeviceShaderFloat16Int8FeaturesKHR:
----------------------------------------------
+VkPhysicalDeviceShaderFloat16Int8Features:
+------------------------------------------
 	shaderFloat16 = false
 	shaderInt8    = true
 
-VkPhysicalDeviceShaderSubgroupExtendedTypesFeaturesKHR:
--------------------------------------------------------
+VkPhysicalDeviceShaderSubgroupExtendedTypesFeatures:
+----------------------------------------------------
 	shaderSubgroupExtendedTypes = true
 
 VkPhysicalDeviceSubgroupSizeControlFeaturesEXT:
@@ -1137,8 +1253,8 @@ VkPhysicalDeviceTexelBufferAlignmentFeaturesEXT:
 ------------------------------------------------
 	texelBufferAlignment = true
 
-VkPhysicalDeviceTimelineSemaphoreFeaturesKHR:
----------------------------------------------
+VkPhysicalDeviceTimelineSemaphoreFeatures:
+------------------------------------------
 	timelineSemaphore = true
 
 VkPhysicalDeviceTransformFeedbackFeaturesEXT:
@@ -1146,8 +1262,8 @@ VkPhysicalDeviceTransformFeedbackFeaturesEXT:
 	transformFeedback = true
 	geometryStreams   = true
 
-VkPhysicalDeviceUniformBufferStandardLayoutFeaturesKHR:
--------------------------------------------------------
+VkPhysicalDeviceUniformBufferStandardLayoutFeatures:
+----------------------------------------------------
 	uniformBufferStandardLayout = true
 
 VkPhysicalDeviceVariablePointersFeatures:
@@ -1160,8 +1276,73 @@ VkPhysicalDeviceVertexAttributeDivisorFeaturesEXT:
 	vertexAttributeInstanceRateDivisor     = true
 	vertexAttributeInstanceRateZeroDivisor = true
 
-VkPhysicalDeviceVulkanMemoryModelFeaturesKHR:
----------------------------------------------
+VkPhysicalDeviceVulkan11Features:
+---------------------------------
+	storageBuffer16BitAccess           = true
+	uniformAndStorageBuffer16BitAccess = true
+	storagePushConstant16              = true
+	storageInputOutput16               = false
+	multiview                          = true
+	multiviewGeometryShader            = true
+	multiviewTessellationShader        = true
+	variablePointersStorageBuffer      = true
+	variablePointers                   = true
+	protectedMemory                    = false
+	samplerYcbcrConversion             = true
+	shaderDrawParameters               = true
+
+VkPhysicalDeviceVulkan12Features:
+---------------------------------
+	samplerMirrorClampToEdge                           = true
+	drawIndirectCount                                  = true
+	storageBuffer8BitAccess                            = true
+	uniformAndStorageBuffer8BitAccess                  = true
+	storagePushConstant8                               = true
+	shaderBufferInt64Atomics                           = true
+	shaderSharedInt64Atomics                           = true
+	shaderFloat16                                      = false
+	shaderInt8                                         = true
+	descriptorIndexing                                 = true
+	shaderInputAttachmentArrayDynamicIndexing          = true
+	shaderUniformTexelBufferArrayDynamicIndexing       = true
+	shaderStorageTexelBufferArrayDynamicIndexing       = true
+	shaderUniformBufferArrayNonUniformIndexing         = true
+	shaderSampledImageArrayNonUniformIndexing          = true
+	shaderStorageBufferArrayNonUniformIndexing         = true
+	shaderStorageImageArrayNonUniformIndexing          = true
+	shaderInputAttachmentArrayNonUniformIndexing       = true
+	shaderUniformTexelBufferArrayNonUniformIndexing    = true
+	shaderStorageTexelBufferArrayNonUniformIndexing    = true
+	descriptorBindingUniformBufferUpdateAfterBind      = false
+	descriptorBindingSampledImageUpdateAfterBind       = true
+	descriptorBindingStorageImageUpdateAfterBind       = true
+	descriptorBindingStorageBufferUpdateAfterBind      = true
+	descriptorBindingUniformTexelBufferUpdateAfterBind = true
+	descriptorBindingStorageTexelBufferUpdateAfterBind = true
+	descriptorBindingUpdateUnusedWhilePending          = true
+	descriptorBindingPartiallyBound                    = true
+	descriptorBindingVariableDescriptorCount           = true
+	runtimeDescriptorArray                             = true
+	samplerFilterMinmax                                = false
+	scalarBlockLayout                                  = true
+	imagelessFramebuffer                               = true
+	uniformBufferStandardLayout                        = true
+	shaderSubgroupExtendedTypes                        = true
+	separateDepthStencilLayouts                        = true
+	hostQueryReset                                     = true
+	timelineSemaphore                                  = true
+	bufferDeviceAddress                                = true
+	bufferDeviceAddressCaptureReplay                   = true
+	bufferDeviceAddressMultiDevice                     = true
+	vulkanMemoryModel                                  = true
+	vulkanMemoryModelDeviceScope                       = true
+	vulkanMemoryModelAvailabilityVisibilityChains      = true
+	shaderOutputViewportIndex                          = false
+	shaderOutputLayer                                  = false
+	subgroupBroadcastDynamicId                         = true
+
+VkPhysicalDeviceVulkanMemoryModelFeatures:
+------------------------------------------
 	vulkanMemoryModel                             = true
 	vulkanMemoryModelDeviceScope                  = true
 	vulkanMemoryModelAvailabilityVisibilityChains = true
@@ -1369,8 +1550,22 @@ VkPhysicalDeviceConservativeRasterizationPropertiesEXT:
 	fullyCoveredFragmentShaderInputVariable     = true
 	conservativeRasterizationPostDepthCoverage  = false
 
-VkPhysicalDeviceDescriptorIndexingPropertiesEXT:
-------------------------------------------------
+VkPhysicalDeviceDepthStencilResolveProperties:
+----------------------------------------------
+	supportedDepthResolveModes:
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
+		RESOLVE_MODE_AVERAGE_BIT
+		RESOLVE_MODE_MIN_BIT
+		RESOLVE_MODE_MAX_BIT
+	supportedStencilResolveModes:
+		RESOLVE_MODE_SAMPLE_ZERO_BIT
+		RESOLVE_MODE_MIN_BIT
+		RESOLVE_MODE_MAX_BIT
+	independentResolveNone = false
+	independentResolve     = true
+
+VkPhysicalDeviceDescriptorIndexingProperties:
+---------------------------------------------
 	maxUpdateAfterBindDescriptorsInAllPools              = 1048576
 	shaderUniformBufferArrayNonUniformIndexingNative     = false
 	shaderSampledImageArrayNonUniformIndexingNative      = false
@@ -1395,9 +1590,9 @@ VkPhysicalDeviceDescriptorIndexingPropertiesEXT:
 	maxDescriptorSetUpdateAfterBindStorageImages         = 1048576
 	maxDescriptorSetUpdateAfterBindInputAttachments      = 1048576
 
-VkPhysicalDeviceDriverPropertiesKHR:
-------------------------------------
-	driverID           = DRIVER_ID_INTEL_PROPRIETARY_WINDOWS_KHR
+VkPhysicalDeviceDriverProperties:
+---------------------------------
+	driverID           = DRIVER_ID_INTEL_PROPRIETARY_WINDOWS
 	driverName         = Intel Corporation
 	driverInfo         = Intel driver
 	conformanceVersion = 1.1.4.1
@@ -1405,6 +1600,26 @@ VkPhysicalDeviceDriverPropertiesKHR:
 VkPhysicalDeviceExternalMemoryHostPropertiesEXT:
 ------------------------------------------------
 	minImportedHostPointerAlignment = 0x00010000
+
+VkPhysicalDeviceFloatControlsProperties:
+----------------------------------------
+	denormBehaviorIndependence            = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
+	roundingModeIndependence              = SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY
+	shaderSignedZeroInfNanPreserveFloat16 = true
+	shaderSignedZeroInfNanPreserveFloat32 = true
+	shaderSignedZeroInfNanPreserveFloat64 = true
+	shaderDenormPreserveFloat16           = true
+	shaderDenormPreserveFloat32           = true
+	shaderDenormPreserveFloat64           = true
+	shaderDenormFlushToZeroFloat16        = false
+	shaderDenormFlushToZeroFloat32        = false
+	shaderDenormFlushToZeroFloat64        = false
+	shaderRoundingModeRTEFloat16          = true
+	shaderRoundingModeRTEFloat32          = true
+	shaderRoundingModeRTEFloat64          = true
+	shaderRoundingModeRTZFloat16          = false
+	shaderRoundingModeRTZFloat32          = false
+	shaderRoundingModeRTZFloat64          = false
 
 VkPhysicalDeviceIDProperties:
 -----------------------------
@@ -1461,8 +1676,8 @@ VkPhysicalDeviceSampleLocationsPropertiesEXT:
 	sampleLocationSubPixelBits       = 4
 	variableSampleLocations          = false
 
-VkPhysicalDeviceSamplerFilterMinmaxPropertiesEXT:
--------------------------------------------------
+VkPhysicalDeviceSamplerFilterMinmaxProperties:
+----------------------------------------------
 	filterMinmaxSingleComponentFormats = true
 	filterMinmaxImageComponentMapping  = true
 
@@ -1497,9 +1712,90 @@ VkPhysicalDeviceSubgroupProperties:
 		SUBGROUP_FEATURE_QUAD_BIT
 	quadOperationsInAllStages = true
 
+VkPhysicalDeviceTimelineSemaphoreProperties:
+--------------------------------------------
+	maxTimelineSemaphoreValueDifference = 18446744073709551615
+
 VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 ----------------------------------------------------
 	maxVertexAttribDivisor = 268435455
+
+VkPhysicalDeviceVulkan11Properties:
+-----------------------------------
+	deviceUUID                        =  0000-00-00-00-000000
+	driverUUID                        =  0000-00-00-00-000000
+	deviceNodeMask                    = 0
+	deviceLUIDValid                   = false
+	subgroupSize                      = 0
+	subgroupSupportedStages:
+		None
+	subgroupSupportedOperations:
+		None
+	subgroupQuadOperationsInAllStages = false
+	pointClippingBehavior             = POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES
+	maxMultiviewViewCount             = 0
+	maxMultiviewInstanceIndex         = 0
+	protectedNoFault                  = false
+	maxPerSetDescriptors              = 0
+	maxMemoryAllocationSize           = 0x00000000
+
+VkPhysicalDeviceVulkan12Properties:
+-----------------------------------
+	driverID                                             = UNKNOWN_VkDriverId
+	driverName                                           = 
+	driverInfo                                           = 
+	conformanceVersion                                   = 0.0.0.0
+	denormBehaviorIndependence                           = SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY
+	roundingModeIndependence                             = SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY
+	shaderSignedZeroInfNanPreserveFloat16                = false
+	shaderSignedZeroInfNanPreserveFloat32                = false
+	shaderSignedZeroInfNanPreserveFloat64                = false
+	shaderDenormPreserveFloat16                          = false
+	shaderDenormPreserveFloat32                          = false
+	shaderDenormPreserveFloat64                          = false
+	shaderDenormFlushToZeroFloat16                       = false
+	shaderDenormFlushToZeroFloat32                       = false
+	shaderDenormFlushToZeroFloat64                       = false
+	shaderRoundingModeRTEFloat16                         = false
+	shaderRoundingModeRTEFloat32                         = false
+	shaderRoundingModeRTEFloat64                         = false
+	shaderRoundingModeRTZFloat16                         = false
+	shaderRoundingModeRTZFloat32                         = false
+	shaderRoundingModeRTZFloat64                         = false
+	maxUpdateAfterBindDescriptorsInAllPools              = 0
+	shaderUniformBufferArrayNonUniformIndexingNative     = false
+	shaderSampledImageArrayNonUniformIndexingNative      = false
+	shaderStorageBufferArrayNonUniformIndexingNative     = false
+	shaderStorageImageArrayNonUniformIndexingNative      = false
+	shaderInputAttachmentArrayNonUniformIndexingNative   = false
+	robustBufferAccessUpdateAfterBind                    = false
+	quadDivergentImplicitLod                             = false
+	maxPerStageDescriptorUpdateAfterBindSamplers         = 0
+	maxPerStageDescriptorUpdateAfterBindUniformBuffers   = 0
+	maxPerStageDescriptorUpdateAfterBindStorageBuffers   = 0
+	maxPerStageDescriptorUpdateAfterBindSampledImages    = 0
+	maxPerStageDescriptorUpdateAfterBindStorageImages    = 0
+	maxPerStageDescriptorUpdateAfterBindInputAttachments = 0
+	maxPerStageUpdateAfterBindResources                  = 0
+	maxDescriptorSetUpdateAfterBindSamplers              = 0
+	maxDescriptorSetUpdateAfterBindUniformBuffers        = 0
+	maxDescriptorSetUpdateAfterBindUniformBuffersDynamic = 0
+	maxDescriptorSetUpdateAfterBindStorageBuffers        = 0
+	maxDescriptorSetUpdateAfterBindStorageBuffersDynamic = 0
+	maxDescriptorSetUpdateAfterBindSampledImages         = 0
+	maxDescriptorSetUpdateAfterBindStorageImages         = 0
+	maxDescriptorSetUpdateAfterBindInputAttachments      = 0
+	supportedDepthResolveModes:
+		None
+	supportedStencilResolveModes:
+		None
+	independentResolveNone                               = false
+	independentResolve                                   = false
+	filterMinmaxSingleComponentFormats                   = false
+	filterMinmaxImageComponentMapping                    = false
+	maxTimelineSemaphoreValueDifference                  = 0
+	framebufferIntegerColorSampleCounts:
+		None
 
 
 Device Extensions: count = 48
@@ -1552,13 +1848,15 @@ Device Extensions: count = 48
 	VK_KHR_variable_pointers            : extension revision 1
 	VK_KHR_vulkan_memory_model          : extension revision 3
 
-VkQueueFamilyProperties[0]:
-==========================
-	minImageTransferGranularity = (1, 1, 1)
-	queueCount                  = 1
-	queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
-	timestampValidBits          = 36
-	present support = false
+VkQueueFamilyProperties:
+========================
+	queueProperties[0]:
+	------------------
+		minImageTransferGranularity = (1,1,1)
+		queueCount                  = 1
+		queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
+		timestampValidBits          = 36
+		present support = false
 
 VkPhysicalDeviceMemoryProperties:
 =================================
@@ -1655,11 +1953,17 @@ VkPhysicalDevice16BitStorageFeatures:
 	storagePushConstant16              = true
 	storageInputOutput16               = true
 
-VkPhysicalDevice8BitStorageFeaturesKHR:
----------------------------------------
+VkPhysicalDevice8BitStorageFeatures:
+------------------------------------
 	storageBuffer8BitAccess           = true
 	uniformAndStorageBuffer8BitAccess = true
 	storagePushConstant8              = true
+
+VkPhysicalDeviceBufferDeviceAddressFeatures:
+--------------------------------------------
+	bufferDeviceAddress              = false
+	bufferDeviceAddressCaptureReplay = false
+	bufferDeviceAddressMultiDevice   = false
 
 VkPhysicalDeviceConditionalRenderingFeaturesEXT:
 ------------------------------------------------
@@ -1670,8 +1974,8 @@ VkPhysicalDeviceDepthClipEnableFeaturesEXT:
 -------------------------------------------
 	depthClipEnable = true
 
-VkPhysicalDeviceDescriptorIndexingFeaturesEXT:
-----------------------------------------------
+VkPhysicalDeviceDescriptorIndexingFeatures:
+-------------------------------------------
 	shaderInputAttachmentArrayDynamicIndexing          = true
 	shaderUniformTexelBufferArrayDynamicIndexing       = true
 	shaderStorageTexelBufferArrayDynamicIndexing       = true
@@ -1693,9 +1997,13 @@ VkPhysicalDeviceDescriptorIndexingFeaturesEXT:
 	descriptorBindingVariableDescriptorCount           = true
 	runtimeDescriptorArray                             = true
 
-VkPhysicalDeviceHostQueryResetFeaturesEXT:
-------------------------------------------
+VkPhysicalDeviceHostQueryResetFeatures:
+---------------------------------------
 	hostQueryReset = true
+
+VkPhysicalDeviceImagelessFramebufferFeatures:
+---------------------------------------------
+	imagelessFramebuffer = true
 
 VkPhysicalDeviceInlineUniformBlockFeaturesEXT:
 ----------------------------------------------
@@ -1716,18 +2024,39 @@ VkPhysicalDeviceSamplerYcbcrConversionFeatures:
 -----------------------------------------------
 	samplerYcbcrConversion = false
 
-VkPhysicalDeviceScalarBlockLayoutFeaturesEXT:
----------------------------------------------
+VkPhysicalDeviceScalarBlockLayoutFeatures:
+------------------------------------------
 	scalarBlockLayout = true
+
+VkPhysicalDeviceSeparateDepthStencilLayoutsFeatures:
+----------------------------------------------------
+	separateDepthStencilLayouts = false
+
+VkPhysicalDeviceShaderAtomicInt64Features:
+------------------------------------------
+	shaderBufferInt64Atomics = false
+	shaderSharedInt64Atomics = false
 
 VkPhysicalDeviceShaderDrawParametersFeatures:
 ---------------------------------------------
 	shaderDrawParameters = true
 
-VkPhysicalDeviceShaderFloat16Int8FeaturesKHR:
----------------------------------------------
+VkPhysicalDeviceShaderFloat16Int8Features:
+------------------------------------------
 	shaderFloat16 = true
 	shaderInt8    = true
+
+VkPhysicalDeviceShaderSubgroupExtendedTypesFeatures:
+----------------------------------------------------
+	shaderSubgroupExtendedTypes = false
+
+VkPhysicalDeviceTimelineSemaphoreFeatures:
+------------------------------------------
+	timelineSemaphore = true
+
+VkPhysicalDeviceUniformBufferStandardLayoutFeatures:
+----------------------------------------------------
+	uniformBufferStandardLayout = true
 
 VkPhysicalDeviceVariablePointersFeatures:
 -----------------------------------------
@@ -1739,8 +2068,73 @@ VkPhysicalDeviceVertexAttributeDivisorFeaturesEXT:
 	vertexAttributeInstanceRateDivisor     = true
 	vertexAttributeInstanceRateZeroDivisor = true
 
-VkPhysicalDeviceVulkanMemoryModelFeaturesKHR:
----------------------------------------------
+VkPhysicalDeviceVulkan11Features:
+---------------------------------
+	storageBuffer16BitAccess           = false
+	uniformAndStorageBuffer16BitAccess = false
+	storagePushConstant16              = false
+	storageInputOutput16               = false
+	multiview                          = false
+	multiviewGeometryShader            = false
+	multiviewTessellationShader        = false
+	variablePointersStorageBuffer      = false
+	variablePointers                   = false
+	protectedMemory                    = false
+	samplerYcbcrConversion             = false
+	shaderDrawParameters               = false
+
+VkPhysicalDeviceVulkan12Features:
+---------------------------------
+	samplerMirrorClampToEdge                           = false
+	drawIndirectCount                                  = false
+	storageBuffer8BitAccess                            = false
+	uniformAndStorageBuffer8BitAccess                  = false
+	storagePushConstant8                               = false
+	shaderBufferInt64Atomics                           = false
+	shaderSharedInt64Atomics                           = false
+	shaderFloat16                                      = false
+	shaderInt8                                         = false
+	descriptorIndexing                                 = false
+	shaderInputAttachmentArrayDynamicIndexing          = false
+	shaderUniformTexelBufferArrayDynamicIndexing       = false
+	shaderStorageTexelBufferArrayDynamicIndexing       = false
+	shaderUniformBufferArrayNonUniformIndexing         = false
+	shaderSampledImageArrayNonUniformIndexing          = false
+	shaderStorageBufferArrayNonUniformIndexing         = false
+	shaderStorageImageArrayNonUniformIndexing          = false
+	shaderInputAttachmentArrayNonUniformIndexing       = false
+	shaderUniformTexelBufferArrayNonUniformIndexing    = false
+	shaderStorageTexelBufferArrayNonUniformIndexing    = false
+	descriptorBindingUniformBufferUpdateAfterBind      = false
+	descriptorBindingSampledImageUpdateAfterBind       = false
+	descriptorBindingStorageImageUpdateAfterBind       = false
+	descriptorBindingStorageBufferUpdateAfterBind      = false
+	descriptorBindingUniformTexelBufferUpdateAfterBind = false
+	descriptorBindingStorageTexelBufferUpdateAfterBind = false
+	descriptorBindingUpdateUnusedWhilePending          = false
+	descriptorBindingPartiallyBound                    = false
+	descriptorBindingVariableDescriptorCount           = false
+	runtimeDescriptorArray                             = false
+	samplerFilterMinmax                                = false
+	scalarBlockLayout                                  = false
+	imagelessFramebuffer                               = false
+	uniformBufferStandardLayout                        = false
+	shaderSubgroupExtendedTypes                        = false
+	separateDepthStencilLayouts                        = false
+	hostQueryReset                                     = false
+	timelineSemaphore                                  = false
+	bufferDeviceAddress                                = false
+	bufferDeviceAddressCaptureReplay                   = false
+	bufferDeviceAddressMultiDevice                     = false
+	vulkanMemoryModel                                  = false
+	vulkanMemoryModelDeviceScope                       = false
+	vulkanMemoryModelAvailabilityVisibilityChains      = false
+	shaderOutputViewportIndex                          = false
+	shaderOutputLayer                                  = false
+	subgroupBroadcastDynamicId                         = false
+
+VkPhysicalDeviceVulkanMemoryModelFeatures:
+------------------------------------------
 	vulkanMemoryModel                             = true
 	vulkanMemoryModelDeviceScope                  = true
 	vulkanMemoryModelAvailabilityVisibilityChains = true

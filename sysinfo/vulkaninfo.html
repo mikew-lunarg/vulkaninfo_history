@@ -87,7 +87,7 @@
 			<h1>vulkaninfo</h1>
 		</div>
 		<div id='wrapper'>
-			<details><summary>Vulkan Instance Version: <span class='val'>1.1.126</span></summary></details>
+			<details><summary>Vulkan Instance Version: <span class='val'>1.2.131</span></summary></details>
 			<br />
 			<details><summary>Instance Extensions: count = <span class='val'>13</span></summary>
 				<details><summary><span class='type'>VK_EXT_debug_report</span>                    : extension revision <span class='val'>9</span></summary></details>
@@ -207,7 +207,7 @@
 						</details>
 					</details>
 				</details>
-				<details><summary><span class='type'>VK_LAYER_NV_optimus</span> (NVIDIA Optimus layer) Vulkan version <span class='val'>1.1.126</span>, layer version <span class='val'>1</span></summary>
+				<details><summary><span class='type'>VK_LAYER_NV_optimus</span> (NVIDIA Optimus layer) Vulkan version <span class='val'>1.2.131</span>, layer version <span class='val'>1</span></summary>
 					<details><summary>Layer Extensions: count = <span class='val'>0</span></summary>
 					</details>
 					<details><summary>Devices: count = <span class='val'>2</span></summary>
@@ -277,7 +277,7 @@
 					</details>
 					<details><summary>VkSurfaceCapabilities2EXT</summary>
 						<details><summary>supportedSurfaceCounters</summary>
-							<details><summary><span class='type'>VK_SURFACE_COUNTER_VBLANK_EXT</span></summary></details>
+							<details><summary><span class='val'>None</span></summary></details>
 						</details>
 					</details>
 					<details><summary>VkSurfaceCapabilitiesFullScreenExclusiveEXT</summary>
@@ -343,7 +343,7 @@
 					</details>
 					<details><summary>VkSurfaceCapabilities2EXT</summary>
 						<details><summary>supportedSurfaceCounters</summary>
-							<details><summary><span class='type'>VK_SURFACE_COUNTER_VBLANK_EXT</span></summary></details>
+							<details><summary><span class='val'>None</span></summary></details>
 						</details>
 					</details>
 					<details><summary>VkSurfaceProtectedCapabilitiesKHR</summary>
@@ -527,8 +527,8 @@
 			<details><summary>Device Properties and Extensions</summary>
 				<details><summary>GPU0</summary>
 					<details><summary>VkPhysicalDeviceProperties</summary>
-						<details><summary>apiVersion     = <span class='val'>4198526</span> (<span class='val'>1.1.126</span>)</summary></details>
-						<details><summary>driverVersion  = <span class='val'>1850851328</span> (<span class='val'>0x6e51c000</span>)</summary></details>
+						<details><summary>apiVersion     = <span class='val'>4202627</span> (<span class='val'>1.2.131</span>)</summary></details>
+						<details><summary>driverVersion  = <span class='val'>1851310080</span> (<span class='val'>0x6e58c000</span>)</summary></details>
 						<details><summary>vendorID       = <span class='val'>0x10de</span></summary></details>
 						<details><summary>deviceID       = <span class='val'>0x139b</span></summary></details>
 						<details><summary>deviceType     = <span class='val'>PHYSICAL_DEVICE_TYPE_DISCRETE_GPU</span></summary></details>
@@ -547,7 +547,7 @@
 						<details><summary>maxMemoryAllocationCount                        = <span class='val'>4096</span></summary></details>
 						<details><summary>maxSamplerAllocationCount                       = <span class='val'>4000</span></summary></details>
 						<details><summary>bufferImageGranularity                          = <span class='val'>0x00010000</span></summary></details>
-						<details><summary>sparseAddressSpaceSize                          = <span class='val'>0xffffffffffffffff</span></summary></details>
+						<details><summary>sparseAddressSpaceSize                          = <span class='val'>0xffffffffff</span></summary></details>
 						<details><summary>maxBoundDescriptorSets                          = <span class='val'>32</span></summary></details>
 						<details><summary>maxPerStageDescriptorSamplers                   = <span class='val'>1048576</span></summary></details>
 						<details><summary>maxPerStageDescriptorUniformBuffers             = <span class='val'>15</span></summary></details>
@@ -722,18 +722,18 @@
 						<details><summary>advancedBlendCorrelatedOverlap        = <span class='val'>true</span></summary></details>
 						<details><summary>advancedBlendAllOperations            = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceDepthStencilResolvePropertiesKHR</summary>
+					<details><summary>VkPhysicalDeviceDepthStencilResolveProperties</summary>
 						<details><summary>supportedDepthResolveModes</summary>
-							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR</span></summary></details>
-							<details><summary><span class='type'>RESOLVE_MODE_AVERAGE_BIT_KHR</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_AVERAGE_BIT</span></summary></details>
 						</details>
 						<details><summary>supportedStencilResolveModes</summary>
-							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT_KHR</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT</span></summary></details>
 						</details>
 						<details><summary>independentResolveNone = <span class='val'>true</span></summary></details>
 						<details><summary>independentResolve     = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceDescriptorIndexingPropertiesEXT</summary>
+					<details><summary>VkPhysicalDeviceDescriptorIndexingProperties</summary>
 						<details><summary>maxUpdateAfterBindDescriptorsInAllPools              = <span class='val'>4294967295</span></summary></details>
 						<details><summary>shaderUniformBufferArrayNonUniformIndexingNative     = <span class='val'>true</span></summary></details>
 						<details><summary>shaderSampledImageArrayNonUniformIndexingNative      = <span class='val'>true</span></summary></details>
@@ -761,18 +761,18 @@
 					<details><summary>VkPhysicalDeviceDiscardRectanglePropertiesEXT</summary>
 						<details><summary>maxDiscardRectangles = <span class='val'>8</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceDriverPropertiesKHR</summary>
-						<details><summary>driverID           = <span class='val'>DRIVER_ID_NVIDIA_PROPRIETARY_KHR</span></summary></details>
+					<details><summary>VkPhysicalDeviceDriverProperties</summary>
+						<details><summary>driverID           = <span class='val'>DRIVER_ID_NVIDIA_PROPRIETARY</span></summary></details>
 						<details><summary>driverName         = <span class='val'>NVIDIA</span></summary></details>
-						<details><summary>driverInfo         = <span class='val'>441.71</span></summary></details>
-						<details><summary>conformanceVersion = <span class='val'>1.1.6.0</span></summary></details>
+						<details><summary>driverInfo         = <span class='val'>441.99</span></summary></details>
+						<details><summary>conformanceVersion = <span class='val'>1.2.1.0</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceExternalMemoryHostPropertiesEXT</summary>
 						<details><summary>minImportedHostPointerAlignment = <span class='val'>0x00001000</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceFloatControlsPropertiesKHR</summary>
-						<details><summary>denormBehaviorIndependence            = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR</span></summary></details>
-						<details><summary>roundingModeIndependence              = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL_KHR</span></summary></details>
+					<details><summary>VkPhysicalDeviceFloatControlsProperties</summary>
+						<details><summary>denormBehaviorIndependence            = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL</span></summary></details>
+						<details><summary>roundingModeIndependence              = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL</span></summary></details>
 						<details><summary>shaderSignedZeroInfNanPreserveFloat16 = <span class='val'>true</span></summary></details>
 						<details><summary>shaderSignedZeroInfNanPreserveFloat32 = <span class='val'>true</span></summary></details>
 						<details><summary>shaderSignedZeroInfNanPreserveFloat64 = <span class='val'>true</span></summary></details>
@@ -791,8 +791,8 @@
 					</details>
 					<details><summary>VkPhysicalDeviceIDProperties</summary>
 						<details><summary>deviceUUID      = <span class='val'>1c83ff25-1ac-5749-c772-a54fd2f648a8</span></summary></details>
-						<details><summary>driverUUID      = <span class='val'>771a664d-4071-6a64-4fa-a487ede94256</span></summary></details>
-						<details><summary>deviceLUID      = <span class='val'>e3f200-0000</span></summary></details>
+						<details><summary>driverUUID      = <span class='val'>eceadb4-318b-4a1-b843-730426376d2</span></summary></details>
+						<details><summary>deviceLUID      = <span class='val'>8b937827-0000</span></summary></details>
 						<details><summary>deviceNodeMask  = <span class='val'>1</span></summary></details>
 						<details><summary>deviceLUIDValid = <span class='val'>true</span></summary></details>
 					</details>
@@ -828,6 +828,10 @@
 					</details>
 					<details><summary>VkPhysicalDevicePushDescriptorPropertiesKHR</summary>
 						<details><summary>maxPushDescriptors = <span class='val'>32</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceSamplerFilterMinmaxProperties</summary>
+						<details><summary>filterMinmaxSingleComponentFormats = <span class='val'>false</span></summary></details>
+						<details><summary>filterMinmaxImageComponentMapping  = <span class='val'>false</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceSubgroupProperties</summary>
 						<details><summary>subgroupSize              = <span class='val'>32</span></summary></details>
@@ -875,7 +879,7 @@
 						<details><summary>uniformTexelBufferOffsetAlignmentBytes       = <span class='val'>0x00000010</span></summary></details>
 						<details><summary>uniformTexelBufferOffsetSingleTexelAlignment = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceTimelineSemaphorePropertiesKHR</summary>
+					<details><summary>VkPhysicalDeviceTimelineSemaphoreProperties</summary>
 						<details><summary>maxTimelineSemaphoreValueDifference = <span class='val'>2147483647</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceTransformFeedbackPropertiesEXT</summary>
@@ -892,6 +896,106 @@
 					</details>
 					<details><summary>VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT</summary>
 						<details><summary>maxVertexAttribDivisor = <span class='val'>4294967295</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkan11Properties</summary>
+						<details><summary>deviceUUID                        = <span class='val'>1c83ff25-1ac-5749-c772-a54fd2f648a8</span></summary></details>
+						<details><summary>driverUUID                        = <span class='val'>eceadb4-318b-4a1-b843-730426376d2</span></summary></details>
+						<details><summary>deviceLUID                        = <span class='val'>8b937827-0000</span></summary></details>
+						<details><summary>deviceNodeMask                    = <span class='val'>1</span></summary></details>
+						<details><summary>deviceLUIDValid                   = <span class='val'>true</span></summary></details>
+						<details><summary>subgroupSize                      = <span class='val'>32</span></summary></details>
+						<details><summary>subgroupSupportedStages</summary>
+							<details><summary><span class='type'>SHADER_STAGE_VERTEX_BIT</span></summary></details>
+							<details><summary><span class='type'>SHADER_STAGE_TESSELLATION_CONTROL_BIT</span></summary></details>
+							<details><summary><span class='type'>SHADER_STAGE_TESSELLATION_EVALUATION_BIT</span></summary></details>
+							<details><summary><span class='type'>SHADER_STAGE_GEOMETRY_BIT</span></summary></details>
+							<details><summary><span class='type'>SHADER_STAGE_FRAGMENT_BIT</span></summary></details>
+							<details><summary><span class='type'>SHADER_STAGE_COMPUTE_BIT</span></summary></details>
+							<details><summary><span class='type'>SHADER_STAGE_ALL_GRAPHICS</span></summary></details>
+							<details><summary><span class='type'>SHADER_STAGE_ALL</span></summary></details>
+						</details>
+						<details><summary>subgroupSupportedOperations</summary>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_BASIC_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_VOTE_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_ARITHMETIC_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_BALLOT_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_SHUFFLE_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_SHUFFLE_RELATIVE_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_CLUSTERED_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_QUAD_BIT</span></summary></details>
+							<details><summary><span class='type'>SUBGROUP_FEATURE_PARTITIONED_BIT_NV</span></summary></details>
+						</details>
+						<details><summary>subgroupQuadOperationsInAllStages = <span class='val'>true</span></summary></details>
+						<details><summary>pointClippingBehavior             = <span class='val'>POINT_CLIPPING_BEHAVIOR_USER_CLIP_PLANES_ONLY</span></summary></details>
+						<details><summary>maxMultiviewViewCount             = <span class='val'>32</span></summary></details>
+						<details><summary>maxMultiviewInstanceIndex         = <span class='val'>134217727</span></summary></details>
+						<details><summary>protectedNoFault                  = <span class='val'>false</span></summary></details>
+						<details><summary>maxPerSetDescriptors              = <span class='val'>4294967295</span></summary></details>
+						<details><summary>maxMemoryAllocationSize           = <span class='val'>0xffe00000</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkan12Properties</summary>
+						<details><summary>driverID                                             = <span class='val'>DRIVER_ID_NVIDIA_PROPRIETARY</span></summary></details>
+						<details><summary>driverName                                           = <span class='val'>NVIDIA</span></summary></details>
+						<details><summary>driverInfo                                           = <span class='val'>441.99</span></summary></details>
+						<details><summary>conformanceVersion                                   = <span class='val'>1.2.1.0</span></summary></details>
+						<details><summary>denormBehaviorIndependence                           = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL</span></summary></details>
+						<details><summary>roundingModeIndependence                             = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat16                = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat32                = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat64                = <span class='val'>true</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat16                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat32                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat64                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat16                       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat32                       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat64                       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat16                         = <span class='val'>true</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat32                         = <span class='val'>true</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat64                         = <span class='val'>true</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat16                         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat32                         = <span class='val'>true</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat64                         = <span class='val'>true</span></summary></details>
+						<details><summary>maxUpdateAfterBindDescriptorsInAllPools              = <span class='val'>4294967295</span></summary></details>
+						<details><summary>shaderUniformBufferArrayNonUniformIndexingNative     = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSampledImageArrayNonUniformIndexingNative      = <span class='val'>true</span></summary></details>
+						<details><summary>shaderStorageBufferArrayNonUniformIndexingNative     = <span class='val'>true</span></summary></details>
+						<details><summary>shaderStorageImageArrayNonUniformIndexingNative      = <span class='val'>true</span></summary></details>
+						<details><summary>shaderInputAttachmentArrayNonUniformIndexingNative   = <span class='val'>true</span></summary></details>
+						<details><summary>robustBufferAccessUpdateAfterBind                    = <span class='val'>true</span></summary></details>
+						<details><summary>quadDivergentImplicitLod                             = <span class='val'>true</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindSamplers         = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindUniformBuffers   = <span class='val'>15</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindStorageBuffers   = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindSampledImages    = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindStorageImages    = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindInputAttachments = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxPerStageUpdateAfterBindResources                  = <span class='val'>4294967295</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindSamplers              = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindUniformBuffers        = <span class='val'>90</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindUniformBuffersDynamic = <span class='val'>15</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindStorageBuffers        = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindStorageBuffersDynamic = <span class='val'>16</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindSampledImages         = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindStorageImages         = <span class='val'>1048576</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindInputAttachments      = <span class='val'>1048576</span></summary></details>
+						<details><summary>supportedDepthResolveModes</summary>
+							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_AVERAGE_BIT</span></summary></details>
+						</details>
+						<details><summary>supportedStencilResolveModes</summary>
+							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT</span></summary></details>
+						</details>
+						<details><summary>independentResolveNone                               = <span class='val'>true</span></summary></details>
+						<details><summary>independentResolve                                   = <span class='val'>true</span></summary></details>
+						<details><summary>filterMinmaxSingleComponentFormats                   = <span class='val'>false</span></summary></details>
+						<details><summary>filterMinmaxImageComponentMapping                    = <span class='val'>false</span></summary></details>
+						<details><summary>maxTimelineSemaphoreValueDifference                  = <span class='val'>2147483647</span></summary></details>
+						<details><summary>framebufferIntegerColorSampleCounts</summary>
+							<details><summary><span class='type'>SAMPLE_COUNT_1_BIT</span></summary></details>
+							<details><summary><span class='type'>SAMPLE_COUNT_2_BIT</span></summary></details>
+							<details><summary><span class='type'>SAMPLE_COUNT_4_BIT</span></summary></details>
+							<details><summary><span class='type'>SAMPLE_COUNT_8_BIT</span></summary></details>
+						</details>
 					</details>
 					<details><summary>Device Extensions: count = <span class='val'>84</span></summary>
 						<details><summary><span class='type'>VK_EXT_blend_operation_advanced</span>           : extension revision <span class='val'>2</span></summary></details>
@@ -979,19 +1083,21 @@
 						<details><summary><span class='type'>VK_NV_shader_subgroup_partitioned</span>         : extension revision <span class='val'>1</span></summary></details>
 						<details><summary><span class='type'>VK_NV_win32_keyed_mutex</span>                   : extension revision <span class='val'>2</span></summary></details>
 					</details>
-					<details><summary>VkQueueFamilyProperties[<span class='val'>0</span>]</summary>
-						<details><summary>minImageTransferGranularity = <span class='val'>(1, 1, 1)</span></summary></details>
-						<details><summary>queueCount                  = <span class='val'>16</span></summary></details>
-						<details><summary>queueFlags                  = <span class='val'>QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING</span></summary></details>
-						<details><summary>timestampValidBits          = <span class='val'>64</span></summary></details>
-						<details><summary>present support = <span class='val'>false</span></summary></details>
-					</details>
-					<details><summary>VkQueueFamilyProperties[<span class='val'>1</span>]</summary>
-						<details><summary>minImageTransferGranularity = <span class='val'>(1, 1, 1)</span></summary></details>
-						<details><summary>queueCount                  = <span class='val'>1</span></summary></details>
-						<details><summary>queueFlags                  = <span class='val'>QUEUE_TRANSFER | QUEUE_SPARSE_BINDING</span></summary></details>
-						<details><summary>timestampValidBits          = <span class='val'>64</span></summary></details>
-						<details><summary>present support = <span class='val'>false</span></summary></details>
+					<details><summary>VkQueueFamilyProperties</summary>
+						<details><summary>queueProperties[<span class='val'>0</span>]</summary>
+							<details><summary>minImageTransferGranularity = <span class='val'>(1,1,1)</span></summary></details>
+							<details><summary>queueCount                  = <span class='val'>16</span></summary></details>
+							<details><summary>queueFlags                  = <span class='val'>QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING</span></summary></details>
+							<details><summary>timestampValidBits          = <span class='val'>64</span></summary></details>
+							<details><summary>present support = <span class='val'>false</span></summary></details>
+						</details>
+						<details><summary>queueProperties[<span class='val'>1</span>]</summary>
+							<details><summary>minImageTransferGranularity = <span class='val'>(1,1,1)</span></summary></details>
+							<details><summary>queueCount                  = <span class='val'>1</span></summary></details>
+							<details><summary>queueFlags                  = <span class='val'>QUEUE_TRANSFER | QUEUE_SPARSE_BINDING</span></summary></details>
+							<details><summary>timestampValidBits          = <span class='val'>64</span></summary></details>
+							<details><summary>present support = <span class='val'>false</span></summary></details>
+						</details>
 					</details>
 					<details><summary>VkPhysicalDeviceMemoryProperties</summary>
 						<details><summary>memoryHeaps: count = <span class='val'>2</span></summary>
@@ -1191,13 +1297,18 @@
 						<details><summary>storagePushConstant16              = <span class='val'>true</span></summary></details>
 						<details><summary>storageInputOutput16               = <span class='val'>false</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDevice8BitStorageFeaturesKHR</summary>
+					<details><summary>VkPhysicalDevice8BitStorageFeatures</summary>
 						<details><summary>storageBuffer8BitAccess           = <span class='val'>true</span></summary></details>
 						<details><summary>uniformAndStorageBuffer8BitAccess = <span class='val'>true</span></summary></details>
 						<details><summary>storagePushConstant8              = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceBlendOperationAdvancedFeaturesEXT</summary>
 						<details><summary>advancedBlendCoherentOperations = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceBufferDeviceAddressFeatures</summary>
+						<details><summary>bufferDeviceAddress              = <span class='val'>true</span></summary></details>
+						<details><summary>bufferDeviceAddressCaptureReplay = <span class='val'>true</span></summary></details>
+						<details><summary>bufferDeviceAddressMultiDevice   = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceBufferDeviceAddressFeaturesEXT</summary>
 						<details><summary>bufferDeviceAddress              = <span class='val'>true</span></summary></details>
@@ -1211,7 +1322,7 @@
 					<details><summary>VkPhysicalDeviceDepthClipEnableFeaturesEXT</summary>
 						<details><summary>depthClipEnable = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceDescriptorIndexingFeaturesEXT</summary>
+					<details><summary>VkPhysicalDeviceDescriptorIndexingFeatures</summary>
 						<details><summary>shaderInputAttachmentArrayDynamicIndexing          = <span class='val'>true</span></summary></details>
 						<details><summary>shaderUniformTexelBufferArrayDynamicIndexing       = <span class='val'>true</span></summary></details>
 						<details><summary>shaderStorageTexelBufferArrayDynamicIndexing       = <span class='val'>true</span></summary></details>
@@ -1233,10 +1344,10 @@
 						<details><summary>descriptorBindingVariableDescriptorCount           = <span class='val'>true</span></summary></details>
 						<details><summary>runtimeDescriptorArray                             = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceHostQueryResetFeaturesEXT</summary>
+					<details><summary>VkPhysicalDeviceHostQueryResetFeatures</summary>
 						<details><summary>hostQueryReset = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceImagelessFramebufferFeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceImagelessFramebufferFeatures</summary>
 						<details><summary>imagelessFramebuffer = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceIndexTypeUint8FeaturesEXT</summary>
@@ -1271,10 +1382,13 @@
 					<details><summary>VkPhysicalDeviceSamplerYcbcrConversionFeatures</summary>
 						<details><summary>samplerYcbcrConversion = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceScalarBlockLayoutFeaturesEXT</summary>
+					<details><summary>VkPhysicalDeviceScalarBlockLayoutFeatures</summary>
 						<details><summary>scalarBlockLayout = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceShaderAtomicInt64FeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceSeparateDepthStencilLayoutsFeatures</summary>
+						<details><summary>separateDepthStencilLayouts = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceShaderAtomicInt64Features</summary>
 						<details><summary>shaderBufferInt64Atomics = <span class='val'>true</span></summary></details>
 						<details><summary>shaderSharedInt64Atomics = <span class='val'>true</span></summary></details>
 					</details>
@@ -1288,11 +1402,11 @@
 					<details><summary>VkPhysicalDeviceShaderDrawParametersFeatures</summary>
 						<details><summary>shaderDrawParameters = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceShaderFloat16Int8FeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceShaderFloat16Int8Features</summary>
 						<details><summary>shaderFloat16 = <span class='val'>false</span></summary></details>
 						<details><summary>shaderInt8    = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceShaderSubgroupExtendedTypesFeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceShaderSubgroupExtendedTypesFeatures</summary>
 						<details><summary>shaderSubgroupExtendedTypes = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceSubgroupSizeControlFeaturesEXT</summary>
@@ -1302,14 +1416,14 @@
 					<details><summary>VkPhysicalDeviceTexelBufferAlignmentFeaturesEXT</summary>
 						<details><summary>texelBufferAlignment = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceTimelineSemaphoreFeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceTimelineSemaphoreFeatures</summary>
 						<details><summary>timelineSemaphore = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceTransformFeedbackFeaturesEXT</summary>
 						<details><summary>transformFeedback = <span class='val'>true</span></summary></details>
 						<details><summary>geometryStreams   = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceUniformBufferStandardLayoutFeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceUniformBufferStandardLayoutFeatures</summary>
 						<details><summary>uniformBufferStandardLayout = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceVariablePointersFeatures</summary>
@@ -1320,7 +1434,70 @@
 						<details><summary>vertexAttributeInstanceRateDivisor     = <span class='val'>true</span></summary></details>
 						<details><summary>vertexAttributeInstanceRateZeroDivisor = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceVulkanMemoryModelFeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceVulkan11Features</summary>
+						<details><summary>storageBuffer16BitAccess           = <span class='val'>true</span></summary></details>
+						<details><summary>uniformAndStorageBuffer16BitAccess = <span class='val'>true</span></summary></details>
+						<details><summary>storagePushConstant16              = <span class='val'>true</span></summary></details>
+						<details><summary>storageInputOutput16               = <span class='val'>false</span></summary></details>
+						<details><summary>multiview                          = <span class='val'>true</span></summary></details>
+						<details><summary>multiviewGeometryShader            = <span class='val'>true</span></summary></details>
+						<details><summary>multiviewTessellationShader        = <span class='val'>true</span></summary></details>
+						<details><summary>variablePointersStorageBuffer      = <span class='val'>true</span></summary></details>
+						<details><summary>variablePointers                   = <span class='val'>true</span></summary></details>
+						<details><summary>protectedMemory                    = <span class='val'>false</span></summary></details>
+						<details><summary>samplerYcbcrConversion             = <span class='val'>true</span></summary></details>
+						<details><summary>shaderDrawParameters               = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkan12Features</summary>
+						<details><summary>samplerMirrorClampToEdge                           = <span class='val'>true</span></summary></details>
+						<details><summary>drawIndirectCount                                  = <span class='val'>true</span></summary></details>
+						<details><summary>storageBuffer8BitAccess                            = <span class='val'>true</span></summary></details>
+						<details><summary>uniformAndStorageBuffer8BitAccess                  = <span class='val'>true</span></summary></details>
+						<details><summary>storagePushConstant8                               = <span class='val'>true</span></summary></details>
+						<details><summary>shaderBufferInt64Atomics                           = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSharedInt64Atomics                           = <span class='val'>true</span></summary></details>
+						<details><summary>shaderFloat16                                      = <span class='val'>false</span></summary></details>
+						<details><summary>shaderInt8                                         = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorIndexing                                 = <span class='val'>true</span></summary></details>
+						<details><summary>shaderInputAttachmentArrayDynamicIndexing          = <span class='val'>true</span></summary></details>
+						<details><summary>shaderUniformTexelBufferArrayDynamicIndexing       = <span class='val'>true</span></summary></details>
+						<details><summary>shaderStorageTexelBufferArrayDynamicIndexing       = <span class='val'>true</span></summary></details>
+						<details><summary>shaderUniformBufferArrayNonUniformIndexing         = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSampledImageArrayNonUniformIndexing          = <span class='val'>true</span></summary></details>
+						<details><summary>shaderStorageBufferArrayNonUniformIndexing         = <span class='val'>true</span></summary></details>
+						<details><summary>shaderStorageImageArrayNonUniformIndexing          = <span class='val'>true</span></summary></details>
+						<details><summary>shaderInputAttachmentArrayNonUniformIndexing       = <span class='val'>true</span></summary></details>
+						<details><summary>shaderUniformTexelBufferArrayNonUniformIndexing    = <span class='val'>true</span></summary></details>
+						<details><summary>shaderStorageTexelBufferArrayNonUniformIndexing    = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingUniformBufferUpdateAfterBind      = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingSampledImageUpdateAfterBind       = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingStorageImageUpdateAfterBind       = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingStorageBufferUpdateAfterBind      = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingUniformTexelBufferUpdateAfterBind = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingStorageTexelBufferUpdateAfterBind = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingUpdateUnusedWhilePending          = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingPartiallyBound                    = <span class='val'>true</span></summary></details>
+						<details><summary>descriptorBindingVariableDescriptorCount           = <span class='val'>true</span></summary></details>
+						<details><summary>runtimeDescriptorArray                             = <span class='val'>true</span></summary></details>
+						<details><summary>samplerFilterMinmax                                = <span class='val'>false</span></summary></details>
+						<details><summary>scalarBlockLayout                                  = <span class='val'>true</span></summary></details>
+						<details><summary>imagelessFramebuffer                               = <span class='val'>true</span></summary></details>
+						<details><summary>uniformBufferStandardLayout                        = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSubgroupExtendedTypes                        = <span class='val'>true</span></summary></details>
+						<details><summary>separateDepthStencilLayouts                        = <span class='val'>true</span></summary></details>
+						<details><summary>hostQueryReset                                     = <span class='val'>true</span></summary></details>
+						<details><summary>timelineSemaphore                                  = <span class='val'>true</span></summary></details>
+						<details><summary>bufferDeviceAddress                                = <span class='val'>true</span></summary></details>
+						<details><summary>bufferDeviceAddressCaptureReplay                   = <span class='val'>true</span></summary></details>
+						<details><summary>bufferDeviceAddressMultiDevice                     = <span class='val'>true</span></summary></details>
+						<details><summary>vulkanMemoryModel                                  = <span class='val'>true</span></summary></details>
+						<details><summary>vulkanMemoryModelDeviceScope                       = <span class='val'>true</span></summary></details>
+						<details><summary>vulkanMemoryModelAvailabilityVisibilityChains      = <span class='val'>true</span></summary></details>
+						<details><summary>shaderOutputViewportIndex                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderOutputLayer                                  = <span class='val'>false</span></summary></details>
+						<details><summary>subgroupBroadcastDynamicId                         = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkanMemoryModelFeatures</summary>
 						<details><summary>vulkanMemoryModel                             = <span class='val'>true</span></summary></details>
 						<details><summary>vulkanMemoryModelDeviceScope                  = <span class='val'>true</span></summary></details>
 						<details><summary>vulkanMemoryModelAvailabilityVisibilityChains = <span class='val'>true</span></summary></details>
@@ -5356,7 +5533,22 @@
 						<details><summary>fullyCoveredFragmentShaderInputVariable     = <span class='val'>true</span></summary></details>
 						<details><summary>conservativeRasterizationPostDepthCoverage  = <span class='val'>false</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceDescriptorIndexingPropertiesEXT</summary>
+					<details><summary>VkPhysicalDeviceDepthStencilResolveProperties</summary>
+						<details><summary>supportedDepthResolveModes</summary>
+							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_AVERAGE_BIT</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_MIN_BIT</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_MAX_BIT</span></summary></details>
+						</details>
+						<details><summary>supportedStencilResolveModes</summary>
+							<details><summary><span class='type'>RESOLVE_MODE_SAMPLE_ZERO_BIT</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_MIN_BIT</span></summary></details>
+							<details><summary><span class='type'>RESOLVE_MODE_MAX_BIT</span></summary></details>
+						</details>
+						<details><summary>independentResolveNone = <span class='val'>false</span></summary></details>
+						<details><summary>independentResolve     = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceDescriptorIndexingProperties</summary>
 						<details><summary>maxUpdateAfterBindDescriptorsInAllPools              = <span class='val'>1048576</span></summary></details>
 						<details><summary>shaderUniformBufferArrayNonUniformIndexingNative     = <span class='val'>false</span></summary></details>
 						<details><summary>shaderSampledImageArrayNonUniformIndexingNative      = <span class='val'>false</span></summary></details>
@@ -5381,14 +5573,33 @@
 						<details><summary>maxDescriptorSetUpdateAfterBindStorageImages         = <span class='val'>1048576</span></summary></details>
 						<details><summary>maxDescriptorSetUpdateAfterBindInputAttachments      = <span class='val'>1048576</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceDriverPropertiesKHR</summary>
-						<details><summary>driverID           = <span class='val'>DRIVER_ID_INTEL_PROPRIETARY_WINDOWS_KHR</span></summary></details>
+					<details><summary>VkPhysicalDeviceDriverProperties</summary>
+						<details><summary>driverID           = <span class='val'>DRIVER_ID_INTEL_PROPRIETARY_WINDOWS</span></summary></details>
 						<details><summary>driverName         = <span class='val'>Intel Corporation</span></summary></details>
 						<details><summary>driverInfo         = <span class='val'>Intel driver</span></summary></details>
 						<details><summary>conformanceVersion = <span class='val'>1.1.4.1</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceExternalMemoryHostPropertiesEXT</summary>
 						<details><summary>minImportedHostPointerAlignment = <span class='val'>0x00010000</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceFloatControlsProperties</summary>
+						<details><summary>denormBehaviorIndependence            = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL</span></summary></details>
+						<details><summary>roundingModeIndependence              = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat16 = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat32 = <span class='val'>true</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat64 = <span class='val'>true</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat16           = <span class='val'>true</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat32           = <span class='val'>true</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat64           = <span class='val'>true</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat16        = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat32        = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat64        = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat16          = <span class='val'>true</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat32          = <span class='val'>true</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat64          = <span class='val'>true</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat16          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat32          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat64          = <span class='val'>false</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceIDProperties</summary>
 						<details><summary>deviceUUID      = <span class='val'>86801b19-60-00-00-000000</span></summary></details>
@@ -5440,7 +5651,7 @@
 						<details><summary>sampleLocationSubPixelBits       = <span class='val'>4</span></summary></details>
 						<details><summary>variableSampleLocations          = <span class='val'>false</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceSamplerFilterMinmaxPropertiesEXT</summary>
+					<details><summary>VkPhysicalDeviceSamplerFilterMinmaxProperties</summary>
 						<details><summary>filterMinmaxSingleComponentFormats = <span class='val'>true</span></summary></details>
 						<details><summary>filterMinmaxImageComponentMapping  = <span class='val'>true</span></summary></details>
 					</details>
@@ -5476,8 +5687,91 @@
 						</details>
 						<details><summary>quadOperationsInAllStages = <span class='val'>true</span></summary></details>
 					</details>
+					<details><summary>VkPhysicalDeviceTimelineSemaphoreProperties</summary>
+						<details><summary>maxTimelineSemaphoreValueDifference = <span class='val'>18446744073709551615</span></summary></details>
+					</details>
 					<details><summary>VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT</summary>
 						<details><summary>maxVertexAttribDivisor = <span class='val'>268435455</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkan11Properties</summary>
+						<details><summary>deviceUUID                        = <span class='val'> 0000-00-00-00-000000</span></summary></details>
+						<details><summary>driverUUID                        = <span class='val'> 0000-00-00-00-000000</span></summary></details>
+						<details><summary>deviceNodeMask                    = <span class='val'>0</span></summary></details>
+						<details><summary>deviceLUIDValid                   = <span class='val'>false</span></summary></details>
+						<details><summary>subgroupSize                      = <span class='val'>0</span></summary></details>
+						<details><summary>subgroupSupportedStages</summary>
+							<details><summary><span class='val'>None</span></summary></details>
+						</details>
+						<details><summary>subgroupSupportedOperations</summary>
+							<details><summary><span class='val'>None</span></summary></details>
+						</details>
+						<details><summary>subgroupQuadOperationsInAllStages = <span class='val'>false</span></summary></details>
+						<details><summary>pointClippingBehavior             = <span class='val'>POINT_CLIPPING_BEHAVIOR_ALL_CLIP_PLANES</span></summary></details>
+						<details><summary>maxMultiviewViewCount             = <span class='val'>0</span></summary></details>
+						<details><summary>maxMultiviewInstanceIndex         = <span class='val'>0</span></summary></details>
+						<details><summary>protectedNoFault                  = <span class='val'>false</span></summary></details>
+						<details><summary>maxPerSetDescriptors              = <span class='val'>0</span></summary></details>
+						<details><summary>maxMemoryAllocationSize           = <span class='val'>0x00000000</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkan12Properties</summary>
+						<details><summary>driverID                                             = <span class='val'>UNKNOWN_VkDriverId</span></summary></details>
+						<details><summary>driverName                                           = <span class='val'></span></summary></details>
+						<details><summary>driverInfo                                           = <span class='val'></span></summary></details>
+						<details><summary>conformanceVersion                                   = <span class='val'>0.0.0.0</span></summary></details>
+						<details><summary>denormBehaviorIndependence                           = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY</span></summary></details>
+						<details><summary>roundingModeIndependence                             = <span class='val'>SHADER_FLOAT_CONTROLS_INDEPENDENCE_32_BIT_ONLY</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat16                = <span class='val'>false</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat32                = <span class='val'>false</span></summary></details>
+						<details><summary>shaderSignedZeroInfNanPreserveFloat64                = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat16                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat32                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormPreserveFloat64                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat16                       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat32                       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDenormFlushToZeroFloat64                       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat16                         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat32                         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTEFloat64                         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat16                         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat32                         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderRoundingModeRTZFloat64                         = <span class='val'>false</span></summary></details>
+						<details><summary>maxUpdateAfterBindDescriptorsInAllPools              = <span class='val'>0</span></summary></details>
+						<details><summary>shaderUniformBufferArrayNonUniformIndexingNative     = <span class='val'>false</span></summary></details>
+						<details><summary>shaderSampledImageArrayNonUniformIndexingNative      = <span class='val'>false</span></summary></details>
+						<details><summary>shaderStorageBufferArrayNonUniformIndexingNative     = <span class='val'>false</span></summary></details>
+						<details><summary>shaderStorageImageArrayNonUniformIndexingNative      = <span class='val'>false</span></summary></details>
+						<details><summary>shaderInputAttachmentArrayNonUniformIndexingNative   = <span class='val'>false</span></summary></details>
+						<details><summary>robustBufferAccessUpdateAfterBind                    = <span class='val'>false</span></summary></details>
+						<details><summary>quadDivergentImplicitLod                             = <span class='val'>false</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindSamplers         = <span class='val'>0</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindUniformBuffers   = <span class='val'>0</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindStorageBuffers   = <span class='val'>0</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindSampledImages    = <span class='val'>0</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindStorageImages    = <span class='val'>0</span></summary></details>
+						<details><summary>maxPerStageDescriptorUpdateAfterBindInputAttachments = <span class='val'>0</span></summary></details>
+						<details><summary>maxPerStageUpdateAfterBindResources                  = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindSamplers              = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindUniformBuffers        = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindUniformBuffersDynamic = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindStorageBuffers        = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindStorageBuffersDynamic = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindSampledImages         = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindStorageImages         = <span class='val'>0</span></summary></details>
+						<details><summary>maxDescriptorSetUpdateAfterBindInputAttachments      = <span class='val'>0</span></summary></details>
+						<details><summary>supportedDepthResolveModes</summary>
+							<details><summary><span class='val'>None</span></summary></details>
+						</details>
+						<details><summary>supportedStencilResolveModes</summary>
+							<details><summary><span class='val'>None</span></summary></details>
+						</details>
+						<details><summary>independentResolveNone                               = <span class='val'>false</span></summary></details>
+						<details><summary>independentResolve                                   = <span class='val'>false</span></summary></details>
+						<details><summary>filterMinmaxSingleComponentFormats                   = <span class='val'>false</span></summary></details>
+						<details><summary>filterMinmaxImageComponentMapping                    = <span class='val'>false</span></summary></details>
+						<details><summary>maxTimelineSemaphoreValueDifference                  = <span class='val'>0</span></summary></details>
+						<details><summary>framebufferIntegerColorSampleCounts</summary>
+							<details><summary><span class='val'>None</span></summary></details>
+						</details>
 					</details>
 					<details><summary>Device Extensions: count = <span class='val'>48</span></summary>
 						<details><summary><span class='type'>VK_EXT_conditional_rendering</span>        : extension revision <span class='val'>1</span></summary></details>
@@ -5529,19 +5823,21 @@
 						<details><summary><span class='type'>VK_KHR_variable_pointers</span>            : extension revision <span class='val'>1</span></summary></details>
 						<details><summary><span class='type'>VK_KHR_vulkan_memory_model</span>          : extension revision <span class='val'>3</span></summary></details>
 					</details>
-					<details><summary>VkQueueFamilyProperties[<span class='val'>0</span>]</summary>
-						<details><summary>minImageTransferGranularity = <span class='val'>(1, 1, 1)</span></summary></details>
-						<details><summary>queueCount                  = <span class='val'>1</span></summary></details>
-						<details><summary>queueFlags                  = <span class='val'>QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING</span></summary></details>
-						<details><summary>timestampValidBits          = <span class='val'>36</span></summary></details>
-						<details><summary>present support = <span class='val'>false</span></summary></details>
+					<details><summary>VkQueueFamilyProperties</summary>
+						<details><summary>queueProperties[<span class='val'>0</span>]</summary>
+							<details><summary>minImageTransferGranularity = <span class='val'>(1,1,1)</span></summary></details>
+							<details><summary>queueCount                  = <span class='val'>1</span></summary></details>
+							<details><summary>queueFlags                  = <span class='val'>QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING</span></summary></details>
+							<details><summary>timestampValidBits          = <span class='val'>36</span></summary></details>
+							<details><summary>present support = <span class='val'>false</span></summary></details>
+						</details>
 					</details>
 					<details><summary>VkPhysicalDeviceMemoryProperties</summary>
 						<details><summary>memoryHeaps: count = <span class='val'>1</span></summary>
 							<details><summary>memoryHeaps[<span class='val'>0</span>]</summary>
 								<details><summary>size   = <span class='val'>7665612595 (0x1c8e7f733) (7.14 GiB)</span></summary></details>
-								<details><summary>budget = <span class='val'>19140633428557911</span></summary></details>
-								<details><summary>usage  = <span class='val'>20266554810892398</span></summary></details>
+								<details><summary>budget = <span class='val'>8642868404345531302</span></summary></details>
+								<details><summary>usage  = <span class='val'>3514834434971506413</span></summary></details>
 								<details><summary>flags</summary>
 									<details><summary><span class='type'>MEMORY_HEAP_DEVICE_LOCAL_BIT</span></summary></details>
 								</details>
@@ -5638,10 +5934,15 @@
 						<details><summary>storagePushConstant16              = <span class='val'>true</span></summary></details>
 						<details><summary>storageInputOutput16               = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDevice8BitStorageFeaturesKHR</summary>
+					<details><summary>VkPhysicalDevice8BitStorageFeatures</summary>
 						<details><summary>storageBuffer8BitAccess           = <span class='val'>true</span></summary></details>
 						<details><summary>uniformAndStorageBuffer8BitAccess = <span class='val'>true</span></summary></details>
 						<details><summary>storagePushConstant8              = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceBufferDeviceAddressFeatures</summary>
+						<details><summary>bufferDeviceAddress              = <span class='val'>false</span></summary></details>
+						<details><summary>bufferDeviceAddressCaptureReplay = <span class='val'>false</span></summary></details>
+						<details><summary>bufferDeviceAddressMultiDevice   = <span class='val'>false</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceConditionalRenderingFeaturesEXT</summary>
 						<details><summary>conditionalRendering          = <span class='val'>true</span></summary></details>
@@ -5650,7 +5951,7 @@
 					<details><summary>VkPhysicalDeviceDepthClipEnableFeaturesEXT</summary>
 						<details><summary>depthClipEnable = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceDescriptorIndexingFeaturesEXT</summary>
+					<details><summary>VkPhysicalDeviceDescriptorIndexingFeatures</summary>
 						<details><summary>shaderInputAttachmentArrayDynamicIndexing          = <span class='val'>true</span></summary></details>
 						<details><summary>shaderUniformTexelBufferArrayDynamicIndexing       = <span class='val'>true</span></summary></details>
 						<details><summary>shaderStorageTexelBufferArrayDynamicIndexing       = <span class='val'>true</span></summary></details>
@@ -5672,8 +5973,11 @@
 						<details><summary>descriptorBindingVariableDescriptorCount           = <span class='val'>true</span></summary></details>
 						<details><summary>runtimeDescriptorArray                             = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceHostQueryResetFeaturesEXT</summary>
+					<details><summary>VkPhysicalDeviceHostQueryResetFeatures</summary>
 						<details><summary>hostQueryReset = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceImagelessFramebufferFeatures</summary>
+						<details><summary>imagelessFramebuffer = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceInlineUniformBlockFeaturesEXT</summary>
 						<details><summary>inlineUniformBlock                                 = <span class='val'>true</span></summary></details>
@@ -5690,15 +5994,31 @@
 					<details><summary>VkPhysicalDeviceSamplerYcbcrConversionFeatures</summary>
 						<details><summary>samplerYcbcrConversion = <span class='val'>false</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceScalarBlockLayoutFeaturesEXT</summary>
+					<details><summary>VkPhysicalDeviceScalarBlockLayoutFeatures</summary>
 						<details><summary>scalarBlockLayout = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceSeparateDepthStencilLayoutsFeatures</summary>
+						<details><summary>separateDepthStencilLayouts = <span class='val'>false</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceShaderAtomicInt64Features</summary>
+						<details><summary>shaderBufferInt64Atomics = <span class='val'>false</span></summary></details>
+						<details><summary>shaderSharedInt64Atomics = <span class='val'>false</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceShaderDrawParametersFeatures</summary>
 						<details><summary>shaderDrawParameters = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceShaderFloat16Int8FeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceShaderFloat16Int8Features</summary>
 						<details><summary>shaderFloat16 = <span class='val'>true</span></summary></details>
 						<details><summary>shaderInt8    = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceShaderSubgroupExtendedTypesFeatures</summary>
+						<details><summary>shaderSubgroupExtendedTypes = <span class='val'>false</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceTimelineSemaphoreFeatures</summary>
+						<details><summary>timelineSemaphore = <span class='val'>true</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceUniformBufferStandardLayoutFeatures</summary>
+						<details><summary>uniformBufferStandardLayout = <span class='val'>true</span></summary></details>
 					</details>
 					<details><summary>VkPhysicalDeviceVariablePointersFeatures</summary>
 						<details><summary>variablePointersStorageBuffer = <span class='val'>true</span></summary></details>
@@ -5708,7 +6028,70 @@
 						<details><summary>vertexAttributeInstanceRateDivisor     = <span class='val'>true</span></summary></details>
 						<details><summary>vertexAttributeInstanceRateZeroDivisor = <span class='val'>true</span></summary></details>
 					</details>
-					<details><summary>VkPhysicalDeviceVulkanMemoryModelFeaturesKHR</summary>
+					<details><summary>VkPhysicalDeviceVulkan11Features</summary>
+						<details><summary>storageBuffer16BitAccess           = <span class='val'>false</span></summary></details>
+						<details><summary>uniformAndStorageBuffer16BitAccess = <span class='val'>false</span></summary></details>
+						<details><summary>storagePushConstant16              = <span class='val'>false</span></summary></details>
+						<details><summary>storageInputOutput16               = <span class='val'>false</span></summary></details>
+						<details><summary>multiview                          = <span class='val'>false</span></summary></details>
+						<details><summary>multiviewGeometryShader            = <span class='val'>false</span></summary></details>
+						<details><summary>multiviewTessellationShader        = <span class='val'>false</span></summary></details>
+						<details><summary>variablePointersStorageBuffer      = <span class='val'>false</span></summary></details>
+						<details><summary>variablePointers                   = <span class='val'>false</span></summary></details>
+						<details><summary>protectedMemory                    = <span class='val'>false</span></summary></details>
+						<details><summary>samplerYcbcrConversion             = <span class='val'>false</span></summary></details>
+						<details><summary>shaderDrawParameters               = <span class='val'>false</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkan12Features</summary>
+						<details><summary>samplerMirrorClampToEdge                           = <span class='val'>false</span></summary></details>
+						<details><summary>drawIndirectCount                                  = <span class='val'>false</span></summary></details>
+						<details><summary>storageBuffer8BitAccess                            = <span class='val'>false</span></summary></details>
+						<details><summary>uniformAndStorageBuffer8BitAccess                  = <span class='val'>false</span></summary></details>
+						<details><summary>storagePushConstant8                               = <span class='val'>false</span></summary></details>
+						<details><summary>shaderBufferInt64Atomics                           = <span class='val'>false</span></summary></details>
+						<details><summary>shaderSharedInt64Atomics                           = <span class='val'>false</span></summary></details>
+						<details><summary>shaderFloat16                                      = <span class='val'>false</span></summary></details>
+						<details><summary>shaderInt8                                         = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorIndexing                                 = <span class='val'>false</span></summary></details>
+						<details><summary>shaderInputAttachmentArrayDynamicIndexing          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderUniformTexelBufferArrayDynamicIndexing       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderStorageTexelBufferArrayDynamicIndexing       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderUniformBufferArrayNonUniformIndexing         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderSampledImageArrayNonUniformIndexing          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderStorageBufferArrayNonUniformIndexing         = <span class='val'>false</span></summary></details>
+						<details><summary>shaderStorageImageArrayNonUniformIndexing          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderInputAttachmentArrayNonUniformIndexing       = <span class='val'>false</span></summary></details>
+						<details><summary>shaderUniformTexelBufferArrayNonUniformIndexing    = <span class='val'>false</span></summary></details>
+						<details><summary>shaderStorageTexelBufferArrayNonUniformIndexing    = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingUniformBufferUpdateAfterBind      = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingSampledImageUpdateAfterBind       = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingStorageImageUpdateAfterBind       = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingStorageBufferUpdateAfterBind      = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingUniformTexelBufferUpdateAfterBind = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingStorageTexelBufferUpdateAfterBind = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingUpdateUnusedWhilePending          = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingPartiallyBound                    = <span class='val'>false</span></summary></details>
+						<details><summary>descriptorBindingVariableDescriptorCount           = <span class='val'>false</span></summary></details>
+						<details><summary>runtimeDescriptorArray                             = <span class='val'>false</span></summary></details>
+						<details><summary>samplerFilterMinmax                                = <span class='val'>false</span></summary></details>
+						<details><summary>scalarBlockLayout                                  = <span class='val'>false</span></summary></details>
+						<details><summary>imagelessFramebuffer                               = <span class='val'>false</span></summary></details>
+						<details><summary>uniformBufferStandardLayout                        = <span class='val'>false</span></summary></details>
+						<details><summary>shaderSubgroupExtendedTypes                        = <span class='val'>false</span></summary></details>
+						<details><summary>separateDepthStencilLayouts                        = <span class='val'>false</span></summary></details>
+						<details><summary>hostQueryReset                                     = <span class='val'>false</span></summary></details>
+						<details><summary>timelineSemaphore                                  = <span class='val'>false</span></summary></details>
+						<details><summary>bufferDeviceAddress                                = <span class='val'>false</span></summary></details>
+						<details><summary>bufferDeviceAddressCaptureReplay                   = <span class='val'>false</span></summary></details>
+						<details><summary>bufferDeviceAddressMultiDevice                     = <span class='val'>false</span></summary></details>
+						<details><summary>vulkanMemoryModel                                  = <span class='val'>false</span></summary></details>
+						<details><summary>vulkanMemoryModelDeviceScope                       = <span class='val'>false</span></summary></details>
+						<details><summary>vulkanMemoryModelAvailabilityVisibilityChains      = <span class='val'>false</span></summary></details>
+						<details><summary>shaderOutputViewportIndex                          = <span class='val'>false</span></summary></details>
+						<details><summary>shaderOutputLayer                                  = <span class='val'>false</span></summary></details>
+						<details><summary>subgroupBroadcastDynamicId                         = <span class='val'>false</span></summary></details>
+					</details>
+					<details><summary>VkPhysicalDeviceVulkanMemoryModelFeatures</summary>
 						<details><summary>vulkanMemoryModel                             = <span class='val'>true</span></summary></details>
 						<details><summary>vulkanMemoryModelDeviceScope                  = <span class='val'>true</span></summary></details>
 						<details><summary>vulkanMemoryModelAvailabilityVisibilityChains = <span class='val'>true</span></summary></details>
@@ -5746,7 +6129,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5757,7 +6140,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5773,7 +6156,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5784,7 +6167,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5800,7 +6183,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5811,7 +6194,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5824,7 +6207,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5832,7 +6215,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5848,7 +6231,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5859,7 +6242,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5871,14 +6254,14 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5894,7 +6277,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5905,7 +6288,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5922,7 +6305,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5934,7 +6317,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -5952,7 +6335,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -5964,7 +6347,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6065,7 +6448,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6077,7 +6460,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6096,7 +6479,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6108,7 +6491,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6206,7 +6589,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6214,7 +6597,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6228,7 +6611,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6236,7 +6619,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6386,7 +6769,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6398,7 +6781,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6417,7 +6800,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6429,7 +6812,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6519,7 +6902,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6530,7 +6913,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6546,7 +6929,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6557,7 +6940,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6629,7 +7012,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6640,7 +7023,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6657,7 +7040,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6669,7 +7052,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6688,7 +7071,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6700,7 +7083,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6790,7 +7173,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6801,7 +7184,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6817,7 +7200,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6828,7 +7211,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -6901,7 +7284,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -6913,7 +7296,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7001,7 +7384,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7013,7 +7396,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7032,7 +7415,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7044,7 +7427,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7135,7 +7518,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7147,7 +7530,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7166,7 +7549,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7178,7 +7561,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7197,7 +7580,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7209,7 +7592,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7300,7 +7683,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7312,7 +7695,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7327,7 +7710,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7335,7 +7718,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7349,7 +7732,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7357,7 +7740,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7415,7 +7798,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7423,7 +7806,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7441,7 +7824,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7453,7 +7836,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7472,7 +7855,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7484,7 +7867,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7575,7 +7958,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7587,7 +7970,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7662,7 +8045,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7674,7 +8057,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7743,7 +8126,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7755,7 +8138,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -7878,7 +8261,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -7890,7 +8273,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -8041,7 +8424,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -8053,7 +8436,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_UNIFORM_TEXEL_BUFFER_BIT</span></summary></details>
@@ -8066,7 +8449,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>optimalTiling</summary>
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_BIT</span></summary></details>
@@ -8074,7 +8457,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8092,7 +8475,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8109,7 +8492,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8127,7 +8510,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8166,7 +8549,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8183,7 +8566,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8199,7 +8582,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8215,7 +8598,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8231,7 +8614,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8247,7 +8630,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8263,7 +8646,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8279,7 +8662,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8295,7 +8678,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8311,7 +8694,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8327,7 +8710,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8343,7 +8726,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8359,7 +8742,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8375,7 +8758,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8391,7 +8774,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8407,7 +8790,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8423,7 +8806,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8439,7 +8822,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8455,7 +8838,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8471,7 +8854,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8487,7 +8870,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8503,7 +8886,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8519,7 +8902,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8535,7 +8918,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8551,7 +8934,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8567,7 +8950,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8583,7 +8966,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8599,7 +8982,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8615,7 +8998,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8631,7 +9014,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8647,7 +9030,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8663,7 +9046,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8679,7 +9062,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8695,7 +9078,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8711,7 +9094,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8727,7 +9110,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8743,7 +9126,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8759,7 +9142,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8775,7 +9158,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8791,7 +9174,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8807,7 +9190,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8823,7 +9206,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8839,7 +9222,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8855,7 +9238,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8871,7 +9254,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8887,7 +9270,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8903,7 +9286,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8919,7 +9302,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8935,7 +9318,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8951,7 +9334,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8967,7 +9350,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8983,7 +9366,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -8999,7 +9382,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -9015,7 +9398,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -9031,7 +9414,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
@@ -9047,7 +9430,7 @@
 								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_LINEAR_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_SRC_BIT</span></summary></details>
 								<details><summary><span class='type'>FORMAT_FEATURE_TRANSFER_DST_BIT</span></summary></details>
-								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT_EXT</span></summary></details>
+								<details><summary><span class='type'>FORMAT_FEATURE_SAMPLED_IMAGE_FILTER_MINMAX_BIT</span></summary></details>
 							</details>
 							<details open><summary>bufferFeatures</summary>
 								<details><summary><span class='val'>None</span></summary></details>
