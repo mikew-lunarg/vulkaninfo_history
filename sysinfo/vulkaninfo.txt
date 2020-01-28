@@ -623,9 +623,9 @@ VkPhysicalDeviceFloatControlsProperties:
 
 VkPhysicalDeviceIDProperties:
 -----------------------------
-	deviceUUID      = 1c83ff25-1ac-5749-c772-a54fd2f648a8
-	driverUUID      = eceadb4-318b-4a1-b843-730426376d2
-	deviceLUID      = 8b937827-0000
+	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
+	driverUUID      = ecea0db4-318b-04a1-b843-7300426376d2
+	deviceLUID      = 8b937827-00000000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -744,9 +744,9 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 
 VkPhysicalDeviceVulkan11Properties:
 -----------------------------------
-	deviceUUID                        = 1c83ff25-1ac-5749-c772-a54fd2f648a8
-	driverUUID                        = eceadb4-318b-4a1-b843-730426376d2
-	deviceLUID                        = 8b937827-0000
+	deviceUUID                        = 1c83ff25-01ac-5749-c772-a54fd2f648a8
+	driverUUID                        = ecea0db4-318b-04a1-b843-7300426376d2
+	deviceLUID                        = 8b937827-00000000
 	deviceNodeMask                    = 1
 	deviceLUIDValid                   = true
 	subgroupSize                      = 32
@@ -1862,10 +1862,8 @@ VkPhysicalDeviceMemoryProperties:
 memoryHeaps: count = 1
 	memoryHeaps[0]:
 		size   = 7665612595 (0x1c8e7f733) (7.14 GiB)
-		budget = 33495998976491630
-		usage  = 25896191785238636
-		budget = 9223457451650248335
-		usage  = 1475518819120
+		budget = 3400000498352547864
+		usage  = 2530272037128056989
 		flags:
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 memoryTypes: count = 2
