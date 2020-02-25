@@ -81,7 +81,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.131, layer 
 		GPU id 	: 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.131, layer version 1:
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.132, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 950)
@@ -169,8 +169,8 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion     = 4202627 (1.2.131)
-	driverVersion  = 1846280320 (0x6e0c0080)
+	apiVersion     = 4202628 (1.2.132)
+	driverVersion  = 1846444160 (0x6e0e8080)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
@@ -415,7 +415,7 @@ VkPhysicalDeviceDriverProperties:
 ---------------------------------
 	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName         = NVIDIA
-	driverInfo         = 440.48.02
+	driverInfo         = 440.58.02
 	conformanceVersion = 1.2.1.0
 
 VkPhysicalDeviceFloatControlsProperties:
@@ -441,7 +441,7 @@ VkPhysicalDeviceFloatControlsProperties:
 VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID      = a1fe973c-e42a-09ca-c426-67897ab40407
+	driverUUID      = 8ff32cd6-66a8-16e0-5fc3-8a53ff1cb219
 	deviceNodeMask  = 1
 	deviceLUIDValid = false
 
@@ -578,7 +578,7 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 VkPhysicalDeviceVulkan11Properties:
 -----------------------------------
 	deviceUUID                        = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID                        = a1fe973c-e42a-09ca-c426-67897ab40407
+	driverUUID                        = 8ff32cd6-66a8-16e0-5fc3-8a53ff1cb219
 	deviceNodeMask                    = 1
 	deviceLUIDValid                   = false
 	subgroupSize                      = 32
@@ -613,7 +613,7 @@ VkPhysicalDeviceVulkan12Properties:
 -----------------------------------
 	driverID                                             = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName                                           = NVIDIA
-	driverInfo                                           = 440.48.02
+	driverInfo                                           = 440.58.02
 	conformanceVersion                                   = 1.2.1.0
 	denormBehaviorIndependence                           = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
 	roundingModeIndependence                             = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
@@ -676,7 +676,7 @@ VkPhysicalDeviceVulkan12Properties:
 		SAMPLE_COUNT_8_BIT
 
 
-Device Extensions: count = 92
+Device Extensions: count = 94
 	VK_EXT_blend_operation_advanced           : extension revision 2
 	VK_EXT_buffer_device_address              : extension revision 2
 	VK_EXT_calibrated_timestamps              : extension revision 1
@@ -707,6 +707,7 @@ Device Extensions: count = 92
 	VK_EXT_shader_viewport_index_layer        : extension revision 1
 	VK_EXT_subgroup_size_control              : extension revision 2
 	VK_EXT_texel_buffer_alignment             : extension revision 1
+	VK_EXT_tooling_info                       : extension revision 1
 	VK_EXT_transform_feedback                 : extension revision 1
 	VK_EXT_vertex_attribute_divisor           : extension revision 3
 	VK_EXT_ycbcr_image_arrays                 : extension revision 1
@@ -745,6 +746,7 @@ Device Extensions: count = 92
 	VK_KHR_shader_draw_parameters             : extension revision 1
 	VK_KHR_shader_float16_int8                : extension revision 1
 	VK_KHR_shader_float_controls              : extension revision 4
+	VK_KHR_shader_non_semantic_info           : extension revision 1
 	VK_KHR_shader_subgroup_extended_types     : extension revision 1
 	VK_KHR_spirv_1_4                          : extension revision 1
 	VK_KHR_storage_buffer_storage_class       : extension revision 1
@@ -795,17 +797,17 @@ VkPhysicalDeviceMemoryProperties:
 memoryHeaps: count = 2
 	memoryHeaps[0]:
 		size   = 2147483648 (0x80000000) (2.00 GiB)
-		budget = 1628962816
+		budget = 1783693312
 		usage  = 0
 		flags:
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1]:
-		size   = 12565979136 (0x2ecfda000) (11.70 GiB)
-		budget = 12565979136
+		size   = 12565976064 (0x2ecfd9400) (11.70 GiB)
+		budget = 12565976064
 		usage  = 0
 		flags:
 			None
-memoryTypes: count = 11
+memoryTypes: count = 10
 	memoryTypes[0]:
 		heapIndex     = 1
 		propertyFlags = 0x0000:
@@ -863,13 +865,6 @@ memoryTypes: count = 11
 			IMAGE_TILING_OPTIMAL: color images, FORMAT_D16_UNORM, FORMAT_X8_D24_UNORM_PACK32, FORMAT_D32_SFLOAT, FORMAT_S8_UINT, FORMAT_D24_UNORM_S8_UINT, FORMAT_D32_SFLOAT_S8_UINT
 			IMAGE_TILING_LINEAR: None
 	memoryTypes[8]:
-		heapIndex     = 0
-		propertyFlags = 0x0001:
-			MEMORY_PROPERTY_DEVICE_LOCAL_BIT
-		usable for:
-			IMAGE_TILING_OPTIMAL: None
-			IMAGE_TILING_LINEAR: None
-	memoryTypes[9]:
 		heapIndex     = 1
 		propertyFlags = 0x0006:
 			MEMORY_PROPERTY_HOST_VISIBLE_BIT
@@ -877,7 +872,7 @@ memoryTypes: count = 11
 		usable for:
 			IMAGE_TILING_OPTIMAL: None
 			IMAGE_TILING_LINEAR: None
-	memoryTypes[10]:
+	memoryTypes[9]:
 		heapIndex     = 1
 		propertyFlags = 0x000e:
 			MEMORY_PROPERTY_HOST_VISIBLE_BIT
