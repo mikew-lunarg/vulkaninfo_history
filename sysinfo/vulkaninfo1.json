@@ -6,78 +6,42 @@
 	},
 	"ArrayOfVkLayerProperties": [
 		{
-			"layerName": "VK_LAYER_KHRONOS_validation",
-			"specVersion": 4202627,
-			"implementationVersion": 1,
-			"description": "Khronos Validation Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4202627,
-			"implementationVersion": 2,
-			"description": "LunarG API dump layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4202627,
-			"implementationVersion": 1,
-			"description": "LunarG device simulation layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4202627,
-			"implementationVersion": 1,
-			"description": "Execution Monitoring Layer"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4202627,
-			"implementationVersion": 1,
-			"description": "LunarG image capture layer"
-		},
-		{
 			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4202627,
+			"specVersion": 4194435,
 			"implementationVersion": 1,
-			"description": "LunarG Standard Validation"
-		},
-		{
-			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4202627,
-			"implementationVersion": 1,
-			"description": "Vktrace tracing library"
+			"description": "LunarG Standard Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4202627,
+			"specVersion": 4202628,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4198508,
-		"driverVersion": 1645351,
+		"apiVersion": 4198520,
+		"driverVersion": 1645663,
 		"vendorID": 32902,
 		"deviceID": 6427,
 		"deviceType": 1,
 		"deviceName": "Intel(R) HD Graphics 530",
 		"pipelineCacheUUID": [
-			23,
-			34,
-			17,
-			34,
-			31,
-			44,
-			33,
-			34,
-			25,
-			44,
-			27,
-			32,
-			29,
+			110,
+			41,
+			107,
+			41,
+			102,
+			41,
+			89,
 			37,
-			25,
-			18
+			97,
+			43,
+			99,
+			39,
+			101,
+			34,
+			97,
+			21
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -89,7 +53,7 @@
 			"maxUniformBufferRange": 65536,
 			"maxStorageBufferRange": 134217728,
 			"maxPushConstantsSize": 256,
-			"maxMemoryAllocationCount": 1871487,
+			"maxMemoryAllocationCount": 2112198,
 			"maxSamplerAllocationCount": 4000,
 			"bufferImageGranularity": 1,
 			"sparseAddressSpaceSize": 17592186044416,
@@ -101,13 +65,13 @@
 			"maxPerStageDescriptorStorageImages": 16,
 			"maxPerStageDescriptorInputAttachments": 8,
 			"maxPerStageResources": 200,
-			"maxDescriptorSetSamplers": 512,
-			"maxDescriptorSetUniformBuffers": 1600,
+			"maxDescriptorSetSamplers": 576,
+			"maxDescriptorSetUniformBuffers": 1800,
 			"maxDescriptorSetUniformBuffersDynamic": 16,
-			"maxDescriptorSetStorageBuffers": 1600,
+			"maxDescriptorSetStorageBuffers": 1800,
 			"maxDescriptorSetStorageBuffersDynamic": 16,
-			"maxDescriptorSetSampledImages": 1600,
-			"maxDescriptorSetStorageImages": 128,
+			"maxDescriptorSetSampledImages": 1800,
+			"maxDescriptorSetStorageImages": 144,
 			"maxDescriptorSetInputAttachments": 8,
 			"maxVertexInputAttributes": 32,
 			"maxVertexInputBindings": 32,
@@ -231,7 +195,7 @@
 		"memoryHeaps": [
 			{
 				"flags": 1,
-				"size": 7665612595
+				"size": 8651565056
 			}
 		],
 		"memoryTypes": [
@@ -242,6 +206,10 @@
 			{
 				"heapIndex": 0,
 				"propertyFlags": 15
+			},
+			{
+				"heapIndex": 0,
+				"propertyFlags": 1
 			}
 		]
 	},
