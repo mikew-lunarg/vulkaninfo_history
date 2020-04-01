@@ -81,7 +81,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.131, layer 
 		GPU id 	: 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.132, layer version 1:
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id 	: 0 (GeForce GTX 950)
@@ -169,8 +169,8 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion     = 4202628 (1.2.132)
-	driverVersion  = 1846444160 (0x6e0e8080)
+	apiVersion     = 4202631 (1.2.135)
+	driverVersion  = 1846575360 (0x6e108100)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
@@ -415,8 +415,8 @@ VkPhysicalDeviceDriverProperties:
 ---------------------------------
 	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName         = NVIDIA
-	driverInfo         = 440.58.02
-	conformanceVersion = 1.2.1.0
+	driverInfo         = 440.66.04
+	conformanceVersion = 1.2.1.1
 
 VkPhysicalDeviceFloatControlsProperties:
 ----------------------------------------
@@ -441,7 +441,7 @@ VkPhysicalDeviceFloatControlsProperties:
 VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID      = 8ff32cd6-66a8-16e0-5fc3-8a53ff1cb219
+	driverUUID      = 68e650c3-1bb2-4ca2-448a-a9a0fc052c3b
 	deviceNodeMask  = 1
 	deviceLUIDValid = false
 
@@ -578,7 +578,7 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 VkPhysicalDeviceVulkan11Properties:
 -----------------------------------
 	deviceUUID                        = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID                        = 8ff32cd6-66a8-16e0-5fc3-8a53ff1cb219
+	driverUUID                        = 68e650c3-1bb2-4ca2-448a-a9a0fc052c3b
 	deviceNodeMask                    = 1
 	deviceLUIDValid                   = false
 	subgroupSize                      = 32
@@ -613,8 +613,8 @@ VkPhysicalDeviceVulkan12Properties:
 -----------------------------------
 	driverID                                             = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName                                           = NVIDIA
-	driverInfo                                           = 440.58.02
-	conformanceVersion                                   = 1.2.1.0
+	driverInfo                                           = 440.66.04
+	conformanceVersion                                   = 1.2.1.1
 	denormBehaviorIndependence                           = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
 	roundingModeIndependence                             = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
 	shaderSignedZeroInfNanPreserveFloat16                = true
@@ -676,7 +676,7 @@ VkPhysicalDeviceVulkan12Properties:
 		SAMPLE_COUNT_8_BIT
 
 
-Device Extensions: count = 94
+Device Extensions: count = 95
 	VK_EXT_blend_operation_advanced           : extension revision 2
 	VK_EXT_buffer_device_address              : extension revision 2
 	VK_EXT_calibrated_timestamps              : extension revision 1
@@ -695,6 +695,7 @@ Device Extensions: count = 94
 	VK_EXT_line_rasterization                 : extension revision 1
 	VK_EXT_memory_budget                      : extension revision 1
 	VK_EXT_pci_bus_info                       : extension revision 2
+	VK_EXT_pipeline_creation_cache_control    : extension revision 2
 	VK_EXT_pipeline_creation_feedback         : extension revision 1
 	VK_EXT_post_depth_coverage                : extension revision 1
 	VK_EXT_sample_locations                   : extension revision 1
@@ -756,12 +757,12 @@ Device Extensions: count = 94
 	VK_KHR_uniform_buffer_standard_layout     : extension revision 1
 	VK_KHR_variable_pointers                  : extension revision 1
 	VK_KHR_vulkan_memory_model                : extension revision 3
-	VK_NVX_device_generated_commands          : extension revision 3
 	VK_NVX_multiview_per_view_attributes      : extension revision 1
 	VK_NV_coverage_reduction_mode             : extension revision 1
 	VK_NV_dedicated_allocation                : extension revision 1
 	VK_NV_dedicated_allocation_image_aliasing : extension revision 1
 	VK_NV_device_diagnostic_checkpoints       : extension revision 2
+	VK_NV_device_generated_commands           : extension revision 3
 	VK_NV_fill_rectangle                      : extension revision 1
 	VK_NV_fragment_coverage_to_color          : extension revision 1
 	VK_NV_framebuffer_mixed_samples           : extension revision 1
@@ -794,10 +795,10 @@ VkQueueFamilyProperties:
 
 VkPhysicalDeviceMemoryProperties:
 =================================
-memoryHeaps: count = 2
+memoryHeaps: count = 3
 	memoryHeaps[0]:
 		size   = 2147483648 (0x80000000) (2.00 GiB)
-		budget = 1783693312
+		budget = 1757216768
 		usage  = 0
 		flags:
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
@@ -807,7 +808,13 @@ memoryHeaps: count = 2
 		usage  = 0
 		flags:
 			None
-memoryTypes: count = 10
+	memoryHeaps[2]:
+		size   = 257949696 (0x0f600000) (246.00 MiB)
+		budget = 252309504
+		usage  = 5640192
+		flags:
+			MEMORY_HEAP_DEVICE_LOCAL_BIT
+memoryTypes: count = 11
 	memoryTypes[0]:
 		heapIndex     = 1
 		propertyFlags = 0x0000:
@@ -878,6 +885,15 @@ memoryTypes: count = 10
 			MEMORY_PROPERTY_HOST_VISIBLE_BIT
 			MEMORY_PROPERTY_HOST_COHERENT_BIT
 			MEMORY_PROPERTY_HOST_CACHED_BIT
+		usable for:
+			IMAGE_TILING_OPTIMAL: None
+			IMAGE_TILING_LINEAR: None
+	memoryTypes[10]:
+		heapIndex     = 2
+		propertyFlags = 0x0007:
+			MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+			MEMORY_PROPERTY_HOST_VISIBLE_BIT
+			MEMORY_PROPERTY_HOST_COHERENT_BIT
 		usable for:
 			IMAGE_TILING_OPTIMAL: None
 			IMAGE_TILING_LINEAR: None

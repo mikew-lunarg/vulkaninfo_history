@@ -49,7 +49,7 @@
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4202628,
+			"specVersion": 4202631,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
 		},
@@ -61,8 +61,8 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4202628,
-		"driverVersion": 1846444160,
+		"apiVersion": 4202631,
+		"driverVersion": 1846575360,
 		"vendorID": 4318,
 		"deviceID": 5122,
 		"deviceType": 2,
@@ -76,14 +76,14 @@
 			154,
 			159,
 			168,
-			143,
-			243,
-			44,
-			214,
-			102,
-			168,
-			22,
-			224
+			104,
+			230,
+			80,
+			195,
+			27,
+			178,
+			76,
+			162
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -252,6 +252,10 @@
 			{
 				"flags": 0,
 				"size": 12565976064
+			},
+			{
+				"flags": 1,
+				"size": 257949696
 			}
 		],
 		"memoryTypes": [
@@ -294,6 +298,10 @@
 			{
 				"heapIndex": 1,
 				"propertyFlags": 14
+			},
+			{
+				"heapIndex": 2,
+				"propertyFlags": 7
 			}
 		]
 	},
