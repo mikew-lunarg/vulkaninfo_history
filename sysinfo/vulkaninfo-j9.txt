@@ -1,0 +1,1 @@
+The selected gpu (9) is not in the valid range of 0 to 0.
