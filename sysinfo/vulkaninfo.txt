@@ -39,35 +39,35 @@ VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.2.135, l
 			VK_EXT_tooling_info     : extension revision 1
 			VK_EXT_validation_cache : extension revision 1
 
-VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.1, layer version 2:
+VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.135, layer version 2:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id = 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id = 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id = 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id = 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id = 0 (GeForce GTX 950)
@@ -790,7 +790,7 @@ VkPhysicalDeviceMemoryProperties:
 memoryHeaps: count = 3
 	memoryHeaps[0]:
 		size   = 2147483648 (0x80000000) (2.00 GiB)
-		budget = 1343488000 (0x50140000) (1.25 GiB)
+		budget = 1228079104 (0x49330000) (1.14 GiB)
 		usage  = 0 (0x00000000) (0.00 B)
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
