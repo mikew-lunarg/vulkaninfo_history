@@ -1,12 +1,15 @@
 #! /bin/bash -x
+# Test all features of vulkaninfo on Linux
+
+set -o nounset
 
 # cd to the directory where this script is located,
 # to ensure the output is put in the right place.
 cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
-VULKANINFO=vulkaninfo
+VULKANINFO="vulkaninfo"
 
-which $VULKANINFO > /dev/null
+which $VULKANINFO > /dev/null 2>&1
 [ ! $? ] || source ~/vksdk/setup-env.sh
 
 $VULKANINFO > vulkaninfo.txt
