@@ -6,6 +6,9 @@ cd "$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
 
 VULKANINFO=vulkaninfo
 
+which $VULKANINFO > /dev/null
+[ ! $? ] || source ~/vksdk/setup-env.sh
+
 $VULKANINFO > vulkaninfo.txt
 
 $VULKANINFO -j > vulkaninfo-j.txt
