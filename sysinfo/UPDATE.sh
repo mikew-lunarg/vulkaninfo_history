@@ -19,3 +19,4 @@ $VULKANINFO --json=9 > vulkaninfo-j9.txt
 # --html does not redirect; automatically writes to vulkaninfo.html
 $VULKANINFO --html
 
+# vim: set sw=4 ts=8 et ic ai:
