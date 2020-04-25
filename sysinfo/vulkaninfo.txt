@@ -21,7 +21,7 @@ Instance Extensions: count = 13
 	VK_KHR_win32_surface                   : extension revision 5
 	VK_NV_external_memory_capabilities     : extension revision 1
 
-Layers: count = 8
+Layers: count = 9
 =================
 VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 3
@@ -41,7 +41,7 @@ VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.2.135, l
 			VK_EXT_tooling_info     : extension revision 1
 			VK_EXT_validation_cache : extension revision 1
 
-VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.1, layer version 2:
+VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.135, layer version 2:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -52,7 +52,7 @@ VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.1, layer ver
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -63,7 +63,7 @@ VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan versio
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -74,7 +74,7 @@ VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.1, layer
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -94,7 +94,7 @@ VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation Layer) Vulkan ve
 		GPU id = 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.1, layer version 1:
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -103,7 +103,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.1, layer ve
 		GPU id = 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.132, layer version 1:
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.135, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -111,6 +111,20 @@ VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.132, layer version
 
 		GPU id = 1 (Intel(R) HD Graphics 530)
 		Layer-Device Extensions: count = 0
+
+VK_LAYER_RENDERDOC_Capture (Debugging capture layer for RenderDoc) Vulkan version 1.2.131, layer version 7:
+	Layer Extensions: count = 1
+		VK_EXT_debug_utils : extension revision 1
+	Devices: count = 2
+		GPU id = 0 (GeForce GTX 960M)
+		Layer-Device Extensions: count = 2
+			VK_EXT_debug_marker : extension revision 4
+			VK_EXT_tooling_info : extension revision 1
+
+		GPU id = 1 (Intel(R) HD Graphics 530)
+		Layer-Device Extensions: count = 2
+			VK_EXT_debug_marker : extension revision 4
+			VK_EXT_tooling_info : extension revision 1
 
 Presentable Surfaces:
 =====================
@@ -247,8 +261,8 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion     = 4202628 (1.2.132)
-	driverVersion  = 1854472192 (0x6e890000)
+	apiVersion     = 4202631 (1.2.135)
+	driverVersion  = 1855209472 (0x6e944000)
 	vendorID       = 0x10de
 	deviceID       = 0x139b
 	deviceType     = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
@@ -474,8 +488,8 @@ VkPhysicalDeviceDriverProperties:
 ---------------------------------
 	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName         = NVIDIA
-	driverInfo         = 442.36
-	conformanceVersion = 1.2.1.0
+	driverInfo         = 442.81
+	conformanceVersion = 1.2.1.1
 
 VkPhysicalDeviceExternalMemoryHostPropertiesEXT:
 ------------------------------------------------
@@ -504,8 +518,8 @@ VkPhysicalDeviceFloatControlsProperties:
 VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
-	driverUUID      = ab2d8f0d-8613-b3d4-acea-d9ee759a145f
-	deviceLUID      = 411a0100-00000000
+	driverUUID      = 08b74abe-bbc5-cdb5-4771-465df675ead0
+	deviceLUID      = 38f40000-00000000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -625,8 +639,8 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 VkPhysicalDeviceVulkan11Properties:
 -----------------------------------
 	deviceUUID                        = 1c83ff25-01ac-5749-c772-a54fd2f648a8
-	driverUUID                        = ab2d8f0d-8613-b3d4-acea-d9ee759a145f
-	deviceLUID                        = 411a0100-00000000
+	driverUUID                        = 08b74abe-bbc5-cdb5-4771-465df675ead0
+	deviceLUID                        = 38f40000-00000000
 	deviceNodeMask                    = 1
 	deviceLUIDValid                   = true
 	subgroupSize                      = 32
@@ -661,8 +675,8 @@ VkPhysicalDeviceVulkan12Properties:
 -----------------------------------
 	driverID                                             = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName                                           = NVIDIA
-	driverInfo                                           = 442.36
-	conformanceVersion                                   = 1.2.1.0
+	driverInfo                                           = 442.81
+	conformanceVersion                                   = 1.2.1.1
 	denormBehaviorIndependence                           = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
 	roundingModeIndependence                             = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
 	shaderSignedZeroInfNanPreserveFloat16                = true
@@ -720,7 +734,7 @@ VkPhysicalDeviceVulkan12Properties:
 		SAMPLE_COUNT_8_BIT
 
 
-Device Extensions: count = 86
+Device Extensions: count = 87
 	VK_EXT_blend_operation_advanced           : extension revision 2
 	VK_EXT_buffer_device_address              : extension revision 2
 	VK_EXT_calibrated_timestamps              : extension revision 1
@@ -739,6 +753,7 @@ Device Extensions: count = 86
 	VK_EXT_memory_budget                      : extension revision 1
 	VK_EXT_memory_priority                    : extension revision 1
 	VK_EXT_pci_bus_info                       : extension revision 2
+	VK_EXT_pipeline_creation_cache_control    : extension revision 2
 	VK_EXT_pipeline_creation_feedback         : extension revision 1
 	VK_EXT_scalar_block_layout                : extension revision 1
 	VK_EXT_separate_stencil_usage             : extension revision 1
@@ -797,11 +812,11 @@ Device Extensions: count = 86
 	VK_KHR_variable_pointers                  : extension revision 1
 	VK_KHR_vulkan_memory_model                : extension revision 3
 	VK_KHR_win32_keyed_mutex                  : extension revision 1
-	VK_NVX_device_generated_commands          : extension revision 3
 	VK_NVX_multiview_per_view_attributes      : extension revision 1
 	VK_NV_dedicated_allocation                : extension revision 1
 	VK_NV_dedicated_allocation_image_aliasing : extension revision 1
 	VK_NV_device_diagnostic_checkpoints       : extension revision 2
+	VK_NV_device_generated_commands           : extension revision 3
 	VK_NV_external_memory                     : extension revision 1
 	VK_NV_external_memory_win32               : extension revision 1
 	VK_NV_shader_sm_builtins                  : extension revision 1
@@ -828,7 +843,7 @@ VkQueueFamilyProperties:
 
 VkPhysicalDeviceMemoryProperties:
 =================================
-memoryHeaps: count = 2
+memoryHeaps: count = 3
 	memoryHeaps[0]:
 		size   = 2107703296 (0x7da10000) (1.96 GiB)
 		budget = 1791547801 (0x6ac8d999) (1.67 GiB)
@@ -841,7 +856,13 @@ memoryHeaps: count = 2
 		usage  = 0 (0x00000000) (0.00 B)
 		flags: count = 0
 			None
-memoryTypes: count = 11
+	memoryHeaps[2]:
+		size   = 257949696 (0x0f600000) (246.00 MiB)
+		budget = 256897024 (0x0f4ff000) (245.00 MiB)
+		usage  = 1052672 (0x00101000) (1.00 MiB)
+		flags: count = 1
+			MEMORY_HEAP_DEVICE_LOCAL_BIT
+memoryTypes: count = 12
 	memoryTypes[0]:
 		heapIndex     = 1
 		propertyFlags = 0x0000: count = 0
@@ -919,6 +940,15 @@ memoryTypes: count = 11
 			MEMORY_PROPERTY_HOST_VISIBLE_BIT
 			MEMORY_PROPERTY_HOST_COHERENT_BIT
 			MEMORY_PROPERTY_HOST_CACHED_BIT
+		usable for:
+			IMAGE_TILING_OPTIMAL: None
+			IMAGE_TILING_LINEAR: None
+	memoryTypes[11]:
+		heapIndex     = 2
+		propertyFlags = 0x0007: count = 3
+			MEMORY_PROPERTY_DEVICE_LOCAL_BIT
+			MEMORY_PROPERTY_HOST_VISIBLE_BIT
+			MEMORY_PROPERTY_HOST_COHERENT_BIT
 		usable for:
 			IMAGE_TILING_OPTIMAL: None
 			IMAGE_TILING_LINEAR: None
@@ -1077,6 +1107,10 @@ VkPhysicalDeviceMultiviewFeatures:
 	multiview                   = true
 	multiviewGeometryShader     = true
 	multiviewTessellationShader = true
+
+VkPhysicalDevicePipelineCreationCacheControlFeaturesEXT:
+--------------------------------------------------------
+	pipelineCreationCacheControl = true
 
 VkPhysicalDevicePipelineExecutablePropertiesFeaturesKHR:
 --------------------------------------------------------
@@ -1472,7 +1506,7 @@ VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 86801b19-0600-0000-0000-000000000000
 	driverUUID      = 32362e32-302e-3130-302e-373236330000
-	deviceLUID      = 93150100-00000000
+	deviceLUID      = 56f00000-00000000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 

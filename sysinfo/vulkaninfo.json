@@ -13,25 +13,25 @@
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4202497,
+			"specVersion": 4202631,
 			"implementationVersion": 2,
 			"description": "LunarG API dump layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4202497,
+			"specVersion": 4202631,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4202497,
+			"specVersion": 4202631,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4202497,
+			"specVersion": 4202631,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
@@ -43,20 +43,26 @@
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4202497,
+			"specVersion": 4202631,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4202628,
+			"specVersion": 4202631,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
+		},
+		{
+			"layerName": "VK_LAYER_RENDERDOC_Capture",
+			"specVersion": 4202627,
+			"implementationVersion": 7,
+			"description": "Debugging capture layer for RenderDoc"
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4202628,
-		"driverVersion": 1854472192,
+		"apiVersion": 4202631,
+		"driverVersion": 1855209472,
 		"vendorID": 4318,
 		"deviceID": 5019,
 		"deviceType": 2,
@@ -70,14 +76,14 @@
 			45,
 			208,
 			61,
-			171,
-			45,
-			143,
-			13,
-			134,
-			19,
-			179,
-			212
+			8,
+			183,
+			74,
+			190,
+			187,
+			197,
+			205,
+			181
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -246,6 +252,10 @@
 			{
 				"flags": 0,
 				"size": 8517345280
+			},
+			{
+				"flags": 1,
+				"size": 257949696
 			}
 		],
 		"memoryTypes": [
@@ -292,6 +302,10 @@
 			{
 				"heapIndex": 1,
 				"propertyFlags": 14
+			},
+			{
+				"heapIndex": 2,
+				"propertyFlags": 7
 			}
 		]
 	},
