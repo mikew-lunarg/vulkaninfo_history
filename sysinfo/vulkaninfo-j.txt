@@ -43,7 +43,7 @@
 		},
 		{
 			"layerName": "VK_LAYER_NV_optimus",
-			"specVersion": 4202631,
+			"specVersion": 4202634,
 			"implementationVersion": 1,
 			"description": "NVIDIA Optimus layer"
 		},
@@ -55,8 +55,8 @@
 		}
 	],
 	"VkPhysicalDeviceProperties": {
-		"apiVersion": 4202631,
-		"driverVersion": 1846575360,
+		"apiVersion": 4202634,
+		"driverVersion": 1846575808,
 		"vendorID": 4318,
 		"deviceID": 5122,
 		"deviceType": 2,
@@ -70,14 +70,14 @@
 			154,
 			159,
 			168,
-			104,
-			230,
-			80,
-			195,
-			27,
-			178,
-			76,
-			162
+			124,
+			235,
+			123,
+			69,
+			50,
+			218,
+			6,
+			212
 		],
 		"limits": {
 			"maxImageDimension1D": 16384,
@@ -245,7 +245,7 @@
 			},
 			{
 				"flags": 0,
-				"size": 12565976064
+				"size": 12565972992
 			},
 			{
 				"flags": 1,
@@ -451,13 +451,13 @@
 			"formatID": 16,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 17,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 18,
@@ -487,13 +487,13 @@
 			"formatID": 23,
 			"linearTilingFeatures": 0,
 			"optimalTilingFeatures": 0,
-			"bufferFeatures": 64
+			"bufferFeatures": 536870976
 		},
 		{
 			"formatID": 24,
 			"linearTilingFeatures": 0,
 			"optimalTilingFeatures": 0,
-			"bufferFeatures": 64
+			"bufferFeatures": 536870976
 		},
 		{
 			"formatID": 25,
@@ -559,13 +559,13 @@
 			"formatID": 37,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 38,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 39,
@@ -721,7 +721,7 @@
 			"formatID": 64,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 65,
@@ -799,13 +799,13 @@
 			"formatID": 77,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 78,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 79,
@@ -835,19 +835,19 @@
 			"formatID": 83,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 84,
 			"linearTilingFeatures": 0,
 			"optimalTilingFeatures": 0,
-			"bufferFeatures": 64
+			"bufferFeatures": 536870976
 		},
 		{
 			"formatID": 85,
 			"linearTilingFeatures": 0,
 			"optimalTilingFeatures": 0,
-			"bufferFeatures": 64
+			"bufferFeatures": 536870976
 		},
 		{
 			"formatID": 86,
@@ -877,19 +877,19 @@
 			"formatID": 90,
 			"linearTilingFeatures": 0,
 			"optimalTilingFeatures": 0,
-			"bufferFeatures": 64
+			"bufferFeatures": 536870976
 		},
 		{
 			"formatID": 91,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 92,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 93,
@@ -919,7 +919,7 @@
 			"formatID": 97,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 98,
@@ -955,7 +955,7 @@
 			"formatID": 103,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 122243,
-			"bufferFeatures": 88
+			"bufferFeatures": 536871000
 		},
 		{
 			"formatID": 104,
@@ -973,7 +973,7 @@
 			"formatID": 106,
 			"linearTilingFeatures": 119809,
 			"optimalTilingFeatures": 0,
-			"bufferFeatures": 72
+			"bufferFeatures": 536870984
 		},
 		{
 			"formatID": 107,
