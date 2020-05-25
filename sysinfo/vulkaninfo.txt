@@ -73,7 +73,7 @@ VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.135, layer 
 		GPU id = 0 (GeForce GTX 950)
 		Layer-Device Extensions: count = 0
 
-VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.138, layer version 1:
+VK_LAYER_NV_optimus (NVIDIA Optimus layer) Vulkan version 1.2.140, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 1
 		GPU id = 0 (GeForce GTX 950)
@@ -161,8 +161,8 @@ Device Properties and Extensions:
 GPU0:
 VkPhysicalDeviceProperties:
 ---------------------------
-	apiVersion     = 4202634 (1.2.138)
-	driverVersion  = 1846575808 (0x6e1082c0)
+	apiVersion     = 4202636 (1.2.140)
+	driverVersion  = 1846576000 (0x6e108380)
 	vendorID       = 0x10de
 	deviceID       = 0x1402
 	deviceType     = PHYSICAL_DEVICE_TYPE_DISCRETE_GPU
@@ -407,7 +407,7 @@ VkPhysicalDeviceDriverProperties:
 ---------------------------------
 	driverID           = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName         = NVIDIA
-	driverInfo         = 440.66.11
+	driverInfo         = 440.66.14
 	conformanceVersion = 1.2.2.0
 
 VkPhysicalDeviceFloatControlsProperties:
@@ -433,7 +433,7 @@ VkPhysicalDeviceFloatControlsProperties:
 VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID      = 7ceb7b45-32da-06d4-a303-59deb5b54b9a
+	driverUUID      = 024dd521-a995-0015-cbcb-45c47457179c
 	deviceNodeMask  = 1
 	deviceLUIDValid = false
 
@@ -570,7 +570,7 @@ VkPhysicalDeviceVertexAttributeDivisorPropertiesEXT:
 VkPhysicalDeviceVulkan11Properties:
 -----------------------------------
 	deviceUUID                        = 0215b411-453b-f8c7-9aa3-6027c535ae2a
-	driverUUID                        = 7ceb7b45-32da-06d4-a303-59deb5b54b9a
+	driverUUID                        = 024dd521-a995-0015-cbcb-45c47457179c
 	deviceNodeMask                    = 1
 	deviceLUIDValid                   = false
 	subgroupSize                      = 32
@@ -605,7 +605,7 @@ VkPhysicalDeviceVulkan12Properties:
 -----------------------------------
 	driverID                                             = DRIVER_ID_NVIDIA_PROPRIETARY
 	driverName                                           = NVIDIA
-	driverInfo                                           = 440.66.11
+	driverInfo                                           = 440.66.14
 	conformanceVersion                                   = 1.2.2.0
 	denormBehaviorIndependence                           = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
 	roundingModeIndependence                             = SHADER_FLOAT_CONTROLS_INDEPENDENCE_ALL
@@ -668,12 +668,13 @@ VkPhysicalDeviceVulkan12Properties:
 		SAMPLE_COUNT_8_BIT
 
 
-Device Extensions: count = 95
+Device Extensions: count = 98
 	VK_EXT_blend_operation_advanced           : extension revision 2
 	VK_EXT_buffer_device_address              : extension revision 2
 	VK_EXT_calibrated_timestamps              : extension revision 1
 	VK_EXT_conditional_rendering              : extension revision 2
 	VK_EXT_conservative_rasterization         : extension revision 1
+	VK_EXT_custom_border_color                : extension revision 12
 	VK_EXT_depth_clip_enable                  : extension revision 1
 	VK_EXT_depth_range_unrestricted           : extension revision 1
 	VK_EXT_descriptor_indexing                : extension revision 2
@@ -690,6 +691,8 @@ Device Extensions: count = 95
 	VK_EXT_pipeline_creation_cache_control    : extension revision 3
 	VK_EXT_pipeline_creation_feedback         : extension revision 1
 	VK_EXT_post_depth_coverage                : extension revision 1
+	VK_EXT_private_data                       : extension revision 1
+	VK_EXT_robustness2                        : extension revision 1
 	VK_EXT_sample_locations                   : extension revision 1
 	VK_EXT_sampler_filter_minmax              : extension revision 2
 	VK_EXT_scalar_block_layout                : extension revision 1
@@ -790,13 +793,13 @@ VkPhysicalDeviceMemoryProperties:
 memoryHeaps: count = 3
 	memoryHeaps[0]:
 		size   = 2147483648 (0x80000000) (2.00 GiB)
-		budget = 1678049280 (0x64050000) (1.56 GiB)
+		budget = 1765998592 (0x69430000) (1.64 GiB)
 		usage  = 0 (0x00000000) (0.00 B)
 		flags: count = 1
 			MEMORY_HEAP_DEVICE_LOCAL_BIT
 	memoryHeaps[1]:
-		size   = 12565972992 (0x2ecfd8800) (11.70 GiB)
-		budget = 12565972992 (0x2ecfd8800) (11.70 GiB)
+		size   = 12565969920 (0x2ecfd7c00) (11.70 GiB)
+		budget = 12565969920 (0x2ecfd7c00) (11.70 GiB)
 		usage  = 0 (0x00000000) (0.00 B)
 		flags: count = 0
 			None
