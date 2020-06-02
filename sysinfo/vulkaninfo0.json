@@ -2,48 +2,48 @@
 	"$schema": "https://schema.khronos.org/vulkan/devsim_1_0_0.json#",
 	"comments": {
 		"desc": "JSON configuration file describing GPU 0. Generated using the vulkaninfo program.",
-		"vulkanApiVersion": "1.2.131"
+		"vulkanApiVersion": "1.2.141"
 	},
 	"ArrayOfVkLayerProperties": [
 		{
 			"layerName": "VK_LAYER_KHRONOS_validation",
-			"specVersion": 4202631,
+			"specVersion": 4202637,
 			"implementationVersion": 1,
 			"description": "Khronos Validation Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_api_dump",
-			"specVersion": 4202631,
+			"specVersion": 4202637,
 			"implementationVersion": 2,
 			"description": "LunarG API dump layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
-			"specVersion": 4202631,
+			"specVersion": 4202637,
 			"implementationVersion": 1,
 			"description": "LunarG device simulation layer"
 		},
 		{
+			"layerName": "VK_LAYER_LUNARG_gfxreconstruct",
+			"specVersion": 4202637,
+			"implementationVersion": 36865,
+			"description": "GFXReconstruct Capture Layer Version 0.9.1-dev"
+		},
+		{
 			"layerName": "VK_LAYER_LUNARG_monitor",
-			"specVersion": 4202631,
+			"specVersion": 4202637,
 			"implementationVersion": 1,
 			"description": "Execution Monitoring Layer"
 		},
 		{
 			"layerName": "VK_LAYER_LUNARG_screenshot",
-			"specVersion": 4202631,
+			"specVersion": 4202637,
 			"implementationVersion": 1,
 			"description": "LunarG image capture layer"
 		},
 		{
-			"layerName": "VK_LAYER_LUNARG_standard_validation",
-			"specVersion": 4194435,
-			"implementationVersion": 1,
-			"description": "LunarG Standard Validation Layer"
-		},
-		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
-			"specVersion": 4202631,
+			"specVersion": 4202637,
 			"implementationVersion": 1,
 			"description": "Vktrace tracing library"
 		},

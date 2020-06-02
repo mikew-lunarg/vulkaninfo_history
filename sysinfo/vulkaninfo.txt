@@ -2,7 +2,7 @@
 VULKANINFO
 ==========
 
-Vulkan Instance Version: 1.2.131
+Vulkan Instance Version: 1.2.141
 
 
 Instance Extensions: count = 13
@@ -23,7 +23,7 @@ Instance Extensions: count = 13
 
 Layers: count = 9
 =================
-VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.2.135, layer version 1:
+VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.2.141, layer version 1:
 	Layer Extensions: count = 3
 		VK_EXT_debug_report        : extension revision 9
 		VK_EXT_debug_utils         : extension revision 1
@@ -41,7 +41,7 @@ VK_LAYER_KHRONOS_validation (Khronos Validation Layer) Vulkan version 1.2.135, l
 			VK_EXT_tooling_info     : extension revision 1
 			VK_EXT_validation_cache : extension revision 1
 
-VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.135, layer version 2:
+VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.141, layer version 2:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -52,7 +52,7 @@ VK_LAYER_LUNARG_api_dump (LunarG API dump layer) Vulkan version 1.2.135, layer v
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.2.135, layer version 1:
+VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan version 1.2.141, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -63,7 +63,7 @@ VK_LAYER_LUNARG_device_simulation (LunarG device simulation layer) Vulkan versio
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.135, layer version 1:
+VK_LAYER_LUNARG_gfxreconstruct (GFXReconstruct Capture Layer Version 0.9.1-dev) Vulkan version 1.2.141, layer version 36865:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -74,7 +74,7 @@ VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.135, lay
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.135, layer version 1:
+VK_LAYER_LUNARG_monitor (Execution Monitoring Layer) Vulkan version 1.2.141, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -85,16 +85,18 @@ VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.135, 
 		Layer-Device Extensions: count = 1
 			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_standard_validation (LunarG Standard Validation Layer) Vulkan version 1.0.131, layer version 1:
+VK_LAYER_LUNARG_screenshot (LunarG image capture layer) Vulkan version 1.2.141, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
-		Layer-Device Extensions: count = 0
+		Layer-Device Extensions: count = 1
+			VK_EXT_tooling_info : extension revision 1
 
 		GPU id = 1 (Intel(R) HD Graphics 530)
-		Layer-Device Extensions: count = 0
+		Layer-Device Extensions: count = 1
+			VK_EXT_tooling_info : extension revision 1
 
-VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.135, layer version 1:
+VK_LAYER_LUNARG_vktrace (Vktrace tracing library) Vulkan version 1.2.141, layer version 1:
 	Layer Extensions: count = 0
 	Devices: count = 2
 		GPU id = 0 (GeForce GTX 960M)
@@ -519,7 +521,7 @@ VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 1c83ff25-01ac-5749-c772-a54fd2f648a8
 	driverUUID      = 08b74abe-bbc5-cdb5-4771-465df675ead0
-	deviceLUID      = 38f40000-00000000
+	deviceLUID      = 94500100-00000000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -640,7 +642,7 @@ VkPhysicalDeviceVulkan11Properties:
 -----------------------------------
 	deviceUUID                        = 1c83ff25-01ac-5749-c772-a54fd2f648a8
 	driverUUID                        = 08b74abe-bbc5-cdb5-4771-465df675ead0
-	deviceLUID                        = 38f40000-00000000
+	deviceLUID                        = 94500100-00000000
 	deviceNodeMask                    = 1
 	deviceLUIDValid                   = true
 	subgroupSize                      = 32
@@ -831,7 +833,7 @@ VkQueueFamilyProperties:
 		queueCount                  = 16
 		queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
 		timestampValidBits          = 64
-		present support = false
+		present support = true
 
 	queueProperties[1]:
 	-------------------
@@ -868,72 +870,107 @@ memoryTypes: count = 12
 		propertyFlags = 0x0000: count = 0
 			None
 		usable for:
-			IMAGE_TILING_OPTIMAL: None
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				None
+			IMAGE_TILING_LINEAR:
+				color images
+				(non-sparse, non-transient)
 	memoryTypes[1]:
 		heapIndex     = 1
 		propertyFlags = 0x0000: count = 0
 			None
 		usable for:
-			IMAGE_TILING_OPTIMAL: color images
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				color images
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				None
 	memoryTypes[2]:
 		heapIndex     = 1
 		propertyFlags = 0x0000: count = 0
 			None
 		usable for:
-			IMAGE_TILING_OPTIMAL: FORMAT_D16_UNORM
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				FORMAT_D16_UNORM
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				None
 	memoryTypes[3]:
 		heapIndex     = 1
 		propertyFlags = 0x0000: count = 0
 			None
 		usable for:
-			IMAGE_TILING_OPTIMAL: FORMAT_X8_D24_UNORM_PACK32, FORMAT_D24_UNORM_S8_UINT
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				FORMAT_X8_D24_UNORM_PACK32
+				FORMAT_D24_UNORM_S8_UINT
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				None
 	memoryTypes[4]:
 		heapIndex     = 1
 		propertyFlags = 0x0000: count = 0
 			None
 		usable for:
-			IMAGE_TILING_OPTIMAL: FORMAT_D32_SFLOAT
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				FORMAT_D32_SFLOAT
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				None
 	memoryTypes[5]:
 		heapIndex     = 1
 		propertyFlags = 0x0000: count = 0
 			None
 		usable for:
-			IMAGE_TILING_OPTIMAL: FORMAT_D32_SFLOAT_S8_UINT
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				FORMAT_D32_SFLOAT_S8_UINT
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				None
 	memoryTypes[6]:
 		heapIndex     = 1
 		propertyFlags = 0x0000: count = 0
 			None
 		usable for:
-			IMAGE_TILING_OPTIMAL: None
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				None
+			IMAGE_TILING_LINEAR:
+				None
 	memoryTypes[7]:
 		heapIndex     = 0
 		propertyFlags = 0x0001: count = 1
 			MEMORY_PROPERTY_DEVICE_LOCAL_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: None
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				None
+			IMAGE_TILING_LINEAR:
+				color images
+				(non-sparse, non-transient)
 	memoryTypes[8]:
 		heapIndex     = 0
 		propertyFlags = 0x0001: count = 1
 			MEMORY_PROPERTY_DEVICE_LOCAL_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: color images, FORMAT_D16_UNORM, FORMAT_X8_D24_UNORM_PACK32, FORMAT_D32_SFLOAT, FORMAT_D24_UNORM_S8_UINT, FORMAT_D32_SFLOAT_S8_UINT
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				color images
+				FORMAT_D16_UNORM
+				FORMAT_X8_D24_UNORM_PACK32
+				FORMAT_D32_SFLOAT
+				FORMAT_D24_UNORM_S8_UINT
+				FORMAT_D32_SFLOAT_S8_UINT
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				None
 	memoryTypes[9]:
 		heapIndex     = 1
 		propertyFlags = 0x0006: count = 2
 			MEMORY_PROPERTY_HOST_VISIBLE_BIT
 			MEMORY_PROPERTY_HOST_COHERENT_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: None
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				None
+			IMAGE_TILING_LINEAR:
+				color images
+				(non-sparse, non-transient)
 	memoryTypes[10]:
 		heapIndex     = 1
 		propertyFlags = 0x000e: count = 3
@@ -941,8 +978,11 @@ memoryTypes: count = 12
 			MEMORY_PROPERTY_HOST_COHERENT_BIT
 			MEMORY_PROPERTY_HOST_CACHED_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: None
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				None
+			IMAGE_TILING_LINEAR:
+				color images
+				(non-sparse, non-transient)
 	memoryTypes[11]:
 		heapIndex     = 2
 		propertyFlags = 0x0007: count = 3
@@ -950,8 +990,10 @@ memoryTypes: count = 12
 			MEMORY_PROPERTY_HOST_VISIBLE_BIT
 			MEMORY_PROPERTY_HOST_COHERENT_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: None
-			IMAGE_TILING_LINEAR: None
+			IMAGE_TILING_OPTIMAL:
+				None
+			IMAGE_TILING_LINEAR:
+				None
 
 VkPhysicalDeviceFeatures:
 =========================
@@ -1506,7 +1548,7 @@ VkPhysicalDeviceIDProperties:
 -----------------------------
 	deviceUUID      = 86801b19-0600-0000-0000-000000000000
 	driverUUID      = 32362e32-302e-3130-302e-373236330000
-	deviceLUID      = 56f00000-00000000
+	deviceLUID      = d44c0100-00000000
 	deviceNodeMask  = 1
 	deviceLUIDValid = true
 
@@ -1666,7 +1708,7 @@ VkQueueFamilyProperties:
 		queueCount                  = 1
 		queueFlags                  = QUEUE_GRAPHICS | QUEUE_COMPUTE | QUEUE_TRANSFER | QUEUE_SPARSE_BINDING
 		timestampValidBits          = 36
-		present support = false
+		present support = true
 
 VkPhysicalDeviceMemoryProperties:
 =================================
@@ -1685,8 +1727,17 @@ memoryTypes: count = 3
 			MEMORY_PROPERTY_HOST_VISIBLE_BIT
 			MEMORY_PROPERTY_HOST_COHERENT_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: color images, FORMAT_D16_UNORM, FORMAT_X8_D24_UNORM_PACK32, FORMAT_D32_SFLOAT, FORMAT_D24_UNORM_S8_UINT, FORMAT_D32_SFLOAT_S8_UINT
-			IMAGE_TILING_LINEAR: color images
+			IMAGE_TILING_OPTIMAL:
+				color images
+				FORMAT_D16_UNORM
+				FORMAT_X8_D24_UNORM_PACK32
+				FORMAT_D32_SFLOAT
+				FORMAT_D24_UNORM_S8_UINT
+				FORMAT_D32_SFLOAT_S8_UINT
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				color images
+				(non-sparse)
 	memoryTypes[1]:
 		heapIndex     = 0
 		propertyFlags = 0x000f: count = 4
@@ -1695,15 +1746,33 @@ memoryTypes: count = 3
 			MEMORY_PROPERTY_HOST_COHERENT_BIT
 			MEMORY_PROPERTY_HOST_CACHED_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: color images, FORMAT_D16_UNORM, FORMAT_X8_D24_UNORM_PACK32, FORMAT_D32_SFLOAT, FORMAT_D24_UNORM_S8_UINT, FORMAT_D32_SFLOAT_S8_UINT
-			IMAGE_TILING_LINEAR: color images
+			IMAGE_TILING_OPTIMAL:
+				color images
+				FORMAT_D16_UNORM
+				FORMAT_X8_D24_UNORM_PACK32
+				FORMAT_D32_SFLOAT
+				FORMAT_D24_UNORM_S8_UINT
+				FORMAT_D32_SFLOAT_S8_UINT
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				color images
+				(non-sparse)
 	memoryTypes[2]:
 		heapIndex     = 0
 		propertyFlags = 0x0001: count = 1
 			MEMORY_PROPERTY_DEVICE_LOCAL_BIT
 		usable for:
-			IMAGE_TILING_OPTIMAL: color images, FORMAT_D16_UNORM, FORMAT_X8_D24_UNORM_PACK32, FORMAT_D32_SFLOAT, FORMAT_D24_UNORM_S8_UINT, FORMAT_D32_SFLOAT_S8_UINT
-			IMAGE_TILING_LINEAR: color images
+			IMAGE_TILING_OPTIMAL:
+				color images
+				FORMAT_D16_UNORM
+				FORMAT_X8_D24_UNORM_PACK32
+				FORMAT_D32_SFLOAT
+				FORMAT_D24_UNORM_S8_UINT
+				FORMAT_D32_SFLOAT_S8_UINT
+				(non-sparse)
+			IMAGE_TILING_LINEAR:
+				color images
+				(non-sparse)
 
 VkPhysicalDeviceFeatures:
 =========================
