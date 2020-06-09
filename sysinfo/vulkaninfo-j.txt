@@ -18,6 +18,12 @@
 			"description": "LunarG API dump layer"
 		},
 		{
+			"layerName": "VK_LAYER_LUNARG_demo_layer",
+			"specVersion": 4202637,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer Factory Layer"
+		},
+		{
 			"layerName": "VK_LAYER_LUNARG_device_simulation",
 			"specVersion": 4202637,
 			"implementationVersion": 1,
@@ -42,6 +48,12 @@
 			"description": "LunarG image capture layer"
 		},
 		{
+			"layerName": "VK_LAYER_LUNARG_starter_layer",
+			"specVersion": 4202637,
+			"implementationVersion": 1,
+			"description": "LunarG Validation Layer Factory Layer"
+		},
+		{
 			"layerName": "VK_LAYER_LUNARG_vktrace",
 			"specVersion": 4202637,
 			"implementationVersion": 1,
@@ -55,8 +67,8 @@
 		},
 		{
 			"layerName": "VK_LAYER_RENDERDOC_Capture",
-			"specVersion": 4198473,
-			"implementationVersion": 2,
+			"specVersion": 4202627,
+			"implementationVersion": 8,
 			"description": "Debugging capture layer for RenderDoc"
 		}
 	],
